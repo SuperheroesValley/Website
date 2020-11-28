@@ -1,22 +1,30 @@
 [[list]]
-    name = "go"
-    icon = "https://devicons.github.io/devicon/devicon.git/icons/go/go-original.svg"
+    title = "lorem"
+    image = "https://picsum.photos/400/200"
     text = """
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Voluptatibus quia, nulla! Maiores et perferendis eaque,
         exercitationem praesentium nihil.
     """
 [[list]]
-    name = "React"
-    icon = "https://devicons.github.io/devicon/devicon.git/icons/react/react-original.svg"
+    title = "lorem"
+    image = "https://picsum.photos/400/200"
     text = """
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Voluptatibus quia, nulla! Maiores et perferendis eaque,
         exercitationem praesentium nihil.
     """
 [[list]]
-    name = "C/C++"
-    icon = "https://devicons.github.io/devicon/devicon.git/icons/cplusplus/cplusplus-original.svg"
+    title = "lorem"
+    image = "https://picsum.photos/400/200"
+    text = """
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Voluptatibus quia, nulla! Maiores et perferendis eaque,
+        exercitationem praesentium nihil.
+    """
+[[list]]
+    title = "lorem"
+    image = "https://picsum.photos/400/200"
     text = """
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Voluptatibus quia, nulla! Maiores et perferendis eaque,

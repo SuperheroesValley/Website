@@ -1,3 +1,29 @@
-baseURL = "http://example.org/"
+baseURL = "http://superheroesvalley.fun"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Superheroes Valley"
+publishDir = "public"
+
+[params]
+    mainbg = "https://source.unsplash.com/collection/43861294/1920x1080"
+    name = "SuperheroesValley.fun"
+    mainTitle = "Hello, Superheroes!"
+    mainText = "The superheroes factory"
+
+
+[menus]
+    [[menu.main]]
+        identifier = "skills"
+        name = "Skills"
+        url = "#skills"
+    [[menu.main]]
+        identifier = "Guests_"
+        name = "Projects"
+        url = "#projects"
+    [[menu.main]]
+        identifier = "about"
+        name = "about"
+        url = "#about"
+    [[menu.main]]
+        identifier = "us"
+        name = "us"
+        url = "#us"
