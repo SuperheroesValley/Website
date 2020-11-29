@@ -37,7 +37,7 @@
         </div>
         <div class="">
             <p class="text-lg">
-                {{ .text }}
+                {{ replace .text "\n" "<br />" | safeHTML }}
             </p>
         </div>
         {{end}}
@@ -54,10 +54,9 @@
     </div>
     <hr class="aligncenter mt-10 " style="height: 2px; width:100%; background-color:grey">
     <section id="talks" class="mt-8">
-      <div class="md:flex justify-center">
+      <div class="md:flex">
         {{ partial "home_title" (dict "title" "Talks") }}
       </div>
-      
       {{if $data.talks.list}}
         <div
          class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
@@ -84,6 +83,9 @@
                 <p class="text-white text-center  bg-green-500 text-base pb-1">
                     {{ replace .date "\n" "<br />" | safeHTML }}
                 </p>
+                <p class="text-white text-center  bg-blue-500 text-base pb-1">
+                    Speaker: {{ replace .speaker "\n" "<br />" | safeHTML }}
+                </p>
         </div>
         {{end}}
       </div>
@@ -93,23 +95,23 @@
     </section>
     <hr class="aligncenter mt-10 " style="height: 2px; width:100%; background-color:grey">
     <section id="guests" class="mt-8">
-      <div class="md:flex justify-center">
+      <div class="md:flex">
         {{ partial "home_title" (dict "title" "Guests") }}
       </div>
       
       {{if $data.guests.list}}
       <div
-        class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-20"
+        class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-10 "
       >
         {{ range $data.guests.list }}
-        <div class="w-48 rounded overflow-hidden shadow-lg">
+        <div align="center" class="w-48 rounded overflow-hidden">
           <img
             class="h-48"
             src="{{ .image }}"
             alt="{{ .title }}"
           />
-          <div class="px-6 py-4">
-            <div class="font-bold mb-2">{{ .title }}</div>
+          <div class="px-6 py-4 ">
+            <div class="font-bold  mb-2">{{ .title }}</div>
             <p class="text-gray-700 text-base">
               {{ .text }}
             </p>
@@ -118,8 +120,9 @@
         {{end}}
       </div>
       {{else}}
-          <div class="mt-4 text-xl text-center">Working in progress...</div>
+          <div class="mt-4 text-xl text-center">Stay Tuned...</div>
       {{end}}
+      </div>
     </section>
     <hr class="aligncenter mt-10 " style="height: 2px; width:100%; background-color:grey">
     <section id="about_us" class="mt-8">

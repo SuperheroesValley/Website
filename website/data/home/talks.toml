@@ -1,15 +1,17 @@
 [[list]]
-    name = "Makeup your Mindset"
+    name = "The Right Mindset"
     icon = "https://devicons.github.io/devicon/devicon.git/icons/go/go-original.svg"
     text = """
-        The talk is held by Pippo which will tell us about the proper mindset to adopt.
+        Which is the Silicon Valley's Mindset? Why should I apply for a Big Tech Company?
     """
-    date = "12/12/2020"
+    date = "To Be Scheduled"
+    speaker = "Top Secret"
 
 [[list]]
-    name = "Motivations"
+    name = "To The Moon"
     icon = "https://devicons.github.io/devicon/devicon.git/icons/react/react-original.svg"
     text = """
-        Get motivated by Topolina!
+        (Secret)
     """
-    date = "12/12/2020"
+    date = "To Be Scheduled"
+    speaker = "Top Secret"
