@@ -1,0 +1,15 @@
+[[list]]
+    name = "Makeup your Mindset"
+    icon = "https://devicons.github.io/devicon/devicon.git/icons/go/go-original.svg"
+    text = """
+        The talk is held by Pippo which will tell us about the proper mindset to adopt.
+    """
+    date = "12/12/2020"
+
+[[list]]
+    name = "Motivations"
+    icon = "https://devicons.github.io/devicon/devicon.git/icons/react/react-original.svg"
+    text = """
+        Get motivated by Topolina!
+    """
+    date = "12/12/2020"

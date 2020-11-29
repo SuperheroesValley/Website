@@ -6,24 +6,24 @@ publishDir = "public"
 [params]
     mainbg = "https://source.unsplash.com/collection/43861294/1920x1080"
     name = "SuperheroesValley.fun"
-    mainTitle = "Hello, Superheroes!"
+    mainTitle = "Hello, Superhero!"
     mainText = "The superheroes factory"
 
 
 [menus]
     [[menu.main]]
-        identifier = "skills"
-        name = "Skills"
-        url = "#skills"
+        identifier = "talks"
+        name = "Talks"
+        url = "#talks"
     [[menu.main]]
-        identifier = "Guests_"
-        name = "Projects"
-        url = "#projects"
+        identifier = "guests"
+        name = "Guests"
+        url = "#guests"
     [[menu.main]]
-        identifier = "about"
-        name = "about"
-        url = "#about"
+        identifier = "join_us"
+        name = "Join_us"
+        url = "#join_us"
     [[menu.main]]
-        identifier = "us"
-        name = "us"
-        url = "#us"
+        identifier = "about_us"
+        name = "About_us"
+        url = "#about_us"

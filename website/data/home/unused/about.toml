@@ -1,0 +1,15 @@
+title = "TEST!"
+
+text = """
+Ciao regaaa
+"""
+
+[[link]]
+    icon = "fab fa-telegram"
+    url = "https://t.me/joinchat/BIi_0VOdXr8h5BkCh5n5Gg"
+#[[link]]
+#    icon = "fab fa-linkedin"
+#    url = "#"
+#[[link]]
+#    icon = "fas fa-envelope"
+#    url = "#"

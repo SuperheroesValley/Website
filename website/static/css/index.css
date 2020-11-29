@@ -75,6 +75,7 @@
   position: relative;
 }
 
+
 .title-deco::after {
   position: absolute;
   content: "";
@@ -84,3 +85,4 @@
   left: 0;
   bottom: 0px;
 }
+

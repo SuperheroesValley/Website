@@ -1,0 +1,29 @@
+[[list]]
+    title = "Remo Andreoli"
+    image = "http://localhost:1313/img/us/remo_andreoli.jpg"
+    text = """
+        Computer Science Student 
+        @University of Pisa
+    """
+[[list]]
+    title = "Alessandro Berti"
+    image = "http://localhost:1313/img/us/alessandro_berti.jpg"
+    text = """
+        Ph.D. Student | Quantum Computing     
+        @University of Pisa
+    """
+[[list]]
+    title = "Luca Corbucci"
+    image = "http://localhost:1313/img/us/luca_corbucci.jpg"
+    text = """
+        Computer Science Student  
+        @University of Pisa
+    """
+[[list]]
+    title = "Eugenio Paluello"
+    image = "http://localhost:1313/img/us/eugenio_paluello.png"
+    alt_text = "Eugenio Paluello"
+    text = """
+        CTO 
+        @Tocket
+    """
