@@ -2,12 +2,12 @@
     question = "Did you know?"
     text = """
     Only 0.2% of people pass a Silicon Valley Interview.
-    Don't you belive it? Just check it out!
+    Don't you believe it? Just check it out!
     """
 [[list]]
     question = "Our Mission"
     text = """
-    Superheroes Valley is a super-new community whose aim is increase the chanches to pass a Silicon Valley Tech Interview!
+    Superheroes Valley is a super-new community whose aim is to increase the chances to pass a Silicon Valley Tech Interview!
     """
 
 [[list]]
@@ -19,6 +19,6 @@
 [[list]]
     question = "How"
     text = """
-    With the help of our experienced superhero, we have defined a roadmap consisting of: Talks, Coding Challenges and Mock Interviews. If you want to know more, join us!       
+    With the help of our experienced superhero, we have defined a roadmap consisting of: Talks, Coding Challenges, and Mock Interviews. If you want to know more, join us!      
     """
 

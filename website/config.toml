@@ -1,10 +1,10 @@
-baseURL = "http://superheroesvalley.fun"
+baseURL = "//superheroesvalley.fun"
 languageCode = "en-us"
 title = "Superheroes Valley"
 publishDir = "public"
 
 [params]
-    mainbg = "https://source.unsplash.com/collection/43861294/1920x1080"
+    mainbg = "//source.unsplash.com/collection/43861294/1920x1080"
     name = "SuperheroesValley.fun"
     mainTitle = "Hello, Superhero!"
     mainText = "The superheroes factory"
