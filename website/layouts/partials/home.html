@@ -27,13 +27,12 @@
         </div>
     </div>
     {{ $data := .Site.Data.home }}
-    <main class="container mx-auto mt-8 px-4 xl:px-0">
-        <section id="descriptions" class="md:flex">
+    <main class="container mx-auto mt-8 px-4 xl:px-0 ">
+        <section id="descriptions" class="md:flex ml-10">
             <div class=" my-auto md:mr-4">
                 {{ range $data.descriptions.list }}
                 <div class="flex mt-10 gap-3 text-xl" >
                     {{ partial "home_title" (dict "title" .question) }}
-                    <i class="fa fa-user-o" aria-hidden="true"></i>
                 </div>
                 <div class="">
                     <p class="text-lg">
@@ -53,7 +52,7 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/3ovTehjrjY8?start=306" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <hr class="aligncenter mt-10 " style="height: 2px; width:100%; background-color:grey">
-        <section id="talks" class="mt-8">
+        <section id="talks" class="mt-8 ml-10">
             <div class="md:flex">
                 {{ partial "home_title" (dict "title" "Talks") }}
             </div>
@@ -83,9 +82,11 @@
                     <p class="text-white text-center  bg-green-500 text-base pb-1">
                         {{ replace .date "\n" "<br />" | safeHTML }}
                     </p>
+                    <b>
                     <p class="text-white text-center  bg-blue-500 text-base pb-1">
-                        Speaker: {{ replace .speaker "\n" "<br />" | safeHTML }}
+                       {{ replace .speaker "\n" "<br />" | safeHTML }}
                     </p>
+                    </b>
                 </div>
                 {{end}}
             </div>
@@ -93,7 +94,7 @@
             <div class="mt-4 text-xl text-center">Stay Tuned!</div>
             {{end}}
         </section>
-        <section id="guests" class="mt-8">
+        <section id="guests" class="mt-8 ml-10">
             <div class="md:flex">
                 {{ partial "home_title" (dict "title" "Guests") }}
             </div>

@@ -1,17 +1,18 @@
 [[list]]
-    name = "The Right Mindset"
+    name = "Tech Interview Workshop"
     icon = "https://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/bullhorn-icon.png"
     text = """
-        Which is the Silicon Valley's Mindset? Why should I apply for a Big Tech Company?
+        How to apply to Google?
+        What is an internship?
     """
-    date = "To Be Scheduled"
-    speaker = "Top Secret"
+    date = "14/12/2020"
+    speaker = "Lisa Vitolo @Google"
 
 [[list]]
-    name = "To The Moon"
+    name = "Best Practices Talk"
     icon = "https://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/bullhorn-icon.png"
     text = """
-        (Secret)
+        How should you prepare to an Interview? Which are the "Best Practices"?
     """
-    date = "To Be Scheduled"
-    speaker = "Top Secret"
+    date = "22/12/2020"
+    speaker = "Cristian Burrini @Google"
