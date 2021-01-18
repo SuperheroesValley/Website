@@ -16,9 +16,9 @@ publishDir = "public"
         name = "Talks"
         url = "#talks"
     [[menu.main]]
-        identifier = "guests"
-        name = "Guests"
-        url = "#guests"
+        identifier = "speakers"
+        name = "Speakers"
+        url = "#speakers"
     [[menu.main]]
         identifier = "join_us"
         name = "Join_us"
