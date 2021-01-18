@@ -20,11 +20,14 @@
             style="background-image: url('{{ .Site.BaseURL }}/img/wave.png');"
             ></div>
         <div class="centerAll ">
-            <div class="md:flex justify-center">
+            <div class="justify-center">
                 <img
                     src="//superheroesvalley.fun/img/logo.png"
                     width="400px"
+                    height="400px"
                 />
+            </div>
+            <div class="md:flex justify-center">
             </div>
             <div class="text text-xl text-center">Behind a superhero, there is always a human being.</div>
         </div>
@@ -66,13 +69,16 @@
                 {{ range $data.talks.list }}
                 <div class="w-full rounded overflow-hidden shadow-lg">
                     <div class="">
-                        <div class="h-20 font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
-                            <div class="flex">
+                        <div class="h-10 font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
+                            <div class="d-inline-flex">
+                                <!--
                                 <img
                                     src="{{ .icon }}"
                                     width="50px"
+                                    height="50px"
                                     class="bg-gray-300 py-1 px-1 rounded-full"
                                     />
+                                -->
                                 <div class="my-auto ml-2">
                                     {{ .name }}
                                 </div>
@@ -104,7 +110,7 @@
 
             {{if $data.speakers.list}}
             <div
-                class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-10 "
+                class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-20"
                 >
                 {{ range $data.speakers.list }}
                 <div align="center" class="w-48 rounded overflow-hidden">
