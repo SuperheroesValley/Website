@@ -1,11 +1,13 @@
 [[list]]
     title = "Lisa Vitolo"
     image = "//superheroesvalley.fun/img/guests/default_image.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
     text = """
        Google 
     """
 [[list]]
     title = "Cristian Burrini"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/cristian_burrini.jpg')"
     image = "//superheroesvalley.fun/img/guests/cristian_burrini.jpg"
     text = """
        Google
@@ -13,6 +15,7 @@
 [[list]]
     title = "Federico Scloza"
     image = "//superheroesvalley.fun/img/guests/default_image.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
     text = """
        Google
     """

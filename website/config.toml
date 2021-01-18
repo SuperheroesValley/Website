@@ -1,6 +1,6 @@
 baseURL = "//superheroesvalley.fun"
 languageCode = "en-us"
-title = "Superheroes Valley"
+title = "Hello, Superhero!"
 publishDir = "public"
 
 [params]

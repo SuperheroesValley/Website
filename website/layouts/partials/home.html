@@ -20,10 +20,13 @@
             style="background-image: url('{{ .Site.BaseURL }}/img/wave.png');"
             ></div>
         <div class="centerAll ">
-            <div class="title text-6xl font-bold text-center">
-                {{if  $.Site.Params.maintitle }}{{ $.Site.Params.maintitle }}{{else}}Hello, Superhero!{{end}}
+            <div class="md:flex justify-center">
+                <img
+                    src="//superheroesvalley.fun/img/logo.png"
+                    width="400px"
+                />
             </div>
-        <div class="text text-xl text-center">{{if $.Site.Params.maintext}}{{ $.Site.Params.maintext }}{{else}}The superheroes factory{{end}}</div>
+            <div class="text text-xl text-center">Behind a superhero, there is always a human being.</div>
         </div>
     </div>
     {{ $data := .Site.Data.home }}
@@ -135,7 +138,6 @@
                         <img
                             src="{{ .icon_url }}"
                             width="100px"
-                            class="rounded-full"
                             />
                         <div class="md:flex mt-5 font-bold text-xl my-auto ml-2">
                             {{ .name }}
