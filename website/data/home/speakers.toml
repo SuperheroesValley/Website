@@ -19,3 +19,11 @@
     text = """
        Google
     """
+[[list]]
+    title = "Samuele Maci"
+    image = "//superheroesvalley.fun/img/guests/samuele_maci.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    text = """
+       Facebook
+    """
+
