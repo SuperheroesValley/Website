@@ -27,3 +27,11 @@
        Facebook
     """
 
+[[list]]
+    title = "Shahed Shahriar"
+    image = "//superheroesvalley.fun/img/guests/shahed.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    text = """
+       Google
+    """
+

@@ -17,3 +17,13 @@
     """
     date = "22/12/2020"
     speaker = "Cristian Burrini @Google"
+
+[[list]]
+    name = "How to approach competitions"
+    icon = "https://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/bullhorn-icon.png"
+    text = """
+        Have you ever participated in a competition?
+        In this talk, Shahed tells us some tips&tricks.
+    """
+    date = "15/02/2021"
+    speaker = "Shahed Shahriar @Google"
