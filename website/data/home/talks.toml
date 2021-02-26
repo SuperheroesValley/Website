@@ -27,3 +27,14 @@
     """
     date = "15/02/2021"
     speaker = "Shahed Shahriar @Google"
+
+
+[[list]]
+    name = "The IT interview process ...is fundamentally broken!"
+    icon = "https://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/bullhorn-icon.png"
+    text = """
+        From the application to the job.
+        What are the steps?
+    """
+    date = "22/02/2021"
+    speaker = "Nicola Corti @Spotify"

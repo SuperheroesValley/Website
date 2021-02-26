@@ -35,3 +35,11 @@
        Google
     """
 
+[[list]]
+    title = "Nicola Corti"
+    image = "//superheroesvalley.fun/img/guests/nicola_corti.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    text = """
+       Spotify
+    """
+
