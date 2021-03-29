@@ -43,3 +43,18 @@
        Spotify
     """
 
+[[list]]
+    title = "Diego Colombo"
+    image = "//superheroesvalley.fun/img/guests/diego_colombo.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    text = """
+       Microsoft
+    """
+
+[[list]]
+    title = "Maurizio Sciglio"
+    image = "//superheroesvalley.fun/img/guests/maurizio_sciglio.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    text = """
+       Epic Games
+    """
