@@ -11,10 +11,10 @@ publishDir = "public"
 
 
 [menus]
-    [[menu.main]]
-        identifier = "talks"
-        name = "Talks"
-        url = "#talks"
+#    [[menu.main]]
+#        identifier = "talks"
+#        name = "Talks"
+#        url = "#talks"
     [[menu.main]]
         identifier = "speakers"
         name = "Speakers"
