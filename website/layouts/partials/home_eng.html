@@ -36,7 +36,7 @@
     <main class="container mx-auto mt-8 px-4 xl:px-0 ">
         <section id="descriptions" class="md:flex ml-10">
             <div class=" my-auto md:mr-4">
-                {{ range $data.descriptions.list }}
+                {{ range $data.descriptions_eng.list }}
                 <div class="flex mt-10 gap-3 text-xl" >
                     {{ partial "home_title" (dict "title" .question) }}
                 </div>
@@ -50,11 +50,11 @@
         <hr class="aligncenter mt-10 " style="height: 2px; width:100%; background-color:grey">
         <section id="join_us" class="mt-8">
             <div class="md:flex justify-center">
-                {{ partial "home_title" (dict "title" "Vuoi diventare un Superhero?") }}
+                {{ partial "home_title" (dict "title" "How to become a Superhero?") }}
             </div>
             <div class=" my-auto md:mr-4">
                 <ul>
-                {{ range $data.descriptions.howto }}
+                {{ range $data.descriptions_eng.howto }}
                 <div class=" ml-10 mt-3">
                     <li class="text-lg">
                         {{ replace .question "\n" "<br />" | safeHTML }}

@@ -1,24 +1,45 @@
+[[howto]]
+    question = ""
+
+[[howto]]
+    question = "<b>Scopri</b> come è progettata una tipica interview (ovvero, colloquio)"
+
+[[howto]]
+    question = "<b>Impara</b> le best practice per approcciare correttamente un'interview"
+
+[[howto]]
+    question = "<b>Scopri</b> quali sono le tipologie di esercizi che dovrai risolvere durante l'interview"
+
+[[howto]]
+    question = "<i>Per saperne di più</i>, non ti resta che entrare nel nostro <b>Discord</b> e sul nostro gruppo <b>Telegram</b> cliccando qua sotto!"
+
+
 [[list]]
-    question = "Did you know?"
+    question = "Lo sapevi?"
     text = """
-    Only 0.2% of people pass a Silicon Valley Interview.
-    Don't you believe it? Just check it out!
+    Solo lo 0.2% di persone passa un colloquio Tech presso le Big del mondo Tech come <b>Google</b>, <b>Facebook</b>, <b>Amazon</b>, <b>Apple</b> e <b>Netflix</b>.
+    Non ci credi? Controlla pure!
     """
 [[list]]
-    question = "Our Mission"
+    question = "La nostra Mission"
     text = """
-    Superheroes Valley is a super-new community whose aim is to increase the chances to pass a Silicon Valley Tech Interview!
+    Superheroes Valley è una super-nuova community il cui obbiettivo è quello di incrementare le chance di passare un colloquio Tech presso una Big.
     """
 
 [[list]]
-    question = "Why"
+    question = "Perchè?"
     text = """
-        Superheroes Valley wants to show that, with the right commitment, everyone can reach Silicon Valley, thus becoming a superhero!
+    Superheroes Valley vuole mostrare che, con l'impegno, chiunque può raggiungere una Big, dunque diventando un superhero!
     """
 
 [[list]]
-    question = "How"
+    question = "Come?"
     text = """
-    With the help of our experienced superhero, we have defined a roadmap consisting of: Talks, Coding Challenges, and Mock Interviews. If you want to know more, join us!      
+    Grazie all'aiuto dei nostri superhero, abbiamo definito una roadmap costituita da: <b>Talks</b>, <b>Coding Challenges</b> e <b>Mock Interview</b>!
     """
 
+[[list]]
+    question = "Quanto costa?"
+    text = """
+    E' <b>Free</b>! Per noi è un'occasione di give back!
+    """

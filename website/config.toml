@@ -1,5 +1,4 @@
 baseURL = "//superheroesvalley.fun"
-languageCode = "en-us"
 title = "Hello, Superhero!"
 publishDir = "public"
 
