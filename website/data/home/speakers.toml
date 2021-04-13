@@ -58,3 +58,20 @@
     text = """
        Epic Games
     """
+
+[[list]]
+    title = "Roberto Gambuzzi"
+    image = "//superheroesvalley.fun/img/guests/roberto_gambuzzi.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    text = """
+       FabFitFun
+    """
+
+[[list]]
+    title = "Luciano Mammino"
+    image = "//superheroesvalley.fun/img/guests/luciano_mammino.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    text = """
+       fourTheorem
+    """
+
