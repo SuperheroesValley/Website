@@ -75,3 +75,11 @@
        fourTheorem
     """
 
+[[list]]
+    title = "Anton Yegorin"
+    image = "//superheroesvalley.fun/img/guests/anton_yegorin.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    text = """
+       IBM
+    """
+
