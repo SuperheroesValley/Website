@@ -23,7 +23,7 @@
 [[list]]
     question = "La nostra Mission"
     text = """
-    Superheroes Valley è una super-nuova community il cui obbiettivo è quello di incrementare le chance di passare un colloquio Tech presso una Big.
+    Superheroes Valley è una community no-profit il cui obbiettivo è quello di incrementare le chance di passare un colloquio Tech presso una Big.
     """
 
 [[list]]
@@ -38,8 +38,8 @@
     Grazie all'aiuto dei nostri superhero, abbiamo definito una roadmap costituita da: <b>Talks</b>, <b>Coding Challenges</b> e <b>Mock Interview</b>!
     """
 
-[[list]]
-    question = "Quanto costa?"
-    text = """
-    E' <b>Free</b>! Per noi è un'occasione di give back!
-    """
+#[[list]]
+#    question = "Quanto costa?"
+#    text = """
+#    E' <b>Free</b>! Per noi è un'occasione di give back!
+#    """

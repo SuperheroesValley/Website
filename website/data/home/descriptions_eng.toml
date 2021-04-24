@@ -23,7 +23,7 @@
 [[list]]
     question = "Our Mission"
     text = """
-    Superheroes Valley is a super-new community whose aim is to increase the chances to pass a Silicon Valley Tech Interview!
+    Superheroes Valley is a no-profit community whose aim is to increase the chances to pass a Silicon Valley Tech Interview!
     """
 
 [[list]]
@@ -38,8 +38,8 @@
     With the help of our experienced superhero, we have defined a roadmap consisting of: <b>Talks</b>, <b>Coding Challenges</b>, and <b>Mock Interviews</b>.
     """
 
-[[list]]
-    question = "How Much?"
-    text = """
-    It's <b>Free</b>! It is our give back occasion!
-    """
+#[[list]]
+#    question = "How Much?"
+#    text = """
+#    It's <b>Free</b>! It is our give back occasion!
+#    """
