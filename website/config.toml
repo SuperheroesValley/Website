@@ -1,6 +1,7 @@
 baseURL = "//superheroesvalley.fun"
 title = "Hello, Superhero!"
 publishDir = "public"
+googleAnalytics = "G-59BL6BG6TJ"
 
 [params]
     mainbg = "//source.unsplash.com/collection/43861294/1920x1080"
