@@ -83,3 +83,18 @@
        IBM
     """
 
+[[list]]
+    title = "Silvia Trebini"
+    image = "//superheroesvalley.fun/img/guests/silvia_trebini.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    text = """
+       Bending Spoons
+    """
+
+[[list]]
+    title = "Federico Cergol"
+    image = "//superheroesvalley.fun/img/guests/federico_cergol.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    text = """
+       Bending Spoons
+    """
