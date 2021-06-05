@@ -98,3 +98,11 @@
     text = """
        Bending Spoons
     """
+
+[[list]]
+    title = "Diego Ceccarelli"
+    image = "//superheroesvalley.fun/img/guests/diego_ceccarelli.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    text = """
+       Bloomberg
+    """

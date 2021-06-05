@@ -12,3 +12,8 @@
     name = "LinkedIn"
     icon_url = "https://www.mareauxoiseaux.fr/wp-content/uploads/2019/04/logo-linkedin.png"
     join_url = "https://www.linkedin.com/company/superheroes-valley"
+
+[[link]]
+    name = "Email"
+    icon_url = "//superheroesvalley.fun/img/email_logo"
+    join_url = "info@superheroesvalley.fun"
