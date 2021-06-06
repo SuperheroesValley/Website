@@ -15,5 +15,5 @@
 
 [[link]]
     name = "Email"
-    icon_url = "//superheroesvalley.fun/img/email_logo"
-    join_url = "info@superheroesvalley.fun"
+    icon_url = "//superheroesvalley.fun/img/email_logo.png"
+    join_url = "mailto:info@superheroesvalley.fun"
