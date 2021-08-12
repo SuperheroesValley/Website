@@ -1,27 +1,27 @@
 [[list]]
     title = "Lisa Vitolo"
-    image = "//superheroesvalley.fun/img/guests/default_image.jpg"
-    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    image = "/img/guests/default_image.jpg"
+    #image = "url('{{ .Site.baseURL }}/img/guests/default_image.jpg')"
     text = """
        Google 
     """
 [[list]]
     title = "Cristian Burrini"
-    #image = "url('{{ .Site.BaseURL }}/img/guests/cristian_burrini.jpg')"
-    image = "//superheroesvalley.fun/img/guests/cristian_burrini.jpg"
+    image = "/img/guests/cristian_burrini.jpg"
+    #image = "//superheroesvalley.fun/img/guests/cristian_burrini.jpg"
     text = """
        Google
     """
 [[list]]
     title = "Federico Scloza"
-    image = "//superheroesvalley.fun/img/guests/default_image.jpg"
+    image = "/img/guests/default_image.jpg"
     #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
     text = """
        Google
     """
 [[list]]
     title = "Samuele Maci"
-    image = "//superheroesvalley.fun/img/guests/samuele_maci.jpg"
+    image = "/img/guests/samuele_maci.jpg"
     #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
     text = """
        Facebook
@@ -29,7 +29,7 @@
 
 [[list]]
     title = "Shahed Shahriar"
-    image = "//superheroesvalley.fun/img/guests/shahed.jpg"
+    image = "/img/guests/shahed.jpg"
     #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
     text = """
        Google
@@ -37,7 +37,7 @@
 
 [[list]]
     title = "Nicola Corti"
-    image = "//superheroesvalley.fun/img/guests/nicola_corti.jpg"
+    image = "/img/guests/nicola_corti.jpg"
     #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
     text = """
        Facebook
@@ -45,7 +45,7 @@
 
 [[list]]
     title = "Diego Colombo"
-    image = "//superheroesvalley.fun/img/guests/diego_colombo.jpg"
+    image = "/img/guests/diego_colombo.jpg"
     #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
     text = """
        Microsoft
@@ -53,7 +53,7 @@
 
 [[list]]
     title = "Maurizio Sciglio"
-    image = "//superheroesvalley.fun/img/guests/maurizio_sciglio.jpg"
+    image = "/img/guests/maurizio_sciglio.jpg"
     #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
     text = """
        Epic Games
@@ -61,7 +61,7 @@
 
 [[list]]
     title = "Roberto Gambuzzi"
-    image = "//superheroesvalley.fun/img/guests/roberto_gambuzzi.jpg"
+    image = "/img/guests/roberto_gambuzzi.jpg"
     #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
     text = """
        FabFitFun
@@ -69,7 +69,7 @@
 
 [[list]]
     title = "Luciano Mammino"
-    image = "//superheroesvalley.fun/img/guests/luciano_mammino.jpg"
+    image = "/img/guests/luciano_mammino.jpg"
     #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
     text = """
        fourTheorem
@@ -77,7 +77,7 @@
 
 [[list]]
     title = "Anton Yegorin"
-    image = "//superheroesvalley.fun/img/guests/anton_yegorin.jpg"
+    image = "/img/guests/anton_yegorin.jpg"
     #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
     text = """
        IBM
@@ -85,7 +85,7 @@
 
 [[list]]
     title = "Silvia Trebini"
-    image = "//superheroesvalley.fun/img/guests/silvia_trebini.jpg"
+    image = "/img/guests/silvia_trebini.jpg"
     #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
     text = """
        Bending Spoons
@@ -93,7 +93,7 @@
 
 [[list]]
     title = "Federico Cergol"
-    image = "//superheroesvalley.fun/img/guests/federico_cergol.jpg"
+    image = "/img/guests/federico_cergol.jpg"
     #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
     text = """
        Bending Spoons
@@ -101,7 +101,7 @@
 
 [[list]]
     title = "Diego Ceccarelli"
-    image = "//superheroesvalley.fun/img/guests/diego_ceccarelli.jpg"
+    image = "/img/guests/diego_ceccarelli.jpg"
     #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
     text = """
        Bloomberg
@@ -109,7 +109,7 @@
 
 [[list]]
     title = "Filippo Bigarella"
-    image = "//superheroesvalley.fun/img/guests/filippo_bigarella.jpg"
+    image = "/img/guests/filippo_bigarella.jpg"
     #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
     text = """
        Apple

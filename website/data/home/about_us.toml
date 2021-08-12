@@ -1,27 +1,27 @@
 [[list]]
     title = "Remo Andreoli"
-    image = "//superheroesvalley.fun/img/us/remo_andreoli.jpg"
+    image = "/img/us/remo_andreoli.jpg"
     text = """
         Research Fellow
         @Sant'Anna School of Advanced Studies
     """
 [[list]]
     title = "Alessandro Berti"
-    image = "//superheroesvalley.fun/img/us/alessandro_berti.jpg"
+    image = "/img/us/alessandro_berti.jpg"
     text = """
         Ph.D. Student
         @University of Pisa
     """
 [[list]]
     title = "Luca Corbucci"
-    image = "//superheroesvalley.fun/img/us/luca_corbucci.jpg"
+    image = "/img/us/luca_corbucci.jpg"
     text = """
         Research Assistant
         @University of Pisa
     """
 [[list]]
     title = "Eugenio Paluello"
-    image = "//superheroesvalley.fun/img/us/eugenio_paluello.png"
+    image = "/img/us/eugenio_paluello.png"
     alt_text = "Eugenio Paluello"
     text = """
         CTO 

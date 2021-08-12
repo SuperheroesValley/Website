@@ -1,11 +1,20 @@
-baseURL = "//superheroesvalley.fun"
+#baseURL = "//superheroesvalley.fun"
+baseURL = "//superheroesvalley.fun.s3-website-eu-west-1.amazonaws.com"
 title = "Hello, Superhero!"
 publishDir = "public"
 googleAnalytics = "G-59BL6BG6TJ"
 
+[deployment]
+  order = [".mp4", ".gif$", ".png$", ".jpg$", ".bpg$", ".svg$"]
+
+[[deployment.targets]]
+  name = "s3-aws"
+  URL = "s3://superheroesvalley.fun?region= eu-west-1"
+  cloudFrontDistributionID = "E2RVAK9W6U745K"
+  
 [params]
     mainbg = "//source.unsplash.com/collection/43861294/1920x1080"
-    name = "SuperheroesValley.fun"
+    name = "superheroesvalley.fun"
     mainTitle = "Hello, Superhero!"
     mainText = "The superheroes factory"
 

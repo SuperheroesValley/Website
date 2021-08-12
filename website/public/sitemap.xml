@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//superheroesvalley.fun/categories/</loc>
+    <loc>//superheroesvalley.fun.s3-website-eu-west-1.amazonaws.com/categories/</loc>
   </url><url>
-    <loc>//superheroesvalley.fun/en/</loc>
+    <loc>//superheroesvalley.fun.s3-website-eu-west-1.amazonaws.com/en/</loc>
   </url><url>
-    <loc>//superheroesvalley.fun/</loc>
+    <loc>//superheroesvalley.fun.s3-website-eu-west-1.amazonaws.com/</loc>
   </url><url>
-    <loc>//superheroesvalley.fun/tags/</loc>
+    <loc>//superheroesvalley.fun.s3-website-eu-west-1.amazonaws.com/tags/</loc>
   </url>
 </urlset>

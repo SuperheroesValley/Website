@@ -43,7 +43,7 @@
   z-index: 301;
   opacity: 0.2;
   animation-delay: -2s;
-  bottom: 15;
+  bottom: 15px;
 }
 #mainBG .wave.wave4 {
   animation: wave-animate2 5s linear infinite;

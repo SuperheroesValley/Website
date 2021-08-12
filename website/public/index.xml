@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hello, Superhero!</title>
-    <link>//superheroesvalley.fun/</link>
+    <link>//superheroesvalley.fun.s3-website-eu-west-1.amazonaws.com/</link>
     <description>Recent content on Hello, Superhero!</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="//superheroesvalley.fun/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="//superheroesvalley.fun.s3-website-eu-west-1.amazonaws.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>en</title>
-      <link>//superheroesvalley.fun/en/</link>
+      <link>//superheroesvalley.fun.s3-website-eu-west-1.amazonaws.com/en/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//superheroesvalley.fun/en/</guid>
+      <guid>//superheroesvalley.fun.s3-website-eu-west-1.amazonaws.com/en/</guid>
       <description></description>
     </item>
     
