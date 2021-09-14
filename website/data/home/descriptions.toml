@@ -24,7 +24,7 @@
     Non ci credi? Controlla pure!
     """
 [[list]]
-    question = "La nostra Mission"
+    question = "La nostra Missione"
     text = """
     Superheroes Valley è una community no-profit il cui obbiettivo è quello di incrementare le chance di passare un colloquio Tech presso una Big.
     """
