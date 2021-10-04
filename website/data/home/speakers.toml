@@ -64,7 +64,7 @@
     image = "/img/guests/roberto_gambuzzi.jpg"
     #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
     text = """
-       FabFitFun
+       Google
     """
 
 [[list]]
