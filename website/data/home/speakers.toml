@@ -114,3 +114,19 @@
     text = """
        Apple
     """
+
+[[list]]
+    title = "Erika J. Yuag"
+    image = "/img/guests/erika_yuag.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    text = """
+       Microsoft
+    """
+
+[[list]]
+    title = "Francesca Cucinotta"
+    image = "/img/guests/francesca_cucinotta.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    text = """
+       Bloomberg
+    """
