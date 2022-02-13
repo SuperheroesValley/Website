@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode}}">
+  <head>
+  </head>
+  <body>
+    <script>
+        const url = window.location.href;
+        const after = url.substring(url.indexOf('?') + 1);
+        window.location.href = 'mailto:' + after;
+    </script>
+  </body>
+</html>

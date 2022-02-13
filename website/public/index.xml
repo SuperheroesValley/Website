@@ -14,5 +14,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Jobsmail</title>
+      <link>//superheroesvalley.fun.s3-website-eu-west-1.amazonaws.com/jobsmail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//superheroesvalley.fun.s3-website-eu-west-1.amazonaws.com/jobsmail/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
