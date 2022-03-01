@@ -130,3 +130,11 @@
     text = """
        Bloomberg
     """
+
+[[list]]
+    title = "Mattia Toso"
+    image = "/img/guests/mattia_toso.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    text = """
+       Netflix
+    """
