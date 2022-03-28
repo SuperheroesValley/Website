@@ -138,3 +138,19 @@
     text = """
        Netflix
     """
+
+[[list]]
+    title = "Niccolo' Giovannelli"
+    image = "/img/guests/niccolo_giovannelli.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    text = """
+       Apple
+    """
+
+[[list]]
+    title = "Giovanni Tarducci"
+    image = "/img/guests/giovanni_tarducci.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    text = """
+       Apple
+    """
