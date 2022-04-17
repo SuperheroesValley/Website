@@ -154,3 +154,11 @@
     text = """
        Apple
     """
+
+[[list]]
+    title = "Ludovico Bessi"
+    image = "/img/guests/ludovico_bessi.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    text = """
+       Google
+    """
