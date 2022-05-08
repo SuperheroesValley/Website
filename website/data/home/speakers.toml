@@ -162,3 +162,11 @@
     text = """
        Google
     """
+
+[[list]]
+    title = "Diego Puppin"
+    image = "/img/guests/diego_puppin.jpg"
+    #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
+    text = """
+       Twitter
+    """
