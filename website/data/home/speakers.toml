@@ -149,7 +149,7 @@
 
 [[list]]
     title = "Giovanni Tarducci"
-    image = "/img/guests/giovanni_tarducci.jpg"
+    image = "/img/guests/default_image.jpg"
     #image = "url('{{ .Site.BaseURL }}/img/guests/supersilo.jpg')"
     text = """
        Apple
