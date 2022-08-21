@@ -1,6 +1,0 @@
----
-title: "en"
-layout: staticpage
----
-
-

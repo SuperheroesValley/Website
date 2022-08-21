@@ -1,4 +1,0 @@
----
-title: "Jobsmail"
-layout: jobsmail
----
