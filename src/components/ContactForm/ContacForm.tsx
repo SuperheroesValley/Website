@@ -1,14 +1,15 @@
 export const ConcactForm = () => {
 	return (
-		<section className="text-gray-600 body-font relative">
+		<section className="text-gray-600 body-font relative" id="contact_form">
 			<div className="container px-5 py-24 mx-auto">
 				<div className="flex flex-col text-center w-full mb-12">
 					<h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-						Contact Us
+						Contattaci
 					</h1>
 					<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-						Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-						gentrify.
+						Hai domande? Vuoi darci una mano? Sei un dipendente di una big tech
+						e vuoi essere il prossimo speaker di SuperHeroesValley? Non esitare
+						a contattarci!
 					</p>
 				</div>
 				<div className="lg:w-1/2 md:w-2/3 mx-auto">
@@ -19,7 +20,7 @@ export const ConcactForm = () => {
 									htmlFor="name"
 									className="leading-7 text-sm text-gray-600"
 								>
-									Name
+									Nome
 								</label>
 								<input
 									type="text"
@@ -51,7 +52,7 @@ export const ConcactForm = () => {
 									htmlFor="message"
 									className="leading-7 text-sm text-gray-600"
 								>
-									Message
+									Messaggio
 								</label>
 								<textarea
 									id="message"
@@ -65,7 +66,7 @@ export const ConcactForm = () => {
 								Button
 							</button>
 						</div>
-						<div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+						{/* <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
 							<a className="text-red-500">example@email.com</a>
 							<p className="leading-normal my-5">
 								49 Smith St.
@@ -131,7 +132,7 @@ export const ConcactForm = () => {
 									</svg>
 								</a>
 							</span>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

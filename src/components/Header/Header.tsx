@@ -3,13 +3,13 @@ import Link from "next/link";
 const navigation = [
 	// { name: "Contatti", href: "#", current: false },
 	{
-		name: "Our SuperHeroes",
+		name: "I nostri SuperHeroes",
 		href: "/superheroes",
 		external: true,
 		current: false,
 	},
 	{
-		name: "Past Events",
+		name: "Eventi Passati",
 		href: "/PastEvents",
 		external: true,
 		current: false,
@@ -22,7 +22,7 @@ export const Header = () => {
 			<div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
 				<Link href="/">
 					<a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-						<svg
+						{/* <svg
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
 							stroke="currentColor"
@@ -33,7 +33,11 @@ export const Header = () => {
 							viewBox="0 0 24 24"
 						>
 							<path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-						</svg>
+						</svg> */}
+						<img
+							src="./images/logo_sv.webp"
+							className="w-20 h-20 text-white p-2 "
+						/>
 						<span className="ml-3 text-xl">SuperHeroesValley</span>
 					</a>
 				</Link>
@@ -55,20 +59,22 @@ export const Header = () => {
 						</Link>
 					))}
 				</nav>
-				<button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-					Join Us on Discord
-					<svg
-						fill="none"
-						stroke="currentColor"
-						strokeLinecap="round"
-						strokeLinejoin="round"
-						strokeWidth="2"
-						className="w-4 h-4 ml-1"
-						viewBox="0 0 24 24"
-					>
-						<path d="M5 12h14M12 5l7 7-7 7"></path>
-					</svg>
-				</button>
+				<Link href="https://discord.com/invite/eWAhBZ2wRy">
+					<button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+						Il nostro Discord
+						<svg
+							fill="none"
+							stroke="currentColor"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeWidth="2"
+							className="w-4 h-4 ml-1"
+							viewBox="0 0 24 24"
+						>
+							<path d="M5 12h14M12 5l7 7-7 7"></path>
+						</svg>
+					</button>
+				</Link>
 			</div>
 		</header>
 	);

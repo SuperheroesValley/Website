@@ -1,13 +1,11 @@
 export const Offer = () => {
 	return (
-		<section className="text-gray-600 body-font">
+		<section className="text-gray-600 body-font" id="our_offer">
 			<div className="container px-5 py-24 mx-auto">
 				<div className="flex flex-col text-center w-full mb-20">
-					<h2 className="text-xs text-red-500 tracking-widest font-medium title-font mb-1">
-						ROOF PARTY POLAROID
-					</h2>
+					{/* <h2 className="text-xs text-red-500 tracking-widest font-medium title-font mb-1"></h2> */}
 					<h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
-						Master Cleanse Reliac Heirloom
+						Come funziona SuperHeroesValley
 					</h1>
 				</div>
 				<div className="flex flex-wrap -m-4">
@@ -28,13 +26,14 @@ export const Offer = () => {
 									</svg>
 								</div>
 								<h2 className="text-gray-900 text-lg title-font font-medium">
-									Shooting Stars
+									Meetups
 								</h2>
 							</div>
 							<div className="flex-grow">
 								<p className="leading-relaxed text-base">
-									Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-									taxidermy. Gastropub indxgo juice poutine.
+									Organizziamo meetup invitando dipendenti di Big Tech Companies
+									in modo tale da poter conoscere più da vicino queste aziende e
+									il percorso che porta ad essere assunti.
 								</p>
 								<a className="mt-3 text-red-500 inline-flex items-center">
 									Learn More
@@ -71,13 +70,15 @@ export const Offer = () => {
 									</svg>
 								</div>
 								<h2 className="text-gray-900 text-lg title-font font-medium">
-									The Catalyzer
+									Gruppi di esercizio
 								</h2>
 							</div>
 							<div className="flex-grow">
 								<p className="leading-relaxed text-base">
-									Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-									taxidermy. Gastropub indxgo juice poutine.
+									Non prendiamoci in giro, preparsi per una interview può essere
+									molto noioso. Per questo motivo organizziamo gruppi di
+									esercizio per prepararsi alle interview tecniche delle Big
+									Tech companies.
 								</p>
 								<a className="mt-3 text-red-500 inline-flex items-center">
 									Learn More
@@ -115,13 +116,16 @@ export const Offer = () => {
 									</svg>
 								</div>
 								<h2 className="text-gray-900 text-lg title-font font-medium">
-									Neptune
+									Mock Interview
 								</h2>
 							</div>
 							<div className="flex-grow">
 								<p className="leading-relaxed text-base">
-									Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-									taxidermy. Gastropub indxgo juice poutine.
+									Quale modo migliore per testare la propria preparazione di una
+									mock interview pubblica di fronte a tutta la community? Ti
+									abbiamo spaventato? Non preoccuparti, se non sei ancora pronto
+									potrai esercitarti privatamente con gli altri utenti della
+									community.
 								</p>
 								<a className="mt-3 text-red-500 inline-flex items-center">
 									Learn More
