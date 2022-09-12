@@ -17,7 +17,7 @@ const Home: NextPage = () => {
 	return (
 		<div>
 			<Header />
-			<Hero />
+			{/* <Hero /> */}
 			<Offer />
 			<Team />
 			<ConcactForm />
