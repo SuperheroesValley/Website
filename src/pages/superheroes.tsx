@@ -1,12 +1,12 @@
 import type { NextPage } from "next";
 import { Footer } from "../components/Footer";
-import { Header } from "../components/Header";
+import { HeaderBase } from "../components/HeaderBase";
 import { SuperHeroesList } from "../components/SuperHeroesList";
 
 const SuperHeroes: NextPage = () => {
 	return (
 		<div>
-			<Header />
+			<HeaderBase />
 			<SuperHeroesList />
 			<Footer />
 		</div>

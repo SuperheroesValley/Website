@@ -4,10 +4,18 @@ import { Popover, Transition } from "@headlessui/react";
 import Link from "next/link";
 
 const navigation = [
-	{ name: "Product", href: "#" },
-	{ name: "Features", href: "#" },
-	{ name: "Marketplace", href: "#" },
-	{ name: "Company", href: "#" },
+	{
+		name: "I nostri SuperHeroes",
+		href: "/superheroes",
+		external: true,
+		current: false,
+	},
+	{
+		name: "Eventi Passati",
+		href: "/PastEvents",
+		external: true,
+		current: false,
+	},
 ];
 
 export const Header = () => {
