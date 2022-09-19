@@ -3,7 +3,7 @@ export const Offer = () => {
 		<section className="text-gray-600 body-font" id="our_offer">
 			<div className="container px-5 py-24 mx-auto">
 				<div className="flex flex-col text-center w-full mb-20">
-					{/* <h2 className="text-xs text-red-500 tracking-widest font-medium title-font mb-1"></h2> */}
+					{/* <h2 className="text-xs text-blue-500 tracking-widest font-medium title-font mb-1"></h2> */}
 					<h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
 						Come funziona SuperHeroesValley
 					</h1>
@@ -12,7 +12,7 @@ export const Offer = () => {
 					<div className="p-4 md:w-1/3">
 						<div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
 							<div className="flex items-center mb-3">
-								<div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
+								<div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
 									<svg
 										fill="none"
 										stroke="currentColor"
@@ -35,7 +35,7 @@ export const Offer = () => {
 									in modo tale da poter conoscere più da vicino queste aziende e
 									il percorso che porta ad essere assunti.
 								</p>
-								<a className="mt-3 text-red-500 inline-flex items-center">
+								{/* <a className="mt-3 text-blue-500 inline-flex items-center">
 									Learn More
 									<svg
 										fill="none"
@@ -48,14 +48,14 @@ export const Offer = () => {
 									>
 										<path d="M5 12h14M12 5l7 7-7 7"></path>
 									</svg>
-								</a>
+								</a> */}
 							</div>
 						</div>
 					</div>
 					<div className="p-4 md:w-1/3">
 						<div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
 							<div className="flex items-center mb-3">
-								<div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
+								<div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
 									<svg
 										fill="none"
 										stroke="currentColor"
@@ -80,7 +80,7 @@ export const Offer = () => {
 									esercizio per prepararsi alle interview tecniche delle Big
 									Tech companies.
 								</p>
-								<a className="mt-3 text-red-500 inline-flex items-center">
+								{/* <a className="mt-3 text-blue-500 inline-flex items-center">
 									Learn More
 									<svg
 										fill="none"
@@ -93,14 +93,14 @@ export const Offer = () => {
 									>
 										<path d="M5 12h14M12 5l7 7-7 7"></path>
 									</svg>
-								</a>
+								</a> */}
 							</div>
 						</div>
 					</div>
 					<div className="p-4 md:w-1/3">
 						<div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
 							<div className="flex items-center mb-3">
-								<div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
+								<div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
 									<svg
 										fill="none"
 										stroke="currentColor"
@@ -127,7 +127,7 @@ export const Offer = () => {
 									potrai esercitarti privatamente con gli altri utenti della
 									community.
 								</p>
-								<a className="mt-3 text-red-500 inline-flex items-center">
+								{/* <a className="mt-3 text-blue-500 inline-flex items-center">
 									Learn More
 									<svg
 										fill="none"
@@ -140,7 +140,7 @@ export const Offer = () => {
 									>
 										<path d="M5 12h14M12 5l7 7-7 7"></path>
 									</svg>
-								</a>
+								</a> */}
 							</div>
 						</div>
 					</div>

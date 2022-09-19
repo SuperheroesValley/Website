@@ -6,7 +6,9 @@ import { SuperHeroesList } from "../components/SuperHeroesList";
 const SuperHeroes: NextPage = () => {
 	return (
 		<div>
-			<HeaderBase />
+			<div className="relative pt-6 pb-16 sm:pb-24">
+				<HeaderBase />
+			</div>
 			<SuperHeroesList />
 			<Footer />
 		</div>
