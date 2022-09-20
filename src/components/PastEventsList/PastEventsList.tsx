@@ -16,7 +16,7 @@ function GuestInfo(props: any) {
 				<img
 					alt="team"
 					className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-					src="https://dummyimage.com/80x80"
+					src={guest?.image}
 				/>
 				<div className="flex-grow">
 					<h2 className="text-gray-900 title-font font-medium">
@@ -34,24 +34,6 @@ export const PastEventsList = () => {
 		<section className="text-gray-600 body-font overflow-hidden">
 			{PastEvents.map((item) => (
 				<div key={item.year}>
-					{/* <div className="relative">
-								<img
-									className="absolute inset-0 w-full h-full object-cover object-top"
-									src="/images/bridge.jpg"
-									alt=""
-								/>
-								<div
-									aria-hidden="true"
-									className="absolute inset-0 w-full h-full bg-blue-100 bg-opacity-60 backdrop-blur-sm"
-								></div>
-								<h1
-									className="p-12 flex flex-wrap -m-2  sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4 py-1"
-									key={item.year}
-								>
-									{item.year}
-								</h1>
-							</div> */}
-
 					<div className="relative">
 						<img
 							className="h-28 inset-0 w-full object-cover object-top"

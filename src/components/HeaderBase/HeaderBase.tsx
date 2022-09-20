@@ -68,7 +68,7 @@ export const HeaderBase = () => {
 					<div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
 						<span className="inline-flex rounded-md shadow">
 							<a
-								href="#"
+								href="https://discord.gg/uPRmhHwMem"
 								className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-black-600 bg-white hover:bg-gray-50"
 							>
 								Join Us on Discord

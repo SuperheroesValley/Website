@@ -36,7 +36,7 @@ export const TeamList = [
 		id: 4,
 		name: "Eugenio Paluello",
 		href: "",
-		company: "CTO @Tocket",
+		company: "Blockchain Developer @ Polygon",
 		linkedin: "",
 		github: "",
 		twitter: "",

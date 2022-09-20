@@ -19,7 +19,7 @@ const Home: NextPage = () => {
 			<Header />
 			<Offer />
 			<Team />
-			<ConcactForm />
+			{/* <ConcactForm /> */}
 			<Footer />
 		</div>
 	);

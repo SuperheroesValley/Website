@@ -5,7 +5,7 @@ import Link from "next/link";
 export const Team = () => {
 	return (
 		<section className="text-gray-600 body-font">
-			<div className="container px-5 py-24 mx-auto">
+			<div className="container px-5 py-10 mx-auto">
 				<div className="flex flex-col text-center w-full mb-20">
 					<h1 className="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">
 						Il Nostro Team
@@ -16,11 +16,9 @@ export const Team = () => {
 						funzioni nel modo migliore possible. Vuoi aiutarci ad organizzare i
 						prossimi eventi di SuperHeroesValley?
 					</p>
-					<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-						Vuoi aiutarci ad organizzare i prossimi eventi di SuperHeroesValley?
-					</p>
+					<p className="lg:w-2/3 mx-auto leading-relaxed text-base"></p>
 					<p>
-						<Link href="#contact_form">
+						<Link href="">
 							<a className="hover:text-black hover:underline">Contattaci!</a>
 						</Link>
 					</p>

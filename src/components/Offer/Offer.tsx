@@ -5,7 +5,7 @@ export const Offer = () => {
 				<div className="flex flex-col text-center w-full mb-20">
 					{/* <h2 className="text-xs text-blue-500 tracking-widest font-medium title-font mb-1"></h2> */}
 					<h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
-						Come funziona SuperHeroesValley
+						Come funziona SuperHeroesValley?
 					</h1>
 				</div>
 				<div className="flex flex-wrap -m-4">
@@ -26,12 +26,12 @@ export const Offer = () => {
 									</svg>
 								</div>
 								<h2 className="text-gray-900 text-lg title-font font-medium">
-									Meetups
+									Talks
 								</h2>
 							</div>
 							<div className="flex-grow">
 								<p className="leading-relaxed text-base">
-									Organizziamo meetup invitando dipendenti di Big Tech Companies
+									Organizziamo talks invitando dipendenti di Big Tech Companies
 									in modo tale da poter conoscere più da vicino queste aziende e
 									il percorso che porta ad essere assunti.
 								</p>
