@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Footer = () => {
 	return (
 		<footer className="text-gray-600 body-font">
@@ -36,9 +38,11 @@ export const Footer = () => {
 						</h2>
 						<nav className="list-none mb-10">
 							<li>
-								<a className="text-gray-600 hover:text-blue-500" href="/coc">
-									Codice di Condotta
-								</a>
+								<Link href="/coc">
+									<a className="text-gray-600 hover:text-blue-500">
+										Codice di Condotta
+									</a>
+								</Link>
 							</li>
 							<li>
 								<a className="text-gray-600 hover:text-blue-500">
