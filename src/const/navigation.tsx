@@ -1,6 +1,6 @@
 export const navigation = [
 	{
-		name: "I nostri SuperHeroes",
+		name: "I nostri Superheroes",
 		href: "/superheroes",
 		external: true,
 		current: false,

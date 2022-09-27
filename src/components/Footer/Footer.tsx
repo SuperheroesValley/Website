@@ -23,12 +23,9 @@ export const Footer = () => {
 						</h2>
 						<nav className="list-none mb-10">
 							<li>
-								<a className="text-gray-600 hover:text-blue-500">Linkedin</a>
-							</li>
-							<li>
-								<a className="text-gray-600 hover:text-blue-500">
-									Gruppo Linkedin
-								</a>
+								<Link href="https://www.linkedin.com/company/superhero-valley/">
+									<a className="text-gray-600 hover:text-blue-500">Linkedin</a>
+								</Link>
 							</li>
 						</nav>
 					</div>
@@ -44,11 +41,11 @@ export const Footer = () => {
 									</a>
 								</Link>
 							</li>
-							<li>
+							{/* <li>
 								<a className="text-gray-600 hover:text-blue-500">
 									Privacy Policy
 								</a>
-							</li>
+							</li> */}
 						</nav>
 					</div>
 					<div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -57,10 +54,15 @@ export const Footer = () => {
 						</h2>
 						<nav className="list-none mb-10">
 							<li>
-								<a className="text-gray-600 hover:text-blue-500">Discord</a>
+								<Link href="https://discord.gg/uPRmhHwMem">
+									<a className="text-gray-600 hover:text-blue-500">Discord</a>
+								</Link>
 							</li>
+
 							<li>
-								<a className="text-gray-600 hover:text-blue-500">Telegram</a>
+								<Link href="https://t.me/+zIcgNjPpYpIzNmU0">
+									<a className="text-gray-600 hover:text-blue-500">Telegram</a>
+								</Link>
 							</li>
 						</nav>
 					</div>
@@ -69,7 +71,7 @@ export const Footer = () => {
 			<div className="bg-gray-100">
 				<div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
 					<p className="text-gray-500 text-sm text-center sm:text-left hover:text-blue-500">
-						© 2022 SuperHeroValley —
+						© 2022 Superhero Valley —
 						<a
 							href="https://twitter.com/lucacorbucci"
 							rel="noopener noreferrer"
