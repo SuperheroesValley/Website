@@ -1,7 +1,0 @@
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.superheroesvalley.fun$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^superheroesvalley.fun$ [NC]
-RewriteCond %{HTTP:X-Forwarded-Proto} !^https$
-RewriteRule ^(.*) https://www.superheroesvalley.fun/$1 [R=301,L]
-</IfModule>
