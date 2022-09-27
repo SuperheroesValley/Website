@@ -96,8 +96,8 @@ export const HeaderBase = () => {
 						<div className="px-5 pt-4 flex items-center justify-between">
 							<div>
 								<img
-									src="./images/Logo_Black_sito.svg"
-									className="w-20 h-20 text-white p-2 "
+									src="./images/logo.png"
+									className="w-20 h-20 text-white p-2 rounded-full"
 								/>
 							</div>
 							<div className="-mr-2">
