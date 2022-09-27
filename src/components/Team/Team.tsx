@@ -11,10 +11,10 @@ export const Team = () => {
 						Il Nostro Team
 					</h1>
 					<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-						Il team di SuperHeroesValley è composto da volontari che hanno a
+						Il team di Superhero Valley è composto da volontari che hanno a
 						cuore la community e che investono il loro tempo affinchè tutto
 						funzioni nel modo migliore possible. Vuoi aiutarci ad organizzare i
-						prossimi eventi di SuperHeroesValley?
+						prossimi eventi di Superhero Valley?
 					</p>
 					<p className="lg:w-2/3 mx-auto leading-relaxed text-base"></p>
 					<p>

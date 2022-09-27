@@ -8,8 +8,8 @@ export const ConcactForm = () => {
 					</h1>
 					<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
 						Hai domande? Vuoi darci una mano? Sei un dipendente di una big tech
-						e vuoi essere il prossimo speaker di SuperHeroesValley? Non esitare
-						a contattarci!
+						e vuoi essere il prossimo speaker di SuperHeroValley? Non esitare a
+						contattarci!
 					</p>
 				</div>
 				<div className="lg:w-1/2 md:w-2/3 mx-auto">

@@ -8,7 +8,7 @@ export const TeamList = [
 		github: "",
 		twitter: "",
 		role: "manager",
-		image: "./team/remo_andreoli.webp",
+		image: "./team/remo_andreoli.jpeg",
 	},
 	{
 		id: 2,

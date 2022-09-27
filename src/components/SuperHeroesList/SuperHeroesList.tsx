@@ -12,7 +12,7 @@ export const SuperHeroesList = () => {
 						Con superhero identifichiamo una persona che lavora in una big tech
 						company e che ha aiutato in qualche modo la nostra community. In
 						questa pagina troverai la lista degli speaker che hanno partecipato
-						ad eventi di SuperHeroesValley e vedrai nomi che potresti ritrovare
+						ad eventi di Superhero Valley e vedrai nomi che potresti ritrovare
 						anche nel nostro server Discord.
 					</p>
 				</div>

@@ -9,19 +9,19 @@ const Home: NextPage = () => {
 		<div className="relative pt-6 pb-16 sm:pb-24">
 			<HeaderBase />
 			<Head>
-				<title>SuperHeroesValley - Codice di condotta</title>
+				<title>Superhero Valley - Codice di condotta</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<div className="flex flex-col text-center w-full mb-20 py-20">
 				<h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-600">
-					SuperHeroesValley - Codice di condotta
+					Superhero Valley - Codice di condotta
 				</h1>
 				<main className="lg:w-2/3 mx-auto leading-relaxed text-base">
 					<div>
 						<h4 className="font-bold">Obiettivo</h4>
 						<p>
 							Un obiettivo cardine di tutte le attività organizzate all’interno
-							della community SuperheroesValley è quello di essere inclusivo
+							della community Superhero Valley è quello di essere inclusivo
 							rispetto alla maggioranza dei partecipanti, con il più diverso e
 							variegato background possibile. Ci impegnamo a garantire un
 							ambiente sicuro ed amichevole per tutti, indipendentemnte da
