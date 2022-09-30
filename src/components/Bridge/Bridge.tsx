@@ -11,7 +11,7 @@ export const Bridge = () => {
 		<div>
 			<img
 				className="absolute inset-0 w-full h-full object-cover object-top"
-				src="/images/bridge.jpg"
+				src="/images/bridge_reduced.jpg"
 				alt=""
 			/>
 			<div

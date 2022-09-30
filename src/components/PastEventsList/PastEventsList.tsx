@@ -37,7 +37,7 @@ export const PastEventsList = () => {
 					<div className="relative">
 						<img
 							className="h-28 inset-0 w-full object-cover object-top"
-							src="/images/bridge.jpg"
+							src="/images/bridge_reduced.jpg"
 							alt=""
 						/>
 						<div
