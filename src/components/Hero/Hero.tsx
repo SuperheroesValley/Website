@@ -7,7 +7,7 @@ export const Hero = () => {
 			<div className="text-center">
 				<div className="hero container max-w-screen-lg mx-auto flex justify-center">
 					<img
-						src="./images/logo_no_background.png"
+						src="./images/logo_no_background.webp"
 						className="rounded-full text-white p-2 w-3/12"
 					/>
 				</div>
