@@ -1,4 +1,5 @@
 import { superheroes } from "../../const/superheroes";
+import Link from "next/link";
 
 export const SuperHeroesList = () => {
 	return (
@@ -18,21 +19,24 @@ export const SuperHeroesList = () => {
 				</div>
 				<div className="flex flex-wrap -m-2">
 					{superheroes.map((item) => (
-						<div className="p-2 lg:w-1/3 md:w-1/2 w-full" key={item.name}>
-							<div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-								<img
-									src={item.image}
-									alt={item.name}
-									className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-								/>
-								<div className="flex-grow">
-									<h2 className="text-gray-900 title-font font-medium">
-										{item.name}
-									</h2>
-									<p className="text-gray-500">{item.company}</p>
+						<Link href={item.link} key={item.name} passHref={true}>
+							<div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+								<div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+									<img
+										src={item.image}
+										alt={item.name}
+										className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+									/>
+									<div className="flex-grow">
+										<h2 className="text-gray-900 title-font font-medium">
+											{item.name}
+										</h2>
+										{/* <p className="text-gray-500">{item.company}</p> */}
+										<img src={item.companyLogo} className="w-12" />
+									</div>
 								</div>
 							</div>
-						</div>
+						</Link>
 					))}
 				</div>
 			</div>

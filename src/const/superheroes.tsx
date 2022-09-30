@@ -5,6 +5,8 @@ export const superheroes = [
 		href: "",
 		company: "Google",
 		image: "./guests/cristian_burrini.webp",
+		link: "http://google.com",
+		companyLogo: "./logos/google.png",
 	},
 	{
 		id: 2,
@@ -12,6 +14,8 @@ export const superheroes = [
 		href: "",
 		company: "Google",
 		image: "./guests/default_img.png",
+		link: "",
+		companyLogo: "./logos/google.png",
 	},
 	{
 		id: 3,
@@ -19,6 +23,8 @@ export const superheroes = [
 		href: "",
 		company: "Google",
 		image: "./guests/default_img.png",
+		link: "",
+		companyLogo: "./logos/google.png",
 	},
 	{
 		id: 4,
@@ -26,6 +32,8 @@ export const superheroes = [
 		href: "",
 		company: "Meta",
 		image: "./guests/samuele_maci.webp",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 5,
@@ -33,6 +41,8 @@ export const superheroes = [
 		href: "",
 		company: "Google",
 		image: "./guests/shahed.webp",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 6,
@@ -40,6 +50,8 @@ export const superheroes = [
 		href: "",
 		company: "Meta",
 		image: "./guests/nicola_corti.webp",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 7,
@@ -47,6 +59,8 @@ export const superheroes = [
 		href: "",
 		company: "Microsoft",
 		image: "./guests/diego_colombo.webp",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 8,
@@ -54,6 +68,8 @@ export const superheroes = [
 		href: "/superheroes",
 		company: "Epic Games",
 		image: "./guests/maurizio_sciglio.webp",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 9,
@@ -61,6 +77,8 @@ export const superheroes = [
 		href: "",
 		company: "Google",
 		image: "./guests/roberto_gambuzzi.webp",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 10,
@@ -68,6 +86,8 @@ export const superheroes = [
 		href: "",
 		company: "fourTheorem",
 		image: "./guests/luciano_mammino.webp",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 11,
@@ -75,6 +95,8 @@ export const superheroes = [
 		href: "",
 		company: "IBM",
 		image: "./guests/anton_yegorin.webp",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 12,
@@ -82,6 +104,8 @@ export const superheroes = [
 		href: "",
 		company: "Bending Spoons ",
 		image: "./guests/silvia_trebini.webp",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 13,
@@ -89,6 +113,8 @@ export const superheroes = [
 		href: "",
 		company: "Bending Spoons",
 		image: "./guests/federico_cergol.webp",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 14,
@@ -96,6 +122,8 @@ export const superheroes = [
 		href: "",
 		company: "Bloomberg",
 		image: "./guests/diego_ceccarelli.webp",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 15,
@@ -103,6 +131,8 @@ export const superheroes = [
 		href: "",
 		company: "Apple",
 		image: "./guests/filippo_bigarella.webp",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 16,
@@ -110,6 +140,8 @@ export const superheroes = [
 		href: "",
 		company: "Microsoft",
 		image: "./guests/erika_yuag.webp",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 17,
@@ -117,6 +149,8 @@ export const superheroes = [
 		href: "",
 		company: "Bloomberg",
 		image: "./guests/francesca_cucinotta.webp",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 18,
@@ -124,6 +158,8 @@ export const superheroes = [
 		href: "",
 		company: "Netflix",
 		image: "./guests/mattia_toso.webp",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 19,
@@ -131,6 +167,8 @@ export const superheroes = [
 		href: "",
 		company: "Apple",
 		image: "./guests/niccolo_giovannelli.webp",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 20,
@@ -138,6 +176,8 @@ export const superheroes = [
 		href: "",
 		company: "Apple",
 		image: "./guests/default_img.png",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 21,
@@ -145,6 +185,8 @@ export const superheroes = [
 		href: "",
 		company: "Google",
 		image: "./guests/ludovico_bessi.webp",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 22,
@@ -152,6 +194,8 @@ export const superheroes = [
 		href: "",
 		company: "Twitter",
 		image: "./guests/diego_puppin.webp",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 23,
@@ -159,6 +203,8 @@ export const superheroes = [
 		href: "",
 		company: "Elastic",
 		image: "./guests/default_img.png",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 24,
@@ -166,6 +212,8 @@ export const superheroes = [
 		href: "",
 		company: "Mia Platform",
 		image: "./guests/default_img.png",
+		link: "",
+		companyLogo: "",
 	},
 	{
 		id: 25,
@@ -173,5 +221,7 @@ export const superheroes = [
 		href: "",
 		company: "Google",
 		image: "./guests/default_img.png",
+		link: "",
+		companyLogo: "",
 	},
 ];
