@@ -6,6 +6,7 @@ import { Offer } from "../components/Offer";
 import { Hero } from "../components/Hero";
 import { trpc } from "../utils/trpc";
 import { ConcactForm } from "../components/ContactForm/ContacForm";
+import { CommunitiesBanner } from "../components/CommunitiesBanner";
 
 type TechnologyCardProps = {
 	name: string;
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
 			<Offer />
 			<Team />
 			{/* <ConcactForm /> */}
+			<CommunitiesBanner />
 			<Footer />
 		</div>
 	);
