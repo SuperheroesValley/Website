@@ -5,6 +5,13 @@ export const Hero = () => {
 	return (
 		<main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
 			<div className="text-center">
+				<div className="hero container max-w-screen-lg mx-auto flex justify-center">
+					<img
+						src="./images/logo_no_background.png"
+						className="rounded-full text-white p-2 w-3/12"
+					/>
+				</div>
+
 				<h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
 					<span className="block xl:inline">Ti presentiamo</span>{" "}
 					<span className="block text-blue-500 xl:inline">
@@ -17,7 +24,7 @@ export const Hero = () => {
 					Organizziamo talks, gruppi di esercizio e mock interview. <br></br>
 					<b>Ti abbiamo incuriosito?</b>
 				</p>
-				<div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+				<div className="mt-5 max-w-lg mx-auto sm:flex sm:justify-center md:mt-8">
 					<div className="rounded-md shadow">
 						<a
 							href="#our_offer"
@@ -27,12 +34,11 @@ export const Hero = () => {
 						</a>
 					</div>
 					<div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-						<a
-							href="https://discord.gg/uPRmhHwMem"
-							className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-700 bg-gray-100 hover:bg-gray-200 md:py-4 md:text-lg md:px-10"
-						>
-							Unisciti a noi!
-						</a>
+						<Link href="/superheroes">
+							<a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-700 bg-gray-100 hover:bg-gray-200 md:py-4 md:text-lg md:px-10">
+								I nostri superheroes
+							</a>
+						</Link>
 					</div>
 				</div>
 			</div>
