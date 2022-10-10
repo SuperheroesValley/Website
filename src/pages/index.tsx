@@ -6,16 +6,12 @@ import { Offer } from "../components/Offer";
 import { Hero } from "../components/Hero";
 import { trpc } from "../utils/trpc";
 import { ConcactForm } from "../components/ContactForm/ContacForm";
-
-type TechnologyCardProps = {
-	name: string;
-	description: string;
-	documentation: string;
-};
+import { Banner } from "../components/Banner";
 
 const Home: NextPage = () => {
 	return (
 		<div>
+			<Banner />
 			<Header />
 			<Offer />
 			<Team />
