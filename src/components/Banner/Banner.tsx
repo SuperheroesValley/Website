@@ -11,7 +11,7 @@ export const Banner = () => {
 							📣 Novità! Scopri il nostro programma di mentorship
 						</span>
 						<span className="block sm:ml-2 sm:inline-block">
-							<Link href="https://forms.gle/2t8b9LY49mXVZEGH9">
+							<Link href="/mentorship">
 								<a className="text-white font-bold underline">
 									{" "}
 									Scopri di più <span aria-hidden="true">&rarr;</span>
