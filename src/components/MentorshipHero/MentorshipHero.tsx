@@ -30,7 +30,7 @@ export const MentorshipHero = () => {
 					<div className="mt-8">
 						<div className="inline-flex rounded-md shadow">
 							<a
-								href="#"
+								href="https://forms.gle/2t8b9LY49mXVZEGH9"
 								className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
 							>
 								Invia la tua candidatura
