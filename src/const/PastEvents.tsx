@@ -26,7 +26,7 @@ export const PastEvents = [
 			},
 			{
 				category: "event",
-				guest_id: [21],
+				guest_id: [],
 				title: "Path to Google leveraging competing offers",
 				href: "/superheroes",
 				year: "2022",

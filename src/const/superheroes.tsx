@@ -140,13 +140,6 @@ export const superheroes = [
 		image: "./guests/default_img.png",
 	},
 	{
-		id: 21,
-		name: "Ludovico Bessi",
-		href: "",
-		company: "Google",
-		image: "./guests/ludovico_bessi.webp",
-	},
-	{
 		id: 22,
 		name: "Diego Puppin",
 		href: "",
