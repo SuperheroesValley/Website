@@ -1,5 +1,6 @@
 import { superheroes } from "../../const/superheroes";
 import Link from "next/link";
+import Image from "next/image";
 
 export const SuperHeroesList = () => {
 	return (
@@ -22,17 +23,24 @@ export const SuperHeroesList = () => {
 						<Link href={item.link} key={item.name} passHref={true}>
 							<div className="p-2 lg:w-1/3 md:w-1/2 w-full">
 								<div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-									<img
-										src={item.image}
+									<Image
+										src={"/" + item.image}
 										alt={item.name}
-										className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+										height={64}
+										width={64}
+										className="bg-gray-100 object-cover object-center flex-shrink-0 rounded-full"
 									/>
-									<div className="flex-grow">
+									<div className="flex-grow ml-4">
 										<h2 className="text-gray-900 title-font font-medium">
 											{item.name}
 										</h2>
 										{/* <p className="text-gray-500">{item.company}</p> */}
-										<img src={item.companyLogo} className="w-12" />
+										<Image
+											src={"/" + item.companyLogo}
+											alt={item.company}
+											height={48}
+											width={48}
+										/>
 									</div>
 								</div>
 							</div>
