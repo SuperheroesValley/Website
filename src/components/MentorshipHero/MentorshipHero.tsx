@@ -25,22 +25,20 @@ export const MentorshipHero = () => {
 						<a href="mailto:info@superheroesvalley.fun">contattaci</a>.
 					</p>
 					<p className="mt-3 text-lg text-gray-300">
-						Hai tempo fino al 23 Ottobre 2022 per candidarti!
+						Le iscrizioni sono chiuse, seguici sui social e nel nostro server
+						Discord per sapere quando riapriranno.
 					</p>
-					<div className="mt-8">
+					{/* <div className="mt-8">
 						<div className="inline-flex rounded-md shadow">
 							<a
-								href="https://forms.gle/2t8b9LY49mXVZEGH9"
+								href=""
 								className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
 							>
 								Invia la tua candidatura
-								{/* <ExternalLinkIcon
-									className="-mr-1 ml-3 h-5 w-5 text-gray-400"
-									aria-hidden="true"
-								/> */}
+								
 							</a>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>
