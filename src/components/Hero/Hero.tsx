@@ -6,10 +6,13 @@ export const Hero = () => {
 		<main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
 			<div className="text-center">
 				<div className="hero container max-w-screen-lg mx-auto flex justify-center">
-					<img
-						src="./images/logo_no_background.webp"
+					<Image
+						src="/images/logo_no_background.svg"
 						className="rounded-full text-white p-2 w-3/12"
-					/>
+						alt="Superhero Valley Logo"
+						width="300"
+						height="300"
+					></Image>
 				</div>
 
 				<h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
@@ -19,9 +22,11 @@ export const Hero = () => {
 					</span>
 				</h1>
 				<p className="mt-3 max-w-md mx-auto text-base text-gray-800 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-					<b>Superhero valley</b> è la community italiana che ti prepara{" "}
-					<br></br> per i colloqui delle <b>Big Tech Companies</b>. <br></br>
-					Organizziamo talks, gruppi di esercizio e mock interview. <br></br>
+					<b>Superhero valley</b> è la community italiana che ti
+					prepara <br></br> per i colloqui delle{" "}
+					<b>Big Tech Companies</b>. <br></br>
+					Organizziamo talks, gruppi di esercizio e mock interview.{" "}
+					<br></br>
 					<b>Ti abbiamo incuriosito?</b>
 				</p>
 				<div className="mt-5 max-w-lg mx-auto sm:flex sm:justify-center md:mt-8">
