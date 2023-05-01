@@ -4,7 +4,7 @@ import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 export const FormNewSuperhero = () => {
 	return (
 		<div className="max-w-7xl mx-auto px-4  sm:px-6 lg:px-8">
-			<h1 className="flex-auto text-3xl font-semibold text-slate-900 pb-20 pt-0">
+			<h1 className="flex-auto text-3xl font-semibold text-slate-900 pb-15 pt-0">
 				Aggiungi un nuovo SuperHero
 			</h1>
 
@@ -14,17 +14,17 @@ export const FormNewSuperhero = () => {
 						<div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
 							<div className="sm:col-span-3">
 								<label
-									htmlFor="first-name"
+									htmlFor="nome"
 									className="block text-sm font-medium leading-6 text-gray-900"
 								>
-									First name
+									Nome
 								</label>
 								<div className="mt-2">
 									<input
 										type="text"
-										name="first-name"
-										id="first-name"
-										autoComplete="given-name"
+										name="nome"
+										id="nome"
+										autoComplete="nome"
 										className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
 									/>
 								</div>
@@ -32,17 +32,17 @@ export const FormNewSuperhero = () => {
 
 							<div className="sm:col-span-3">
 								<label
-									htmlFor="last-name"
+									htmlFor="cognome"
 									className="block text-sm font-medium leading-6 text-gray-900"
 								>
-									Last name
+									Cognome
 								</label>
 								<div className="mt-2">
 									<input
 										type="text"
-										name="last-name"
-										id="last-name"
-										autoComplete="family-name"
+										name="cognome"
+										id="cognome"
+										autoComplete="cognome"
 										className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
 									/>
 								</div>
@@ -55,16 +55,19 @@ export const FormNewSuperhero = () => {
 									Photo
 								</label>
 								<div className="mt-2 flex items-center gap-x-3">
-									<UserCircleIcon
-										className="h-12 w-12 text-gray-300"
-										aria-hidden="true"
-									/>
-									<button
-										type="button"
-										className="rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
-									>
-										Change
-									</button>
+									<label>
+										<input
+											type="file"
+											className="text-sm text-grey-500
+                                                file:mr-5 file:py-2 file:px-6
+                                                file:rounded-full file:border-0
+                                                file:text-sm file:font-medium
+                                                file:bg-blue-50 file:text-blue-700
+                                                hover:file:cursor-pointer hover:file:bg-amber-50
+                                                hover:file:text-amber-700
+                                            "
+										/>
+									</label>
 								</div>
 							</div>
 							<div className="sm:col-span-3">
