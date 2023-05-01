@@ -2,13 +2,19 @@ import Link from "next/link";
 import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 
 export const FormNewSuperhero = () => {
+	const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+		event.preventDefault();
+		console.log("Submitting data");
+		// await
+	};
+
 	return (
 		<div className="max-w-7xl mx-auto px-4  sm:px-6 lg:px-8">
 			<h1 className="flex-auto text-3xl font-semibold text-slate-900 pb-15 pt-0">
 				Aggiungi un nuovo SuperHero
 			</h1>
 
-			<form>
+			<form onSubmit={handleSubmit}>
 				<div className="space-y-0">
 					<div className="border-b border-gray-900/10 pb-12">
 						<div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
