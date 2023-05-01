@@ -6,6 +6,12 @@ export const navigation = [
 		current: false,
 	},
 	{
+		name: "Mentorship",
+		href: "/mentorship",
+		external: true,
+		current: false,
+	},
+	{
 		name: "Eventi Passati",
 		href: "/PastEvents",
 		external: true,
