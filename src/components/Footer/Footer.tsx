@@ -1,15 +1,18 @@
 import Link from "next/link";
-
+import Image from "next/image";
 export const Footer = () => {
 	return (
 		<footer className="text-gray-600 body-font">
 			<div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
 				<div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
 					<a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-						<img
-							src="./images/logo.png"
+						<Image
+							src="/images/logo.png"
 							className="w-20 h-20 text-white p-2 rounded-full"
-						/>
+							width={80}
+							height={80}
+						></Image>
+
 						<span className="ml-3 text-xl">SuperHeroValley</span>
 					</a>
 					{/* <p className="mt-2 text-sm text-gray-500">
@@ -24,7 +27,9 @@ export const Footer = () => {
 						<nav className="list-none mb-10">
 							<li>
 								<Link href="https://www.linkedin.com/company/superhero-valley/">
-									<a className="text-gray-600 hover:text-blue-500">Linkedin</a>
+									<a className="text-gray-600 hover:text-blue-500">
+										Linkedin
+									</a>
 								</Link>
 							</li>
 						</nav>
@@ -55,13 +60,17 @@ export const Footer = () => {
 						<nav className="list-none mb-10">
 							<li>
 								<Link href="https://discord.gg/uPRmhHwMem">
-									<a className="text-gray-600 hover:text-blue-500">Discord</a>
+									<a className="text-gray-600 hover:text-blue-500">
+										Discord
+									</a>
 								</Link>
 							</li>
 
 							<li>
 								<Link href="https://t.me/+zIcgNjPpYpIzNmU0">
-									<a className="text-gray-600 hover:text-blue-500">Telegram</a>
+									<a className="text-gray-600 hover:text-blue-500">
+										Telegram
+									</a>
 								</Link>
 							</li>
 						</nav>
@@ -109,7 +118,12 @@ export const Footer = () => {
 									stroke="none"
 									d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
 								></path>
-								<circle cx="4" cy="4" r="2" stroke="none"></circle>
+								<circle
+									cx="4"
+									cy="4"
+									r="2"
+									stroke="none"
+								></circle>
 							</svg>
 						</a>
 					</span>
