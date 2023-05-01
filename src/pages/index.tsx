@@ -11,7 +11,7 @@ import { Banner } from "../components/Banner";
 const Home: NextPage = () => {
 	return (
 		<div>
-			<Banner />
+			{/* <Banner /> */}
 			<Header />
 			<Offer />
 			<Team />
