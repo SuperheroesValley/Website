@@ -203,7 +203,7 @@ export const superheroes = [
 		image: "./guests/alberto_massidda.jpg",
 	},
 	{
-		id: 29,
+		id: 30,
 		name: "Roberto Clapis",
 		href: "",
 		company: "Google",
