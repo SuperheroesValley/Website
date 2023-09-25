@@ -1,95 +1,145 @@
 import { TeamList } from "../../const/TeamList";
-import { BsLink45Deg, BsTwitter, BsLinkedin, BsGithub } from "react-icons/bs";
-import Link from "next/link";
+import {
+	BsLink45Deg,
+	BsTwitter,
+	BsLinkedin,
+	BsGithub,
+	BsMastodon,
+} from "react-icons/bs";
 
 export const Team = () => {
 	return (
-		<section className="text-gray-600 body-font">
-			<div className="container px-5 py-10 mx-auto">
-				<div className="flex flex-col text-center w-full mb-20">
-					<h1 className="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">
-						Il Nostro Team
-					</h1>
-					<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-						Il team di Superhero Valley è composto da volontari che hanno a
-						cuore la community e che investono il loro tempo affinchè tutto
-						funzioni nel modo migliore possible. Vuoi aiutarci ad organizzare i
-						prossimi eventi di Superhero Valley?
+		<div className="bg-white">
+			<div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+				<div className="space-y-12">
+					<h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl text-center">
+						Il nostro team
+					</h2>
+					<p className="text-lg tracking-tight sm:text-4xl text-center font-normal">
+						Il team di Superhero Valley è composto da volontari che
+						hanno a cuore la community e che investono il loro tempo
+						affinchè tutto funzioni nel modo migliore possible. Vuoi
+						darci una mano? Contattaci!
 					</p>
-					<p className="lg:w-2/3 mx-auto leading-relaxed text-base"></p>
-					<p>
-						<Link href="">
-							<a className="hover:text-black hover:underline">Contattaci!</a>
-						</Link>
-					</p>
-				</div>
-				<div className="flex flex-wrap -m-4">
-					{TeamList.map((item) => (
-						<div className="p-4 lg:w-1/2" key={item.name}>
-							<div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+
+					<ul
+						role="list"
+						className="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0"
+					>
+						{TeamList.map((person) => (
+							<li
+								key={person.name}
+								className="flex flex-col gap-10 pt-12 sm:flex-row"
+							>
 								<img
-									src={item.image}
-									alt={item.name}
-									className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+									className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover"
+									src={person.image}
+									alt=""
 								/>
-								<div className="flex-grow sm:pl-8">
-									<h2 className="title-font font-medium text-lg text-gray-900">
-										{item.name}
-									</h2>
-									{/* <h3 className="text-gray-500 mb-3">UI Developer</h3> */}
-									<p className="mb-4">{item.company}</p>
-									<span className="inline-flex space-x-4">
-										{item.github && (
+								<div className="max-w-xl flex-auto">
+									<h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">
+										{person.name}
+									</h3>
+									<p className="text-base leading-7 text-gray-600">
+										{person.role}
+									</p>
+									<p className="mt-6 text-base leading-7 text-gray-600">
+										{person.bio}
+									</p>
+									<ul
+										role="list"
+										className="mt-6 flex gap-x-6"
+									>
+										{person.twitter && (
 											<a
-												href={item.github}
-												className="text-gray hover:text-black"
-												target="_blank"
-												rel="noreferrer"
+												href={person.twitter}
+												className="text-gray-400 hover:text-gray-500"
 											>
-												<span className="sr-only">GitHub</span>
-												<BsGithub />
+												<span className="sr-only">
+													Twitter
+												</span>
+												<svg
+													className="h-5 w-5"
+													aria-hidden="true"
+													fill="currentColor"
+													viewBox="0 0 20 20"
+												>
+													<path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+												</svg>
 											</a>
 										)}
-										{item.linkedin && (
+										{person.linkedin && (
 											<a
-												href={item.linkedin}
+												href={person.linkedin}
 												className="text-gray hover:text-black"
 												target="_blank"
 												rel="noreferrer"
 											>
-												<span className="sr-only">Linkedin</span>
+												<span className="sr-only">
+													Linkedin
+												</span>
 												<BsLinkedin />
 											</a>
 										)}
-										{item.twitter && (
+										{person.twitter && (
 											<a
-												href={item.twitter}
+												href={person.twitter}
 												className="text-gray hover:text-black"
 												target="_blank"
 												rel="noreferrer"
 											>
-												<span className="sr-only">Twitter</span>
+												<span className="sr-only">
+													Twitter
+												</span>
 												<BsTwitter />
 											</a>
 										)}
-										{item.href && (
+										{person.mastodon && (
 											<a
-												href={item.href}
+												href={person.mastodon}
 												className="text-gray hover:text-black"
 												target="_blank"
 												rel="noreferrer"
 											>
-												<span className="sr-only">Website</span>
+												<span className="sr-only">
+													Mastodon
+												</span>
+												<BsMastodon />
+											</a>
+										)}
+										{person.github && (
+											<a
+												href={person.github}
+												className="text-gray hover:text-black"
+												target="_blank"
+												rel="noreferrer"
+											>
+												<span className="sr-only">
+													GitHub
+												</span>
+												<BsGithub />
+											</a>
+										)}
+										{person.href && (
+											<a
+												href={person.href}
+												className="text-gray hover:text-black"
+												target="_blank"
+												rel="noreferrer"
+											>
+												<span className="sr-only">
+													Website
+												</span>
 												<BsLink45Deg />
 											</a>
 										)}
-									</span>
+									</ul>
 								</div>
-							</div>
-						</div>
-					))}
+							</li>
+						))}
+					</ul>
 				</div>
 			</div>
-		</section>
+		</div>
 	);
 };
