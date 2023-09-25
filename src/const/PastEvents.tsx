@@ -1,7 +1,151 @@
 export const PastEvents = [
 	{
 		year: "2023",
-		events: [],
+		events: [
+			{
+				category: "event",
+				guest_id: [43],
+				title: "Tecnical Leader in R&D C- UAS and Post-Quantum Cryptography",
+				href: "/superheroes",
+				year: "2023",
+				day: "19",
+				month: "06",
+				descriprion:
+				"Mark Diamantino Caribé è un ingegnere di cybersicurezza presso Thales. Durante il talk, Mark condividerà le sue conoscenze ed esperienze nel campo della crittografia post-quantistica e del ruolo di un leader tecnico in R&D C-UAS. Tratterà temi come le sfide e le opportunità della crittografia nell'era post-quantistica, l'importanza del leadership tecnico nella ricerca e sviluppo di C-UAS, e il ruolo della cybersicurezza in questo contesto emergente. ",
+			},
+			{
+				category: "event",
+				guest_id: [42],
+				title: "Managing High-Performing Engineering Teams in Big Tech",
+				href: "/superheroes",
+				year: "2023",
+				day: "12",
+				month: "06",
+				descriprion:
+				"Luca è Senior Engineering Manager in Uber, durante il talk condividerà le strategie da adottare per gestire al meglio un High-Performing Engineering Team. Si parlerà di talent acquisition, team optimization, goal setting e professional growth in Big Tech.",
+			},
+			{
+				category: "event",
+				guest_id: [41],
+				title: "I, Robot",
+				href: "/superheroes",
+				year: "2023",
+				day: "07",
+				month: "06",
+				descriprion:
+				"Fernando è Senior Robotics Software Engineer in Dyson. Ci racconterà dei suoi traguardi in Italia come Robotics Software Engineer presso l'Istituto Italiano di Teconologia (iit) e lo sviluppo di Robotics Software per i dispotivi Dyson nel campus di Hullavington (UK).",
+			},
+			{
+				category: "event",
+				guest_id: [40],
+				title: "Program Management in Big Tech",
+				href: "/superheroes",
+				year: "2023",
+				day: "30",
+				month: "05",
+				descriprion:
+				"Marco è attualmente Tech Startup Advisor, è stato Program Manager in Kraken, Google e Nokia. Durante il talk racconterà della sua avventura dall'informatica al program management, quali sono i compiti di un Program Manager nelle Big Tech e della sua esperienza da freelance come Tech Startup Advisor.",
+			},
+			{
+				category: "event",
+				guest_id: [39],
+				title: "From C++ To Kernel Engineering",
+				href: "/superheroes",
+				year: "2023",
+				day: "22",
+				month: "05",
+				descriprion:
+				"Vladislav è Senior MTS Kernel Engineer a VMware, ci racconterà della sua avventura da developer in C++ a Kernel Engineer. Durante il talk Vladislav parlerà della sua esperienza nel mondo del lavoro fin da giovane, la passione per Linux, il suo contributo personale al mondo open source ed il trasferimento in Silicon Valley.",
+			},
+			{
+				category: "event",
+				guest_id: [38],
+				title: "Quantum Computing is like magic",
+				href: "/superheroes",
+				year: "2023",
+				day: "19",
+				month: "05",
+				descriprion:
+				"Jordan is Tech Evangelist AWS Braket. In this talk she will talk about Quantum Computing, especially in Amazon",
+			},
+			{
+				category: "event",
+				guest_id: [37],
+				title: "Sognando la California",
+				href: "/superheroes",
+				year: "2023",
+				day: "15",
+				month: "05",
+				descriprion:
+				"Alberto è HPC DevOps Engineer in Seqera Labs. Dopo aver passato un periodo a Berkeley è tornato in Italia e non vede l'ora di raccontarci come si vive in California",
+			},
+			{
+				category: "event",
+				guest_id: [36],
+				title: "My path to Crazyness",
+				href: "/superheroes",
+				year: "2023",
+				day: "04",
+				month: "04",
+				descriprion:
+				"Alberto è Senior Machine Learning Engineer a Meta, ci racconterà della sua 'folle' esperienza. Durante il talk Alberto parlerà della sua esperienza e preparazione per i colloqui prima in JP Morgan e poi in Meta.",
+			},
+			{
+				category: "event",
+				guest_id: [35],
+				title: "My path to Google",
+				href: "/superheroes",
+				year: "2023",
+				day: "29",
+				month: "03",
+				descriprion:
+				"Antonino è Site Reliability Manager a Google, ci racconterà della sua molteplice esperienza nelle big tech. Durante il talk avremo modo di capire come Antonino sia arrivato prima alla Sun Microsystems, poi Amazon ed infine in Google.",
+			},
+			{
+				category: "event",
+				guest_id: [34],
+				title: "Augmented and Virtual Reality from a Software Engineer point of view",
+				href: "/superheroes",
+				year: "2023",
+				day: "27",
+				month: "02",
+				descriprion:
+				"Alberto Taiuti è 3D Software Engineer in Skydio, ha lavorato su Augmented e Virtual Reality in Apple ed ha co-fondato Luma AI.",
+			},
+			{
+				category: "event",
+				guest_id: [33],
+				title: "Antonio Gulli live a Pisa",
+				href: "/superheroes",
+				year: "2023",
+				day: "20",
+				month: "02",
+				descriprion:
+				"Antonio Gulli è Senior Director in Google. In questa live presso l'Università di Pisa avremo modo di scoprire la storia di Antonio, da Pisa fino a Zurigo in Google passando per il dottorato di ricerca e la sua esperienza nel mondo startup e nella difficoltà di portare una azienda come Ask ad investire in Italia.",
+			},
+			{
+				category: "event",
+				guest_id: [32],
+				title: "My path to Software Engineering at Google",
+				href: "/superheroes",
+				year: "2023",
+				day: "06",
+				month: "02",
+				descriprion:
+				"Nancy is a Software Engineer in Google. In this talk we deep dive on how to grok the technical interview process",
+			},
+			{
+				category: "event",
+				guest_id: [31],
+				title: "My path to Google",
+				href: "/superheroes",
+				year: "2023",
+				day: "02",
+				month: "02",
+				descriprion:
+				"Simone è Machine Learning Software Engineer in Google. Durante il talk ci parlerà di come perfezionare il CV e prepararsi ai colloqui per le FAANG",
+			},
+		],
 	},
 	{
 		year: "2022",
