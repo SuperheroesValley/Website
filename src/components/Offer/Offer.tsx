@@ -1,3 +1,30 @@
+import {
+	CloudArrowUpIcon,
+	LockClosedIcon,
+	ServerIcon,
+} from "@heroicons/react/20/solid";
+
+const features = [
+	{
+		name: "Push to deploy.",
+		description:
+			"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+		icon: CloudArrowUpIcon,
+	},
+	{
+		name: "SSL certificates.",
+		description:
+			"Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+		icon: LockClosedIcon,
+	},
+	{
+		name: "Database backups.",
+		description:
+			"Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+		icon: ServerIcon,
+	},
+];
+
 export const Offer = () => {
 	return (
 		<section className="text-gray-600 body-font" id="our_offer">
@@ -8,6 +35,7 @@ export const Offer = () => {
 						Come funziona Superhero Valley?
 					</h1>
 				</div>
+
 				<div className="flex flex-wrap -m-4">
 					<div className="p-4 md:w-1/3">
 						<div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
@@ -31,9 +59,10 @@ export const Offer = () => {
 							</div>
 							<div className="flex-grow">
 								<p className="leading-relaxed text-base">
-									Organizziamo talks invitando dipendenti di Big Tech Companies
-									in modo tale da poter conoscere più da vicino queste aziende e
-									il percorso che porta ad essere assunti.
+									Organizziamo talks invitando dipendenti di
+									Big Tech Companies in modo tale da poter
+									conoscere più da vicino queste aziende e il
+									percorso che porta ad essere assunti.
 								</p>
 								{/* <a className="mt-3 text-blue-500 inline-flex items-center">
 									Learn More
@@ -75,10 +104,11 @@ export const Offer = () => {
 							</div>
 							<div className="flex-grow">
 								<p className="leading-relaxed text-base">
-									Non prendiamoci in giro, preparsi per una interview può essere
-									molto noioso. Per questo motivo organizziamo gruppi di
-									esercizio per prepararsi alle interview tecniche delle Big
-									Tech companies.
+									Non prendiamoci in giro, preparsi per una
+									interview può essere molto noioso. Per
+									questo motivo organizziamo gruppi di
+									esercizio per prepararsi alle interview
+									tecniche delle Big Tech companies.
 								</p>
 								{/* <a className="mt-3 text-blue-500 inline-flex items-center">
 									Learn More
@@ -121,10 +151,12 @@ export const Offer = () => {
 							</div>
 							<div className="flex-grow">
 								<p className="leading-relaxed text-base">
-									Quale modo migliore per testare la propria preparazione di una
-									mock interview pubblica di fronte a tutta la community? Ti
-									abbiamo spaventato? Non preoccuparti, se non sei ancora pronto
-									potrai esercitarti privatamente con gli altri utenti della
+									Quale modo migliore per testare la propria
+									preparazione di una mock interview pubblica
+									di fronte a tutta la community? Ti abbiamo
+									spaventato? Non preoccuparti, se non sei
+									ancora pronto potrai esercitarti
+									privatamente con gli altri utenti della
 									community.
 								</p>
 								{/* <a className="mt-3 text-blue-500 inline-flex items-center">
