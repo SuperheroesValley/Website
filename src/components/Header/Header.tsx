@@ -1,8 +1,4 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from "react";
-import { Popover, Transition } from "@headlessui/react";
-import Link from "next/link";
-import { navigation } from "../../const/navigation";
 import { HeaderBaseWithoutLogo } from "../HeaderBaseWithoutLogo";
 import { Hero } from "../Hero";
 import { Bridge } from "../Bridge";

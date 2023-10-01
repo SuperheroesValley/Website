@@ -39,7 +39,7 @@ export const HeaderBaseWithoutLogo = () => {
 							<a
 								key={item.name}
 								href={item.href}
-								className="text-xl text-black-900 hover:text-gray-700"
+								className="text-xl text-black-900 hover:text-gray-700 font-bold"
 							>
 								{item.name}
 							</a>
@@ -105,7 +105,7 @@ export const HeaderBaseWithoutLogo = () => {
 								<a
 									key={item.name}
 									href={item.href}
-									className="block px-3 py-2 rounded-md text-base font-medium text-black-700 hover:text-gray-900 hover:bg-gray-50"
+									className="block px-3 py-2 rounded-md text-base text-black-700 hover:text-gray-900 hover:bg-gray-50 font-medium"
 								>
 									{item.name}
 								</a>

@@ -10,7 +10,7 @@ export const MentorshipList = () => {
 						I nostri mentor
 					</h1>
 
-					<div className="flex flex-wrap -m-2">
+					{/* <div className="flex flex-wrap -m-2">
 						{superheroes.map(
 							(item) =>
 								item.role.includes("mentor") && (
@@ -36,7 +36,7 @@ export const MentorshipList = () => {
 									</div>
 								),
 						)}
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</section>
