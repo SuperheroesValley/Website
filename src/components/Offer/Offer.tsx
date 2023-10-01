@@ -4,27 +4,6 @@ import {
 	ServerIcon,
 } from "@heroicons/react/20/solid";
 
-const features = [
-	{
-		name: "Push to deploy.",
-		description:
-			"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-		icon: CloudArrowUpIcon,
-	},
-	{
-		name: "SSL certificates.",
-		description:
-			"Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
-		icon: LockClosedIcon,
-	},
-	{
-		name: "Database backups.",
-		description:
-			"Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-		icon: ServerIcon,
-	},
-];
-
 export const Offer = () => {
 	return (
 		<section className="text-gray-600 body-font" id="our_offer">
@@ -32,147 +11,134 @@ export const Offer = () => {
 				<div className="flex flex-col text-center w-full mb-20">
 					{/* <h2 className="text-xs text-blue-500 tracking-widest font-medium title-font mb-1"></h2> */}
 					<h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
-						Come funziona Superhero Valley?
+						Come offre Superhero Valley?
 					</h1>
 				</div>
+				<div className="overflow-hidden bg-white py-24 sm:py-32">
+					<div className="mx-auto max-w-7xl px-6 lg:px-8">
+						<div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+							<div className="lg:pr-8 lg:pt-4">
+								<div className="lg:max-w-lg">
+									{/* <h2 className="text-base font-semibold leading-7 text-indigo-600">
+								Talks
+							</h2> */}
+									<p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+										Talks
+									</p>
+									<p className="mt-6 text-lg leading-8 text-gray-600">
+										Organizziamo talks invitando dipendenti
+										di Big Tech Companies in modo tale da
+										poter conoscere più da vicino queste
+										aziende e il percorso che porta ad
+										essere assunti.
+									</p>
+									<dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+										<div
+											key={"Talks"}
+											className="relative pl-9"
+										>
+											<dt className="inline font-semibold text-gray-900">
+												📣{" "}
+												{
+													"Vuoi rimanere aggiornato con i prossimi talk per non perdertene neache uno? "
+												}
+											</dt>{" "}
+											<dd className="inline">
+												{
+													"Iscriviti al nostro calendario condiviso!"
+												}
+											</dd>
+										</div>
+										<div
+											key={"Talks"}
+											className="relative pl-9"
+										>
+											<dt className="inline font-semibold text-gray-900">
+												🎤{" "}
+												{
+													"Vuoi scoprire gli eventi che abbiamo organizzato fino ad oggi?"
+												}
+											</dt>{" "}
+											<dd className="inline">
+												{
+													"Visita la pagina degli eventi passati!"
+												}
+											</dd>
+										</div>
+									</dl>
+								</div>
+							</div>
+							<img
+								src="./images/talks.jpg"
+								alt="Photo by Edwin Andrade on Unsplash"
+								className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+								width={2432}
+								height={1442}
+							/>
+						</div>
+					</div>
+				</div>
 
-				<div className="flex flex-wrap -m-4">
-					<div className="p-4 md:w-1/3">
-						<div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-							<div className="flex items-center mb-3">
-								<div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2"
-										className="w-5 h-5"
-										viewBox="0 0 24 24"
-									>
-										<path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-									</svg>
+				<div className="overflow-hidden bg-white py-24 sm:py-32">
+					<div className="mx-auto max-w-7xl px-6 lg:px-8">
+						<div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+							<img
+								src="./images/gym.jpg"
+								alt="Photo by Nathan Dumlao on Unsplash"
+								className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:-ml-96 md:-ml-80 lg:-ml-80 xl:-ml-60 2xl:-ml-60"
+								width={2432}
+								height={1442}
+							/>
+							<div className="lg:pr-8 lg:pt-4">
+								<div className="lg:max-w-lg">
+									{/* <h2 className="text-base font-semibold leading-7 text-indigo-600">
+								Deploy faster
+							</h2> */}
+									<p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+										Gruppo Esercizi
+									</p>
+									<p className="mt-6 text-lg leading-8 text-gray-600">
+										Non prendiamoci in giro, preparsi per
+										una interview può essere molto noioso.
+										Per questo motivo organizziamo gruppi di
+										esercizio per prepararsi alle interview
+										tecniche delle Big Tech companies.
+									</p>
+									<dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+										<div
+											key={"Interview"}
+											className="relative pl-9"
+										>
+											<dt className="inline font-semibold text-gray-900">
+												🏃‍♂️{" "}
+												{
+													"Ti stai preparando per una interview ma non vuoi farlo da solo?"
+												}
+											</dt>{" "}
+											<dd className="inline">
+												{
+													"Uniscito al nostro gruppo esercizi sul server Discord per prepararti insieme agli altri utenti"
+												}
+											</dd>
+										</div>
+										<div
+											key={"Mock"}
+											className="relative pl-9"
+										>
+											<dt className="inline font-semibold text-gray-900">
+												😱{" "}
+												{
+													"Pronto a metterti alla prova con una mock interview?"
+												}
+											</dt>{" "}
+											<dd className="inline">
+												{
+													"Ti offriamo la possibilità di fare pratica con una mock interview pubblica di fronte a tutta la community"
+												}
+											</dd>
+										</div>
+									</dl>
 								</div>
-								<h2 className="text-gray-900 text-lg title-font font-medium">
-									Talks
-								</h2>
-							</div>
-							<div className="flex-grow">
-								<p className="leading-relaxed text-base">
-									Organizziamo talks invitando dipendenti di
-									Big Tech Companies in modo tale da poter
-									conoscere più da vicino queste aziende e il
-									percorso che porta ad essere assunti.
-								</p>
-								{/* <a className="mt-3 text-blue-500 inline-flex items-center">
-									Learn More
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2"
-										className="w-4 h-4 ml-2"
-										viewBox="0 0 24 24"
-									>
-										<path d="M5 12h14M12 5l7 7-7 7"></path>
-									</svg>
-								</a> */}
-							</div>
-						</div>
-					</div>
-					<div className="p-4 md:w-1/3">
-						<div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-							<div className="flex items-center mb-3">
-								<div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2"
-										className="w-5 h-5"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-										<circle cx="12" cy="7" r="4"></circle>
-									</svg>
-								</div>
-								<h2 className="text-gray-900 text-lg title-font font-medium">
-									Gruppi di esercizio
-								</h2>
-							</div>
-							<div className="flex-grow">
-								<p className="leading-relaxed text-base">
-									Non prendiamoci in giro, preparsi per una
-									interview può essere molto noioso. Per
-									questo motivo organizziamo gruppi di
-									esercizio per prepararsi alle interview
-									tecniche delle Big Tech companies.
-								</p>
-								{/* <a className="mt-3 text-blue-500 inline-flex items-center">
-									Learn More
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2"
-										className="w-4 h-4 ml-2"
-										viewBox="0 0 24 24"
-									>
-										<path d="M5 12h14M12 5l7 7-7 7"></path>
-									</svg>
-								</a> */}
-							</div>
-						</div>
-					</div>
-					<div className="p-4 md:w-1/3">
-						<div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-							<div className="flex items-center mb-3">
-								<div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2"
-										className="w-5 h-5"
-										viewBox="0 0 24 24"
-									>
-										<circle cx="6" cy="6" r="3"></circle>
-										<circle cx="6" cy="18" r="3"></circle>
-										<path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-									</svg>
-								</div>
-								<h2 className="text-gray-900 text-lg title-font font-medium">
-									Mock Interview
-								</h2>
-							</div>
-							<div className="flex-grow">
-								<p className="leading-relaxed text-base">
-									Quale modo migliore per testare la propria
-									preparazione di una mock interview pubblica
-									di fronte a tutta la community? Ti abbiamo
-									spaventato? Non preoccuparti, se non sei
-									ancora pronto potrai esercitarti
-									privatamente con gli altri utenti della
-									community.
-								</p>
-								{/* <a className="mt-3 text-blue-500 inline-flex items-center">
-									Learn More
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2"
-										className="w-4 h-4 ml-2"
-										viewBox="0 0 24 24"
-									>
-										<path d="M5 12h14M12 5l7 7-7 7"></path>
-									</svg>
-								</a> */}
 							</div>
 						</div>
 					</div>

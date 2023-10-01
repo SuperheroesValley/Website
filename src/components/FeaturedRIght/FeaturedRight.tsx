@@ -1,7 +1,7 @@
 import { TeamList } from "../../const/TeamList";
 import { BsLink45Deg, BsTwitter, BsLinkedin, BsGithub } from "react-icons/bs";
 
-function FeaturedRight(feature:any) {
+function FeaturedRight({feature}:any) {
 	return (
 		<div className="overflow-hidden bg-white py-24 sm:py-32">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -51,3 +51,5 @@ function FeaturedRight(feature:any) {
 		</div>
 	);
 }
+
+export default FeaturedRight

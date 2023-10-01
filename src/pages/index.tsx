@@ -8,6 +8,8 @@ import { trpc } from "../utils/trpc";
 import { ConcactForm } from "../components/ContactForm/ContacForm";
 import { Banner } from "../components/Banner";
 
+
+
 const Home: NextPage = () => {
 	return (
 		<div>
