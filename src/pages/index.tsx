@@ -7,8 +7,7 @@ import { Hero } from "../components/Hero";
 import { trpc } from "../utils/trpc";
 import { ConcactForm } from "../components/ContactForm/ContacForm";
 import { Banner } from "../components/Banner";
-
-
+import { Posts } from "../components/Posts";
 
 const Home: NextPage = () => {
 	return (
@@ -16,8 +15,10 @@ const Home: NextPage = () => {
 			{/* <Banner /> */}
 			<Header />
 			<Offer />
+            <Posts/>
 			{/* <Team /> */}
 			{/* <ConcactForm /> */}
+			
 			<Footer />
 		</div>
 	);
