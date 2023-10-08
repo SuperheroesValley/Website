@@ -8,6 +8,7 @@ import { trpc } from "../utils/trpc";
 import { ConcactForm } from "../components/ContactForm/ContacForm";
 import { Banner } from "../components/Banner";
 import { Posts } from "../components/Posts";
+import NextEvents from "../components/NextEvent/NextEvents";
 
 const Home: NextPage = () => {
 	return (
@@ -15,10 +16,11 @@ const Home: NextPage = () => {
 			{/* <Banner /> */}
 			<Header />
 			<Offer />
+            {/* <NextEvents/> */}
+
             <Posts/>
 			{/* <Team /> */}
 			{/* <ConcactForm /> */}
-			
 			<Footer />
 		</div>
 	);
