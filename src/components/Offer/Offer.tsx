@@ -3,6 +3,7 @@ import {
 	LockClosedIcon,
 	ServerIcon,
 } from "@heroicons/react/20/solid";
+import Link from "next/link";
 
 export const Offer = () => {
 	return (
@@ -14,7 +15,7 @@ export const Offer = () => {
 						Cosa offre Superhero Valley?
 					</h1>
 				</div>
-				<div className="overflow-hidden bg-white py-24 sm:py-32">
+				<div className="overflow-hidden bg-white">
 					<div className="mx-auto max-w-7xl px-6 lg:px-8">
 						<div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 							<div className="lg:pr-8 lg:pt-4">
@@ -43,10 +44,13 @@ export const Offer = () => {
 													"Vuoi rimanere aggiornato con i prossimi talk per non perdertene neache uno? "
 												}
 											</dt>{" "}
+                                            
 											<dd className="inline">
-												{
-													"Iscriviti al nostro calendario condiviso!"
-												}
+                                                <Link href="https://calendar.google.com/calendar/u/0?cid=cXAxaDMxbHBkMTZnbXAxYm04ZW91bW1nY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">
+                                                    <a className="text-gray-600 hover:text-blue-500">
+                                                    Iscriviti al nostro calendario condiviso!
+                                                    </a>
+                                                </Link>
 											</dd>
 										</div>
 										<div
@@ -59,10 +63,12 @@ export const Offer = () => {
 													"Vuoi scoprire gli eventi che abbiamo organizzato fino ad oggi?"
 												}
 											</dt>{" "}
-											<dd className="inline">
-												{
-													"Visita la pagina degli eventi passati!"
-												}
+											<dd className="inline" >
+                                                <Link href="/PastEvents">
+                                                    <a className="text-gray-600 hover:text-blue-500">
+                                                    Visita la pagina degli eventi passati!
+                                                    </a>
+                                                </Link>
 											</dd>
 										</div>
 									</dl>
@@ -102,7 +108,7 @@ export const Offer = () => {
 										una interview può essere molto noioso.
 										Per questo motivo organizziamo gruppi di
 										esercizio per prepararsi alle interview
-										tecniche delle Big Tech companies.
+										tecniche delle Big Tech company.
 									</p>
 									<dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
 										<div
@@ -116,9 +122,11 @@ export const Offer = () => {
 												}
 											</dt>{" "}
 											<dd className="inline">
-												{
-													"Uniscito al nostro gruppo esercizi sul server Discord per prepararti insieme agli altri utenti"
-												}
+                                                <Link href="https://discord.gg/uPRmhHwMem">
+                                                    <a className="text-gray-600 hover:text-blue-500">
+                                                        Unisciti al nostro gruppo esercizi sul server Discord per prepararti insieme agli altri utenti
+                                                    </a>
+                                                </Link>
 											</dd>
 										</div>
 										<div
@@ -143,7 +151,7 @@ export const Offer = () => {
 						</div>
 					</div>
 				</div>
-                <div className="overflow-hidden bg-white py-24 sm:py-32">
+                <div className="overflow-hidden bg-white ">
 					<div className="mx-auto max-w-7xl px-6 lg:px-8">
 						<div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 							<div className="lg:pr-8 lg:pt-4">
@@ -155,43 +163,37 @@ export const Offer = () => {
 										Mentorship
 									</p>
 									<p className="mt-6 text-lg leading-8 text-gray-600">
-										Organizziamo talks invitando dipendenti
-										di Big Tech company in modo tale da
-										poter conoscere più da vicino queste
-										aziende e il percorso che porta ad
-										essere assunti.
+										Superhero Valley offre un programma di mentorship 1:1 con 
+                                        mentor in gran parte provenienti da Big Tech company.
+                                        Il programma è gratuito e chiunque può partecipare. La prossima 
+                                        call for mentee aprirà a breve! Seguici su <Link href="https://t.me/+zIcgNjPpYpIzNmU0">
+                                                    <a className="hover:text-blue-500">
+                                                        Telegram
+                                                    </a>
+                                                </Link> o <Link href="https://discord.gg/uPRmhHwMem">
+                                                    <a className="hover:text-blue-500">
+                                                        Discord
+                                                    </a>
+                                                </Link> per 
+                                        rimanere aggiornato!
 									</p>
 									<dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
 										<div
-											key={"Talks"}
-											className="relative pl-9"
-										>
-											<dt className="inline font-semibold text-gray-900">
-												📣{" "}
-												{
-													"Vuoi rimanere aggiornato con i prossimi talk per non perdertene neache uno? "
-												}
-											</dt>{" "}
-											<dd className="inline">
-												{
-													"Iscriviti al nostro calendario condiviso!"
-												}
-											</dd>
-										</div>
-										<div
-											key={"Talks"}
+											key={"Mentorship"}
 											className="relative pl-9"
 										>
 											<dt className="inline font-semibold text-gray-900">
 												🎤{" "}
 												{
-													"Vuoi scoprire gli eventi che abbiamo organizzato fino ad oggi?"
+													"Vuoi saperne di più?"
 												}
 											</dt>{" "}
 											<dd className="inline">
-												{
-													"Visita la pagina degli eventi passati!"
-												}
+                                                    <Link href="https://discord.gg/uPRmhHwMem">
+                                                    <a className="text-gray-600 hover:text-blue-500">
+                                                        Scopri tutti i dettagli!
+                                                    </a>
+                                                </Link>
 											</dd>
 										</div>
 									</dl>
