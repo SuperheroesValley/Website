@@ -94,7 +94,7 @@ export const TeamList = [
 		twitter: "",
 		role: "Community Manager",
 		image: "./team/stefano.png",
-        bio: 'Software Engineer @ Uber Ex-amazon Software Engineer. Passioned about Business and make money with technology.',
+        bio: 'Software Engineer @ Uber, Ex-amazon Software Engineer. Passioned about Business and make money with technology.',
 	},
     {
 		id: 7,
