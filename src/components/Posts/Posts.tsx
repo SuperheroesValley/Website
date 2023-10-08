@@ -5,7 +5,7 @@ const posts = [
       description:
         'Dubbi su quale template usare? Devo mettere o no la foto nel CV? In questa guida troverai tutte le risposte alle tue domande',
       imageUrl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+      "/images/cv.jpg",
     },
     {
       title: 'Come trovare aziende interessanti',
@@ -13,7 +13,7 @@ const posts = [
       description:
         'Non tutte le aziende sono perfette, in questa guida cercheremo di aiutarti a trovare la migliore per te!',
       imageUrl:
-        'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+      "/images/aziende.jpg",
     },
     {
       title: 'Come prepararsi alla coding interview',
@@ -21,7 +21,7 @@ const posts = [
       description:
         'Preparare una interview non è facile? Ti sveliamo qualche trucchetto per arrivare il più preparato possibile in questa guida.',
       imageUrl:
-        'https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+      "/images/code.jpg",
     },
   ]
 
