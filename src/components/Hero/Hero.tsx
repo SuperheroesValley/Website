@@ -24,7 +24,7 @@ export const Hero = () => {
 				<p className="mt-3 max-w-md mx-auto text-base text-gray-800 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
 					<b>Superhero valley</b> è la community italiana che ti
 					prepara <br></br> per i colloqui delle{" "}
-					<b>Big Tech Companies</b>. <br></br>
+					<b>Big Tech Company</b>. <br></br>
 					Organizziamo talks, gruppi di esercizio e mock interview.{" "}
 					<br></br>
 					<b>Ti abbiamo incuriosito?</b>
