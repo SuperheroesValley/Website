@@ -10,7 +10,7 @@ export const Footer = () => {
 							src="./images/logo.png"
 							className="w-20 h-20 text-white p-2 rounded-full"
 						/>
-						<span className="ml-3 text-xl">SuperHeroValley</span>
+						<span className="ml-3 text-xl">Superhero Valley</span>
 					</a>
 					{/* <p className="mt-2 text-sm text-gray-500">
 						Air plant banjo lyft occupy retro adaptogen indego

@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { navigation } from "../../const/navigation";
 import Link from "next/link";
-
+import Image from "next/image";
 export const HeaderBase = () => {
 	return (
 		<Popover>
@@ -15,12 +15,15 @@ export const HeaderBase = () => {
 					<div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
 						<div className="flex items-center justify-between w-full md:w-auto">
 							<Link href="/">
-								<a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-									<img
-										src="./images/Logo_Black_sito.svg"
-										className="w-20 h-20 text-white p-2 "
+								<div className="hover:cursor-pointer flex justify-center items-center">
+									<Image
+										height="60"
+										width="60"
+										src="/images/Logo_no_background.svg"
+										alt="Superhero Valley Logo"
+										title="Home"
 									/>
-								</a>
+								</div>
 							</Link>
 							<div className="-mr-2 flex items-center md:hidden">
 								<Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
@@ -48,7 +51,7 @@ export const HeaderBase = () => {
 							<a
 								key={item.name}
 								href={item.href}
-								className="text-xl text-black-500 hover:text-gray-900"
+								className="text-xl text-black-500 hover:text-gray-900 font-bold"
 							>
 								{item.name}
 							</a>
@@ -83,12 +86,17 @@ export const HeaderBase = () => {
 				>
 					<div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
 						<div className="px-5 pt-4 flex items-center justify-between">
-							<div>
-								<img
-									src="./images/logo.png"
-									className="w-20 h-20 text-white p-2 rounded-full"
-								/>
-							</div>
+							<Link href="/">
+								<div className="hover:cursor-pointer flex justify-center items-center">
+									<Image
+										height="60"
+										width="60"
+										src="/images/Logo_no_background.svg"
+										alt="Superhero Valley Logo"
+										title="Home"
+									/>
+								</div>
+							</Link>
 							<div className="-mr-2">
 								<Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
 									<span className="sr-only">Close menu</span>

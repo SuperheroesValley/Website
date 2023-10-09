@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const MentorshipHero = () => {
 	return (
 		<div className="relative bg-gray-800">
@@ -25,8 +27,15 @@ export const MentorshipHero = () => {
 						<a href="mailto:info@superheroesvalley.fun">contattaci</a>.
 					</p>
 					<p className="mt-3 text-lg text-gray-300">
-						Le iscrizioni sono chiuse, seguici sui social e nel nostro server
-						Discord per sapere quando riapriranno.
+						Le iscrizioni per il programma apriranno a breve, seguici sui social e nel nostro server  <Link href="https://discord.gg/uPRmhHwMem">
+                                                    <a className="hover:text-blue-500">
+                                                        Discord 
+                                                    </a>
+                                                </Link> o su <Link href="https://t.me/+zIcgNjPpYpIzNmU0">
+                                                    <a className="hover:text-blue-500">
+                                                        Telegram
+                                                    </a>
+                                                </Link> per rimanere aggiornato!
 					</p>
 					{/* <div className="mt-8">
 						<div className="inline-flex rounded-md shadow">

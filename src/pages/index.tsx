@@ -7,14 +7,19 @@ import { Hero } from "../components/Hero";
 import { trpc } from "../utils/trpc";
 import { ConcactForm } from "../components/ContactForm/ContacForm";
 import { Banner } from "../components/Banner";
+import { Posts } from "../components/Posts";
+import NextEvents from "../components/NextEvent/NextEvents";
 
 const Home: NextPage = () => {
 	return (
 		<div>
-			<Banner />
+			{/* <Banner /> */}
 			<Header />
 			<Offer />
-			<Team />
+            {/* <NextEvents/> */}
+
+            <Posts/>
+			{/* <Team /> */}
 			{/* <ConcactForm /> */}
 			<Footer />
 		</div>
