@@ -35,6 +35,6 @@ export const faqs_mentorship = [
 		id: 4,
 		question: "Come faccio a partecipare?",
 		answer:
-			"Per partecipare invia la tua candidatura allegando il tuo CV tramite il link che trovi sopra.",
+			"Il programma di mentorship aprirà a Novembre. Troverai il link al form per inviare la tua candidatura in questa pagina.",
 	},
 ];
