@@ -73,7 +73,7 @@ export const Footer = () => {
 					<p className="text-gray-500 text-sm text-center sm:text-left hover:text-blue-500">
 						© 2022 Superhero Valley —
 						<a
-							href="https://twitter.com/lucacorbucci"
+							href="https://lucacorbucci.me"
 							rel="noopener noreferrer"
 							className="text-gray-600 ml-1"
 							target="_blank"
