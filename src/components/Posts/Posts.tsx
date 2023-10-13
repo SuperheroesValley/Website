@@ -35,10 +35,10 @@ export const Posts = () => {
 					<div className="relative max-w-7xl mx-auto">
 						<div className="text-center">
 							<h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
-								Dalla nostra wiki:
+								Dalla nostra <a href="https://wiki.superherovalley.fun/">Wiki</a>:
 							</h2>
 							<p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-								La wiki di Superhero Valley contiene tante guide interessanti che ti guideranno dalla scrittura
+								La <a href="https://wiki.superherovalley.fun/">Wiki</a> di Superhero Valley contiene tante guide interessanti che ti guideranno dalla scrittura
                                 fino alla negoziazione del contratto.
 							</p>
 						</div>
