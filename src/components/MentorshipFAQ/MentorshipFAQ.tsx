@@ -11,7 +11,7 @@ export const MentorshipFAQ = () => {
 					<p className="mt-4 text-gray-500">
 						Qui puoi trovare tutte le informazioni riguardo al nostro programma
 						di mentorship. Se non hai trovato quello che cerchi{" "}
-						<a href="mailto:info@superheroesvalley.fun">contattaci</a>
+						<a href="mailto:info@superherovalley.fun">contattaci</a>
 					</p>
 				</div>
 				<div className="mt-20">

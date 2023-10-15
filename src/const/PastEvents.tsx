@@ -254,7 +254,7 @@ export const PastEvents = [
 				day: "02",
 				month: "05",
 				descriprion:
-					"Diego è Staff Software Engineer a Twitter e, Lunedì 2 Maggio alle 21:30, avremo il piacere di ospitarlo a parlarci del suo percorso che lo ha portato a Twitter! ",
+					"Diego è Staff Software Engineer a Twitter e, Lunedì 2 Maggio alle 21:30, avremo il piacere di ospitarlo a parlarci del suo percorso che lo ha portato a Twitter!",
 			},
 			{
 				category: "event",
@@ -386,7 +386,7 @@ export const PastEvents = [
 				year: "2021",
 				day: "25",
 				month: "10",
-				descriprion: "Diego terrà un talk su come scrivere un CV e farà anche uno screening live dei CV. ",
+				descriprion: "Diego terrà un talk su come scrivere un CV e farà anche uno screening live dei CV.",
 			},
 			{
 				category: "event",
