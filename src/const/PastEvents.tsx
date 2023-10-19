@@ -2,7 +2,7 @@ export const PastEvents = [
 	{
 		year: "2023",
 		events: [
-			/*{
+			{
             	category: "event",
             	guest_id: [],
             	title: "Superhero Valley - La Nuova Stagione 3",
@@ -13,7 +13,6 @@ export const PastEvents = [
             	descriprion:
             	"Ebbene si, la nuova stagione di Superhero Valley è iniziata! Abbiamo introdotto i nuovi membri alla community, a ciò che facciamo portando anche al testimonianza dei precedenti mentee ed i loro risultati.",
         	},
-			*/
 			{
 				category: "event",
 				guest_id: [43],

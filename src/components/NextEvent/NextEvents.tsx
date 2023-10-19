@@ -67,31 +67,31 @@ export default function NextEvents() {
 
 const posts = [
 	{
-		title: 'How to mock interview con Diego Puppin',
+		title: 'How to... mock interview con Diego Puppin',
 		imageUrl: "/guests/diego_puppin.webp",
-		href: '',
-		date: '13 Novembre 2023',
-		description: 'Diego è Staff Software Engineer a Twitter, in questo evento parlerà di come si affronta una mock interview',
+		href: 'https://bit.ly/3Q0zmWS',
+		date: '13 Novembre 2023 18:30',
+		description: 'Diego è Staff Software Engineer a Synthesia, in questo evento parlerà di come si affronta una mock interview',
 	},
 	{
-		title: 'How to write a CV con Diego Ceccarelli',
+		title: 'How to... write a CV con Diego Ceccarelli',
 		imageUrl: "/guests/diego_ceccarelli.webp",
-		href: '',
-		date: '6 Novembre 2023',
+		href: 'https://bit.ly/4016LoO',
+		date: '6 Novembre 2023 18:30',
 		description: 'Diego è AI Team Leader a Bloomberg, in questo evento parlerà di come scrivere un CV',
 	},
 	{
 		title: 'My path to Google con Federico Scloza',
-		imageUrl: "/images/logo.png",
-		href: '',
+		imageUrl: "./guests/default_img.png",
+		href: 'https://bit.ly/3Q9zrrs',
 		date: '30 Ottobre 2023 Ore 18:30',
 		description: 'Federico è Software Engineer in Google, ci parlerà del suo percorso fino a Google',
 	},
 	{
-		title: 'Interview process con Nicola Corti',
+		title: 'The Tech Interview process is fundamentally broken con Nicola Corti',
 		imageUrl: "/guests/nicola_corti.webp",
-		href: '',
-		date: '23 Ottobre 2023',
+		href: 'https://bit.ly/3QklVCv',
+		date: '23 Ottobre 2023 18:30',
 		description: 'Nicola è Staff Engineer a Meta, ci parlerà di come affrontare i colloqui in Big Tech',
 	},
   ]
