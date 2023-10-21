@@ -24,8 +24,8 @@ export const navigation = [
 		current: false,
 	},
 	{
-		name: "Eventi Passati",
-		href: "/PastEvents",
+		name: "Eventi",
+		href: "/Events",
 		external: true,
 		current: false,
 	},

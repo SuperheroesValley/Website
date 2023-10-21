@@ -46,9 +46,9 @@ export const Offer = () => {
 												}
 											</dt>{" "}
 											<dd className="inline" >
-                                                <Link href="/PastEvents">
+                                                <Link href="/Events">
                                                     <a className="text-gray-600 hover:text-blue-500 text-xl">
-                                                    Visita la pagina degli eventi passati!
+                                                    Visita la pagina degli eventi!
                                                     </a>
                                                 </Link>
 											</dd>

@@ -1,4 +1,4 @@
-// import { PastEvents } from "../../const/PastEvents";
+// import { Events } from "../../const/Events";
 // import { superheroes } from "../../const/superheroes";
 // import { get_element } from "../../utils/utils";
 
@@ -29,7 +29,7 @@ function GuestInfo(props: any) {
 	);
 }
 
-export const PastEventsList = () => {
+export const EventsList = () => {
 	return (
 		<section className="text-gray-600 body-font overflow-hidden">
 			{Events.map((item) => (
