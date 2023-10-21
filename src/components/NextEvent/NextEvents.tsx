@@ -72,7 +72,7 @@ export const NextEvents = () => {
 						<div>loading ... </div>
 					) : (
 						eventsList.map((event) => (
-							<div key={"test3"} className="group relative">
+							<div key={"test3"} className="group relative" style={{ display: 'flex', flexDirection: 'column' }}>
 								<div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none lg:h-80">
 									<img
 										src={event.imageUrl}
@@ -80,18 +80,26 @@ export const NextEvents = () => {
 									/>
 								</div>
 
-								<div className="mt-4 justify-between">
+                                
+								<div className="mt-4 justify-between " style={{ flexGrow: 50 }}>
 									<a className="mt-4 justify-between text-xl font-bold text-gray-700">
 										{event.title}
 									</a>
 								</div>
-								<div className="mt-4 justify-between">
+
+                                <div className="relative flex py-2 items-center">
+                                    <div className="flex-grow border-t border-transparent"></div>
+                                    <div className="flex-grow border-t border-transparent"></div>
+                                </div>
+
+
+								<div className="mt-4 justify-between" style={{ flexGrow: 1 }}>
 									<a className="mt-4 justify-between text-xl font-bold text-gray-700">
-										{event.day}-{event.month}-{event.year}
+										{new Date(parseInt(event.year), parseInt(event.month) - 1, parseInt(event.day)).toLocaleString('default', { day: "2-digit", year: "numeric", month: 'long' })}
 									</a>
 								</div>
 
-								<div className="mt-4 justify-between">
+								<div className="mt-4 justify-between" >
 									<Link href={event.href}>
 										<a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 md:text-lg md:px-10">
 											Registrati
