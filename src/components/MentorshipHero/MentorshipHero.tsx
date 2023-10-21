@@ -24,16 +24,16 @@ export const MentorshipHero = () => {
 						aperto a tutti. Per qualsiasi domanda o curiosità dai
 						un&apos;occhiata alla
 						<a href="">nostra FAQ</a> o{" "}
-						<a href="mailto:info@superheroesvalley.fun">contattaci</a>.
+						<a href="mailto:info@superherovalley.fun">contattaci</a>.
 					</p>
 					<p className="mt-3 text-lg text-gray-300">
-						Le iscrizioni per il programma apriranno a breve, seguici sui social e nel nostro server  <Link href="https://discord.gg/uPRmhHwMem">
+						Le iscrizioni per il programma apriranno a breve, seguici sui social e nel nostro <Link href="https://discord.gg/uPRmhHwMem">
                                                     <a className="hover:text-blue-500">
-                                                        Discord 
+														Server Discord 
                                                     </a>
-                                                </Link> o su <Link href="https://t.me/+zIcgNjPpYpIzNmU0">
+                                                </Link> o sul <Link href="https://t.me/+zIcgNjPpYpIzNmU0">
                                                     <a className="hover:text-blue-500">
-                                                        Telegram
+                                                        canale Telegram
                                                     </a>
                                                 </Link> per rimanere aggiornato!
 					</p>

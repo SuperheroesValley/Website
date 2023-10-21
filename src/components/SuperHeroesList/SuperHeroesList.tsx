@@ -6,10 +6,10 @@ export const SuperHeroesList = () => {
 			<div className="container px-5 py-5 mx-auto">
 				<div className="flex flex-col text-center w-full mb-20">
 					<h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-						I nostri superheroes
+						I nostri Superhero
 					</h1>
 					<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-						Con superhero identifichiamo una persona che lavora in una big tech
+						Con Superhero Valley identifichiamo una persona che lavora in una Big Tech
 						company e che ha aiutato in qualche modo la nostra community. In
 						questa pagina troverai la lista degli speaker che hanno partecipato
 						ad eventi di Superhero Valley e vedrai nomi che potresti ritrovare

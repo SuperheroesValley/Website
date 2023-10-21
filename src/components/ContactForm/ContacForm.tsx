@@ -7,7 +7,7 @@ export const ConcactForm = () => {
 						Contattaci
 					</h1>
 					<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-						Hai domande? Vuoi darci una mano? Sei un dipendente di una big tech
+						Hai domande? Vuoi darci una mano? Sei un dipendente di una Big Tech
 						e vuoi essere il prossimo speaker di Superhero Valley? Non esitare a
 						contattarci!
 					</p>

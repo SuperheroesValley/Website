@@ -3,7 +3,7 @@ import { Footer } from "../components/Footer";
 import { HeaderBase } from "../components/HeaderBase";
 import { MentorshipFAQ } from "../components/MentorshipFAQ";
 import { MentorshipHero } from "../components/MentorshipHero";
-import { PastEventsList } from "../components/PastEventsList";
+import { EventsList } from "../components/EventsList";
 
 const Mentorship: NextPage = () => {
 	return (

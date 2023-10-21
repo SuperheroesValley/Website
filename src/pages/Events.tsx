@@ -1,18 +1,18 @@
 import type { NextPage } from "next";
 import { Footer } from "../components/Footer";
 import { HeaderBase } from "../components/HeaderBase";
-import { PastEventsList } from "../components/PastEventsList";
+import { EventsList } from "../components/EventsList";
 
-const PastEvents: NextPage = () => {
+const Events: NextPage = () => {
 	return (
 		<div>
 			<div className="relative pt-6 pb-16 sm:pb-24 overflow-hidden">
 				<HeaderBase />
 			</div>
-			<PastEventsList />
+			<EventsList />
 			<Footer />
 		</div>
 	);
 };
 
-export default PastEvents;
+export default Events;

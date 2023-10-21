@@ -71,9 +71,9 @@ export const Footer = () => {
 			<div className="bg-gray-100">
 				<div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
 					<p className="text-gray-500 text-sm text-center sm:text-left hover:text-blue-500">
-						© 2022 Superhero Valley —
+						© 2023 Superhero Valley —
 						<a
-							href="https://twitter.com/lucacorbucci"
+							href="https://lucacorbucci.me"
 							rel="noopener noreferrer"
 							className="text-gray-600 ml-1"
 							target="_blank"

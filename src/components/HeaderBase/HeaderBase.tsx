@@ -63,7 +63,7 @@ export const HeaderBase = () => {
 								href="https://discord.gg/uPRmhHwMem"
 								className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-black-600 bg-white hover:bg-gray-50"
 							>
-								Join Us on Discord
+								Entra su Discord
 							</a>
 						</span>
 					</div>

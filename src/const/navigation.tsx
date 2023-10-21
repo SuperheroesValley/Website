@@ -1,6 +1,6 @@
 export const navigation = [
 	{
-		name: "I Superheroes",
+		name: "I nostri Superhero",
 		href: "/superheroes",
 		external: true,
 		current: false,
@@ -12,14 +12,20 @@ export const navigation = [
 		current: false,
 	},
 	{
+		name: "Wiki",
+		href: "https://wiki.superherovalley.fun/",
+		external: true,
+		current: false,
+	},
+	{
 		name: "Mentorship",
 		href: "/mentorship",
 		external: true,
 		current: false,
 	},
 	{
-		name: "Eventi Passati",
-		href: "/PastEvents",
+		name: "Eventi",
+		href: "/Events",
 		external: true,
 		current: false,
 	},

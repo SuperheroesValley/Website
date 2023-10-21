@@ -1,8 +1,8 @@
-// import { PastEvents } from "../../const/PastEvents";
+// import { Events } from "../../const/Events";
 // import { superheroes } from "../../const/superheroes";
 // import { get_element } from "../../utils/utils";
 
-import { PastEvents } from "../../const/PastEvents";
+import { Events } from "../../const/Events";
 import { superheroes } from "../../const/superheroes";
 
 function GuestInfo(props: any) {
@@ -29,10 +29,10 @@ function GuestInfo(props: any) {
 	);
 }
 
-export const PastEventsList = () => {
+export const EventsList = () => {
 	return (
 		<section className="text-gray-600 body-font overflow-hidden">
-			{PastEvents.map((item) => (
+			{Events.map((item) => (
 				<div key={item.year}>
 					<div className="relative">
 						<img
@@ -55,20 +55,22 @@ export const PastEventsList = () => {
 
 					{item.events.map((event) => (
 						<div
-							className="p-12 flex flex-wrap -m-2 items-start"
+							className="p-12 -m-2 items-start"
 							key={event.title}
 						>
 							<div>
-								<span className="inline-block py-1 px-2 rounded bg-blue-50 text-blue-500 text-xs font-medium tracking-widest">
+								<div className="inline-block py-1 px-2 rounded bg-blue-50 text-blue-500 text-xs font-medium tracking-widest">
 									{event.category}
-								</span>
+								</div>
 
 								<h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">
 									{event.title}
 								</h2>
 							</div>
-
-							<p className="leading-relaxed mb-8">{event.descriprion}</p>
+                            <div>
+                            <a className="leading-relaxed mb-8">{event.description}</a>
+                            </div>
+							
 							<div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full"></div>
 							{event.guest_id.map((guestID) => (
 								<GuestInfo guestID={guestID} key={guestID} />

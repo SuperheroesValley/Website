@@ -25,10 +25,10 @@ export const Offer = () => {
 								Talks
 							</h2> */}
 									<p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-										Talks
+										Talk
 									</p>
 									<p className="mt-6 text-2xl leading-8 text-gray-600">
-										Organizziamo talks invitando dipendenti
+										Organizziamo talk invitando dipendenti
 										di Big Tech company in modo tale da
 										poter conoscere più da vicino queste
 										aziende e il percorso che porta ad
@@ -36,7 +36,7 @@ export const Offer = () => {
 									</p>
 									<dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                                     <div
-											key={"Talks"}
+											key={"Talk"}
 											className="relative"
 										>
 											<dt className="inline font-semibold text-gray-900 text-xl">
@@ -46,15 +46,15 @@ export const Offer = () => {
 												}
 											</dt>{" "}
 											<dd className="inline" >
-                                                <Link href="/PastEvents">
+                                                <Link href="/Events">
                                                     <a className="text-gray-600 hover:text-blue-500 text-xl">
-                                                    Visita la pagina degli eventi passati!
+                                                    Visita la pagina degli eventi!
                                                     </a>
                                                 </Link>
 											</dd>
 										</div>
 										<div
-											key={"Talks"}
+											key={"Talk"}
 											className="relative"
 										>
 											<dt className="inline font-semibold text-gray-900 text-xl">
@@ -106,11 +106,11 @@ export const Offer = () => {
 										Gruppo Esercizi
 									</p>
 									<p className="mt-6 text-lg leading-8 text-gray-600 text-xl">
-										Non prendiamoci in giro, preparsi per
-										una interview può essere molto noioso.
+										Non prendiamoci in giro, prepararsi per
+										i colloqui può essere molto noioso.
 										Per questo motivo organizziamo gruppi di
-										esercizio per prepararsi alle interview
-										tecniche delle Big Tech company.
+										esercizio per prepararsi all&aposinterview
+										delle Big Tech company.
 									</p>
 									<dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
 										<div
