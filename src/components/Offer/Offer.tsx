@@ -109,7 +109,7 @@ export const Offer = () => {
 										Non prendiamoci in giro, prepararsi per
 										i colloqui può essere molto noioso.
 										Per questo motivo organizziamo gruppi di
-										esercizio per prepararsi all'interview
+										esercizio per prepararsi all&aposinterview
 										delle Big Tech company.
 									</p>
 									<dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
