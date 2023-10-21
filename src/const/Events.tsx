@@ -10,7 +10,7 @@ export const Events = [
                 href: 'https://bit.ly/3Q0zmWS',
                 description: 'Diego è Staff Software Engineer a Synthesia, in questo evento parlerà di come si affronta una mock interview',
 				year: "2023",
-				day: 13",
+				day: "13",
 				month: "11",
             },
             {
