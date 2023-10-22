@@ -34,7 +34,7 @@ export const Events = [
 				day: "30",
 				month: "10",
                 title: 'My path to Google con Federico Scloza',
-                imageUrl: "./guests/default_img.png",
+                imageUrl: "./guests/default_image.webp",
                 href: 'https://bit.ly/3Q9zrrs',
                 description: 'Federico è Software Engineer in Google, ci parlerà del suo percorso fino a Google',
                 time: "18:30"
