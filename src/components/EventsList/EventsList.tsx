@@ -59,18 +59,45 @@ export const EventsList = () => {
 							key={event.title}
 						>
 							<div>
-								<div className="inline-block py-1 px-2 rounded bg-blue-50 text-blue-500 text-xs font-medium tracking-widest">
+								{/* <div className="inline-block py-1 px-2 rounded bg-blue-50 text-blue-500 text-xs font-medium tracking-widest">
 									{event.category}
-								</div>
+								</div> */}
 
 								<h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">
 									{event.title}
 								</h2>
+								<a className="sm:text-2xl text-xl font-medium text-gray-900 mt-4 mb-4">
+									{event.time
+										? new Date(
+												parseInt(event.year),
+												parseInt(event.month) - 1,
+												parseInt(event.day),
+                                                parseInt(event.time.slice(0, event.time.indexOf(":"))),
+                                                parseInt(event.time.slice(event.time.indexOf(":")+1)),
+										  ).toLocaleString("it-IT", {
+												day: "2-digit",
+												year: "numeric",
+												month: "long",
+                                                hour: "numeric",
+                                                minute: "numeric",
+										  })
+										: new Date(
+												parseInt(event.year),
+												parseInt(event.month) - 1,
+												parseInt(event.day),
+										  ).toLocaleString("it-IT", {
+												day: "2-digit",
+												year: "numeric",
+												month: "long",
+										  })}
+								</a>
 							</div>
-                            <div>
-                            <a className="leading-relaxed mb-8">{event.description}</a>
-                            </div>
-							
+							<div>
+								<a className="leading-relaxed mb-8">
+									{event.description}
+								</a>
+							</div>
+
 							<div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full"></div>
 							{event.guest_id.map((guestID) => (
 								<GuestInfo guestID={guestID} key={guestID} />
