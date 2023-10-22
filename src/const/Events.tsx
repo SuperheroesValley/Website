@@ -12,7 +12,7 @@ export const Events = [
 				year: "2023",
 				day: "13",
 				month: "11",
-                time: "18:30"
+        time: "18:30"
             },
             {
                 category: "event",

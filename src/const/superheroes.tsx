@@ -197,7 +197,7 @@ export const superheroes = [
 	},
 	{
 		id: 29,
-		name: "Albero Massidda",
+		name: "Alberto Massidda",
 		href: "",
 		company: "Meta",
 		image: "./guests/alberto_massidda.jpg",
