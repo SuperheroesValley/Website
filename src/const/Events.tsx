@@ -4,7 +4,7 @@ export const Events = [
 		events: [
             {
             	category: "event",
-            	guest_id: [],
+            	guest_id: [22],
                 title: 'How to... mock interview con Diego Puppin',
                 imageUrl: "/guests/diego_puppin.webp",
                 href: 'https://bit.ly/3Q0zmWS',
@@ -12,10 +12,11 @@ export const Events = [
 				year: "2023",
 				day: "13",
 				month: "11",
+        time: "18:30"
             },
             {
                 category: "event",
-            	guest_id: [],
+            	guest_id: [14],
                 title: 'How to... write a CV con Diego Ceccarelli',
                 imageUrl: "/guests/diego_ceccarelli.webp",
                 href: 'https://bit.ly/4016LoO',
@@ -24,17 +25,19 @@ export const Events = [
 				day: "06",
 				month: "11",
                 description: 'Diego è AI Team Leader a Bloomberg, in questo evento parlerà di come scrivere un CV',
+                time: "18:30"
             },
             {
                 category: "event",
-            	guest_id: [],
+            	guest_id: [3],
 				year: "2023",
 				day: "30",
 				month: "10",
                 title: 'My path to Google con Federico Scloza',
-                imageUrl: "./guests/default_img.png",
+                imageUrl: "./guests/default_image.webp",
                 href: 'https://bit.ly/3Q9zrrs',
                 description: 'Federico è Software Engineer in Google, ci parlerà del suo percorso fino a Google',
+                time: "18:30"
             },
             {
                 title: 'The Tech Interview process is fundamentally broken con Nicola Corti',
@@ -43,10 +46,11 @@ export const Events = [
                 date: '23 Ottobre 2023 18:30',
                 description: 'Nicola è Staff Engineer a Meta, ci parlerà di come affrontare i colloqui in Big Tech',
                 category: "event",
-            	guest_id: [],
+            	guest_id: [6],
 				year: "2023",
 				day: "23",
-				month: "10",
+				month: "10",    
+                time: "18:30"
             },
 			{
             	category: "event",

@@ -13,7 +13,7 @@ import { Footer } from "../components/Footer";
 const Home: NextPage = () => {
 	return (
 		<div>
-			{/* {<Banner/>} */}
+			{<Banner/>}
 			<Header/>
 			<Offer/>
             <NextEvents/>
