@@ -36,6 +36,8 @@ export const NextEvents = () => {
 						parseInt(event.year),
 						parseInt(event.month) - 1,
 						parseInt(event.day),
+                        event.time != null ? parseInt(event.time.slice(0, event.time.indexOf(":"))) : 0,
+                        event.time != null ? parseInt(event.time.slice(event.time.indexOf(":")+1)) : 0,
 					);
 					if (event_date >= current_date) {
 						events.push({
