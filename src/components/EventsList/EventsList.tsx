@@ -2,6 +2,7 @@
 
 import { Events } from "../../const/Events";
 import { superheroes } from "../../const/superheroes";
+import Link from "next/link";
 
 function GuestInfo(props: any) {
 	const guest = superheroes.find((obj) => {
@@ -96,10 +97,28 @@ export const EventsList = () => {
 								</a>
 							</div>
 
+                            
 							<div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full"></div>
 							{event.guest_id.map((guestID) => (
 								<GuestInfo guestID={guestID} key={guestID} />
 							))}
+
+
+                            {
+                               new Date() < new Date(
+												parseInt(event.year),
+												parseInt(event.month) - 1,
+												parseInt(event.day),
+                                                event.time != null ? parseInt(event.time.slice(0, event.time.indexOf(":"))) : 0,
+                                                event.time != null ? parseInt(event.time.slice(event.time.indexOf(":")+1)) : 0,
+										  ) ?  <div className="mt-4 justify-between">
+								<Link href={event.href}>
+									<a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 md:text-lg md:px-10">
+										Registrati
+									</a>
+								</Link>
+							</div> : <div></div>
+                            }   
 						</div>
 					))}
 				</div>
