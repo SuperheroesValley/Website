@@ -13,6 +13,7 @@ type EventDetails = {
 	day: string;
 	month: string;
 	year: string;
+    time?: string;
 };
 
 export const NextEvents = () => {
@@ -48,6 +49,7 @@ export const NextEvents = () => {
 							day: event.day,
 							month: event.month,
 							year: event.year,
+                            time: event.time,
 						});
 					}
 				});
@@ -95,7 +97,29 @@ export const NextEvents = () => {
 
 								<div className="mt-4 justify-between" style={{ flexGrow: 1 }}>
 									<a className="mt-4 justify-between text-xl font-bold text-gray-700">
-										{new Date(parseInt(event.year), parseInt(event.month) - 1, parseInt(event.day)).toLocaleString('default', { day: "2-digit", year: "numeric", month: 'long' })}
+										{event.time
+										? new Date(
+												parseInt(event.year),
+												parseInt(event.month) - 1,
+												parseInt(event.day),
+                                                parseInt(event.time.slice(0, event.time.indexOf(":"))),
+                                                parseInt(event.time.slice(event.time.indexOf(":")+1)),
+										  ).toLocaleString("it-IT", {
+												day: "2-digit",
+												year: "numeric",
+												month: "long",
+                                                hour: "numeric",
+                                                minute: "numeric",
+										  })
+										: new Date(
+												parseInt(event.year),
+												parseInt(event.month) - 1,
+												parseInt(event.day),
+										  ).toLocaleString("it-IT", {
+												day: "2-digit",
+												year: "numeric",
+												month: "long",
+										  })}
 									</a>
 								</div>
 
