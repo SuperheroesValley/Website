@@ -1,6 +1,4 @@
-// import { Events } from "../../const/Events";
-// import { superheroes } from "../../const/superheroes";
-// import { get_element } from "../../utils/utils";
+
 
 import { Events } from "../../const/Events";
 import { superheroes } from "../../const/superheroes";
