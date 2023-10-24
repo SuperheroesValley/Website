@@ -46,7 +46,7 @@ export const Events = [
 				day: "26",
 				month: "10",
                 title: 'Live da Mr. Rip',
-                imageUrl: "./guests/default_image.webp",
+                imageUrl: "./guests/mr_rip.webp",
                 href: 'https://www.twitch.tv/retireinprogress/',
                 description: 'Evento live da Mr. Rip dove abbiamo parlato di Superhero Valley',
                 time: "21:30"
