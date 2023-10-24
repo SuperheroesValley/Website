@@ -40,6 +40,18 @@ export const Events = [
                 time: "18:30"
             },
             {
+                category: "event",
+            	guest_id: [],
+				year: "2023",
+				day: "26",
+				month: "10",
+                title: 'Live da Mr. Rip',
+                imageUrl: "./guests/default_image.webp",
+                href: 'https://www.twitch.tv/retireinprogress/',
+                description: 'Evento live da Mr. Rip dove abbiamo parlato di Superhero Valley',
+                time: "21:30"
+            },
+            {
                 title: 'The Tech Interview process is fundamentally broken con Nicola Corti',
                 imageUrl: "/guests/nicola_corti.webp",
                 href: 'https://bit.ly/3QklVCv',
