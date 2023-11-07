@@ -8,7 +8,7 @@ import { EventsList } from "../components/EventsList";
 const Mentorship: NextPage = () => {
 	return (
 		<div>
-			<div className="relative pt-6 pb-16 sm:pb-24 overflow-hidden">
+			<div className="relative pt-6 pb-16 sm:pb-24">
 				<HeaderBase />
 			</div>
 			<MentorshipHero />
