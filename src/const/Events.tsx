@@ -44,7 +44,7 @@ export const Events = [
 		                title: 'My career path con Tommaso Dreossi',
 		                imageUrl: "/guests/tommaso_dreossi.webp",
 		                href: 'https://teams.microsoft.com/registration/MWtFxyCi9Ue-Ukc4KGcKoQ,fZgCURkwfEmdzdEMLIx66Q,88pVMgzq6kmFEO9b39dczA,qnh97Kc770uwoDKhHEpLwg,XB7rAKew6UK-wNaNasPl1Q,8Irro7UU8UW21DS1tBgNIQ?mode=read&tenantId=c7456b31-a220-47f5-be52-473828670aa1',
-		                description: 'Tommaso è ha ottenuto il dottorato presso l’Université Grenoble Alpes in Computer Science, ha svolto il post-doc a Berkeley per diventare Applied Scientist in Amazon. Attualmente lavora come Staff Machine Learning Scientist nella startup Insitro, fondata da Daphne Koller, Professor of Computer Science at Stanford University.',
+		                description: 'Tommaso ha ottenuto il dottorato presso l’Université Grenoble Alpes in Computer Science, ha svolto il post-doc a Berkeley per diventare Applied Scientist in Amazon. Attualmente lavora come Staff Machine Learning Scientist nella startup Insitro, fondata da Daphne Koller, Professor of Computer Science at Stanford University.',
 				year: "2023",
 				month: "11",
 				day: "20",
