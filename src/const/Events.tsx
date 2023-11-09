@@ -8,7 +8,7 @@ export const Events = [
 		                title: 'From Individual Contributor to Manager con Alessandro Gnoli',
 		                imageUrl: "./guests/alessandro_gnoli.webp",
 		                href: 'https://teams.microsoft.com/registration/MWtFxyCi9Ue-Ukc4KGcKoQ,fZgCURkwfEmdzdEMLIx66Q,88pVMgzq6kmFEO9b39dczA,4zHDmQ4Fg0aZeY-yPlE2jg,hwLTCgO9nEWju4I3S-CEDA,lxSq22Iqg0iPj5qMkOwKJQ?mode=read&tenantId=c7456b31-a220-47f5-be52-473828670aa1',
-		                description: 'Alessandro è Engineering Manager in Google US! Prima di entrare in Google ha lavorato come Software Engineer per ORBITZ ed Expedia Group. Durante il talk verrà affrontato il delicato tema della transizione da Individual Contributor a Manager, seguire le proprie passioni continuando a sviluppare software o puntare a gestire team e progetti?',
+		                description: 'Alessandro è Engineering Manager in Google US. Prima di entrare in Google ha lavorato come Engineering Manager in una Series B startup (Raise) e come Software Engineer per Expedia. Al talk discuterà il ruolo del manager e darà alcuni consigli su come affrontare la transizione da Individual Contributor (IC) a Manager e i trade-off rispetto alla carriera da Staff/Principal IC.',
 				year: "2023",
 				month: "12",
 				day: "04",
