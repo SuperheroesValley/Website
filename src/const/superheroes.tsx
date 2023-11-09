@@ -300,4 +300,25 @@ export const superheroes = [
 		company: "Thales",
 		image: "./guests/mark_diamantino_caribe.webp",
 	},
+	{
+		id: 44,
+		name: "Tommaso Dreossi",
+		href: "",
+		company: "Insitro",
+		image: "./guests/tommaso_dreossi.webp",
+	},
+	{
+		id: 45,
+		name: "Maurizio De Pascale",
+		href: "",
+		company: "Technical Advisor Video Game Industry",
+		image: "./guests/maurizio_de_pascale.webp",
+	},
+	{
+		id: 46,
+		name: "Alessandro Gnoli",
+		href: "",
+		company: "Engineering Manager",
+		image: "./guests/alessandro_gnoli.webp",
+	},
 ];	
