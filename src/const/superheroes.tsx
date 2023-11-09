@@ -150,7 +150,7 @@ export const superheroes = [
 		id: 22,
 		name: "Diego Puppin",
 		href: "",
-		company: "Twitter",
+		company: "Synthesia",
 		image: "./guests/diego_puppin.webp",
 	},
 	{
@@ -276,7 +276,7 @@ export const superheroes = [
 		id: 40,
 		name: "Marco Tosoni",
 		href: "",
-		company: "Ex Google",
+		company: "Tech Startup Advisor",
 		image: "./guests/marco_tosoni.webp",
 	},
 	{
