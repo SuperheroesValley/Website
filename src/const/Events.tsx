@@ -17,10 +17,10 @@ export const Events = [
 			{
 		            	category: "event",
 		            	guest_id: [45],
-		                title: 'A Journey in the Video Game Industry con Maurizio De Pascale',
+		                title: 'Former CTO at IO Interactive - AMA',
 		                imageUrl: "./guests/maurizio_de_pascale.webp",
 		                href: 'https://teams.microsoft.com/registration/MWtFxyCi9Ue-Ukc4KGcKoQ,fZgCURkwfEmdzdEMLIx66Q,88pVMgzq6kmFEO9b39dczA,3e7uPZT65EOq2Ubv5JYWGQ,ImKIsa45yEaFWo9cB_KE9g,UFUXou3TO0GBYozgxoLIsA?mode=read&tenantId=c7456b31-a220-47f5-be52-473828670aa1',
-		                description: "Maurizio è attualmente Techical Advisor nell’industria dei videogiochi, ha una esperienza di 15 anni nello sviluppo dei videogiochi AAA! Ha assunto il ruolo di Technical Director per alcuni titoli della serie Hitman in IO Interactive e ancor prima ha lavorato come Technical Architect su Rainbow Six Siege per Ubisoft. Durante il talk Maurizio ci parlerà della sua avventura in questa meravigliosa industria!",
+		                description: "Maurizio è attualmente Techical Advisor nell’industria dei videogiochi, ha una esperienza di 15 anni nello sviluppo dei videogiochi AAA! Ha assunto il ruolo di CTO per alcuni titoli della serie Hitman in IO Interactive e ancor prima ha lavorato come Technical Architect su Rainbow Six Siege per Ubisoft. Durante il talk Maurizio ci parlerà della sua avventura in questa meravigliosa industria!",
 				year: "2023",
 				month: "12",
 				day: "04",
