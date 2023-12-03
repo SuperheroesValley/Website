@@ -11,7 +11,7 @@ export const Events = [
 		                description: 'Alessandro è Engineering Manager in Google US. Prima di entrare in Google ha lavorato come Engineering Manager in una Series B startup (Raise) e come Software Engineer per Expedia. Al talk discuterà il ruolo del manager e darà alcuni consigli su come affrontare la transizione da Individual Contributor (IC) a Manager e i trade-off rispetto alla carriera da Staff/Principal IC.',
 				year: "2023",
 				month: "12",
-				day: "04",
+				day: "11",
         			time: "18:30"
 			},
 			{

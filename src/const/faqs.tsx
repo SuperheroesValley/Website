@@ -1,3 +1,5 @@
+// import Link from "next/link";
+
 export const faqs_mentorship = [
 	{
 		id: 1,
@@ -7,7 +9,7 @@ export const faqs_mentorship = [
 	},
 	{
 		id: 6,
-		question: "Perchè seguire il programma di mentorship?",
+		question: "Perché seguire il programma di mentorship?",
 		answer:
 			"Con il programma di mentorship diamo ai partecipanti un contatto diretto con un superhero. Crediamo che questa iniziativa possa aiutare ad acquisire una maggiore consapevolezza delle opportunità offerte dalle big tech e possa essere utile per ottenere una internship o una posizione full time.",
 	},
@@ -16,7 +18,7 @@ export const faqs_mentorship = [
 		id: 5,
 		question: "Chi sono i mentor?",
 		answer:
-			"I mentor sono i Superheroes! Sono dipendenti di big tech e persone che hanno svolto internship presso queste aziende",
+			"I mentor sono i Superheroes! Sono dipendenti di big tech e persone che hanno svolto internship presso queste aziende.",
 	},
 
 	{
@@ -31,10 +33,16 @@ export const faqs_mentorship = [
 		answer:
 			"Il programma di mentorship, così come tutte le nostre attività, è completamente gratuito.",
 	},
+	/*{
+		id: 4,
+		question: "Come faccio a candidarmi?",
+		answer:
+			'<Link href="https://forms.gle/GJNKJa7Sjg88YuUr7">Compila questo Form per candidarti</Link>, ti ricordiamo che le candidature chiuderanno il 18 Dicembre 2023 alle ore 23:59!',
+	},*/
 	{
 		id: 4,
-		question: "Come faccio a partecipare?",
+		question: "Come faccio a candidarmi?",
 		answer:
 			"Il programma di mentorship aprirà a Novembre. Troverai il link al form per inviare la tua candidatura in questa pagina.",
-	},
+	}
 ];
