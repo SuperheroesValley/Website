@@ -33,12 +33,12 @@ export const faqs_mentorship = [
 		answer:
 			"Il programma di mentorship, così come tutte le nostre attività, è completamente gratuito.",
 	},
-	/*{
+	{
 		id: 4,
 		question: "Come faccio a candidarmi?",
 		answer:
-			'<Link href="https://forms.gle/GJNKJa7Sjg88YuUr7">Compila questo Form per candidarti</Link>, ti ricordiamo che le candidature chiuderanno il 18 Dicembre 2023 alle ore 23:59!',
-	},*/
+			'<a href="https://forms.gle/GJNKJa7Sjg88YuUr7"><b>Compila questo Form per candidarti</b></a>, ti ricordiamo che le candidature chiuderanno il 18 Dicembre 2023 alle ore 23:59!',
+	},
 	{
 		id: 4,
 		question: "Come faccio a candidarmi?",
