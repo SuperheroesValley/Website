@@ -19,7 +19,7 @@ export const MentorshipFAQ = () => {
 						{faqs_mentorship.map((faq) => (
 							<div key={faq.id}>
 								<dt className="font-semibold text-gray-900">{faq.question}</dt>
-								<dd className="mt-3 text-gray-500">{faq.answer}</dd>
+                                <dd dangerouslySetInnerHTML={{__html: faq.answer}} />
 							</div>
 						))}
 					</dl>
