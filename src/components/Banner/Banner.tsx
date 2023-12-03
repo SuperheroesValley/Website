@@ -69,17 +69,21 @@ export const Banner = () => {
 			<div className="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
 				<div className="pr-16 sm:text-center sm:px-16">
 					<p className="font-medium text-white">
-						<span className="md:hidden">
-							📣 Registrati al nostro prossimo talk: 
-						</span>
+						{/* <span className="md:hidden">
+							📣 Invia la tua candidatura per il nostro programma di mentorship gratuito!  */}
+
+							{/* 📣 Registrati al nostro prossimo talk:  */}
+						{/* </span>
 						<span className="hidden md:inline">
-                            📣 Registrati al nostro prossimo talk
-						</span>
+                            📣 Invia la tua candidatura per il nostro programma di mentorship gratuito! 
+						</span> */}
 						<span className="block sm:ml-2 sm:inline-block">
-							<Link href={eventsList[0] != null ? eventsList[0].href : ""}>
-								<a className="text-white font-bold underline">
+							<Link href="https://forms.gle/GJNKJa7Sjg88YuUr7">
+							{/* <Link href={eventsList[0] != null ? eventsList[0].href : ""}> */}
+								{/* <a className="text-white font-bold underline"> */}
+								<a className="text-white font-bold">
 									{" "}
-									Registrati{" "}
+									📣 Invia la tua candidatura per il nostro programma di mentorship gratuito! {" "}
 									<span aria-hidden="true">&rarr;</span>
 								</a>
 							</Link>
