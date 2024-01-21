@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Banner } from "../components/Banner";
+/* import { Banner } from "../components/Banner"; */
 import { Header } from "../components/Header";
 import { Offer } from "../components/Offer";
 /*import { Hero } from "../components/Hero";*/
@@ -13,7 +13,7 @@ import { Footer } from "../components/Footer";
 const Home: NextPage = () => {
 	return (
 		<div>
-			{<Banner/>}
+			{/* <Banner/> */}
 			<Header/>
 			<Offer/>
             <NextEvents/>

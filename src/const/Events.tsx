@@ -1,5 +1,22 @@
 export const Events = [
 	{
+		year: "2024",
+		events: [
+			{
+				category: "event",
+				guest_id: [],
+				title: 'From zero to Superhero: Episode 1 -  How to write a CV',
+				imageUrl: "./guests/default_image.webp",
+				href: 'https://www.twitch.tv/superherovalley',
+				description: "Non sai come scrivere il CV? Superhero Valley va in live su Twitch con gli Hero trainer Stefano Ivancich (SWE @ Uber, Ex-AWS) ed Emanuele Triuzzi (SWE @ Bending Spoons) per spiegarti come scrivere un CV professionale da zero, con tips and tricks per le FAANG!",
+				year: "2024",
+				month: "01",
+				day: "22",
+				time: "18:30"
+			},
+		]
+	},
+	{
 		year: "2023",
 		events: [
 			{
