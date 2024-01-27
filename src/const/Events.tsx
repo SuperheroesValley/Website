@@ -5,6 +5,18 @@ export const Events = [
 			{
 				category: "event",
 				guest_id: [],
+				title: 'From zero to Superhero: Episode 2 -  Big Tech Behavioural Interview',
+				imageUrl: "./guests/default_image.webp",
+				href: 'https://www.twitch.tv/superherovalley',
+				description: "In questo secondo episodio, gli Hero trainer Stefano Ivancich (SWE @ Uber, Ex-AWS) ed Emanuele Triuzzi (SWE @ Bending Spoons) ti spiegheranno come funziona e come ci si prepara la behavioural interview in Big Tech! Ma soprattutto come rispondere alle domande di rito del team di recruiting e lo STAR framework!",
+				year: "2024",
+				month: "01",
+				day: "31",
+				time: "18:30"
+			},
+			{
+				category: "event",
+				guest_id: [],
 				title: 'From zero to Superhero: Episode 1 -  How to write a CV',
 				imageUrl: "./guests/default_image.webp",
 				href: 'https://www.twitch.tv/superherovalley',
