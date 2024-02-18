@@ -5,6 +5,18 @@ export const Events = [
 			{
 				category: "event",
 				guest_id: [],
+				title: 'From zero to Superhero: Episode 3 -  Big Tech Coding Mock Interview',
+				imageUrl: "./guests/default_image.webp",
+				href: 'https://www.twitch.tv/superherovalley',
+				description: "In questo terzo episodio, gli Hero trainer Stefano Ivancich (SWE @ Uber, Ex-AWS) ed Emanuele Triuzzi (SWE @ Bending Spoons) ti spiegheranno come funziona e come ci si prepara per la coding interview in Big Tech! Durante la live membro della community di Superhero Valley verrà sottoposto ad una simulazione di colloquio tecnico!",
+				year: "2024",
+				month: "02",
+				day: "26",
+				time: "18:30"
+			},
+			{
+				category: "event",
+				guest_id: [],
 				title: 'From zero to Superhero: Episode 2 -  Big Tech Behavioural Interview',
 				imageUrl: "./guests/default_image.webp",
 				href: 'https://www.twitch.tv/superherovalley',
