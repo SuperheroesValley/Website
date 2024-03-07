@@ -321,4 +321,11 @@ export const superheroes = [
 		company: "Engineering Manager",
 		image: "./guests/alessandro_gnoli.webp",
 	},
+	{
+		id: 47,
+		name: "Davide Pollicino",
+		href: "",
+		company: "Software Engineer",
+		image: "./guests/davide_pollicino.webp",
+	},
 ];	

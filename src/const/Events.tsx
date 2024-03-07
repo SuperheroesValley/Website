@@ -4,6 +4,18 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [47],
+				title: 'My Path to Microsoft',
+				imageUrl: "./guests/davide_pollicino.webp",
+				href: 'https://www.twitch.tv/superherovalley',
+				description: "Davide è Software Engineer in Microsoft a Praga. Prima di entrare in Microsoft ha studiato ad Edinburgo (UK) ed ha avuto esperienza come Product Manager in una startup. Durante il talk discuterà del suo periodo di studi in UK, come le attività di mentorship (prima di mentee e poi da mentor) abbiano assunto un ruolo cruciale nel suo percorso di crescita e dell'arrivo in Microsoft.",
+				year: "2024",
+				month: "03",
+				day: "11",
+				time: "18:30"
+			},
+			{
+				category: "event",
 				guest_id: [],
 				title: 'From zero to Superhero: Episode 3 -  Big Tech Coding Mock Interview',
 				imageUrl: "./guests/default_image.webp",
