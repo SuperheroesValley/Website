@@ -4,6 +4,18 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [48],
+				title: 'Ricerca applicata in contesti industriali e transizioni IC/manager',
+				imageUrl: "./guests/diego_perino.webp",
+				href: 'https://teams.microsoft.com/registration/MWtFxyCi9Ue-Ukc4KGcKoQ,5_gfHHKx0EeoQWa01OBRBg,IAHVGT0EY0yWBrRcV_CNBg,Yt_AHdp8J0elluLP5sAfhw,-IkS8uFrdESeKGnmiYgNjg,2MtGVdiVPEK67l5nRbyPMg?mode=read&tenantId=c7456b31-a220-47f5-be52-473828670aa1',
+				description: "Diego Perino è attualmente Engineering Manager nel team di Generative AI a Meta. Ha lavorato come IC e manager in Telefonica Research, Bell Labs e Orange Labs. Durante il talk ci parlerà del suo percorso, di come ha visto la ricerca applicata in vari contesti e di come durante la sua carrierà sia riuscito a saltare varie volte dal ruolo di Individual Contributor a Manager e viceversa.",
+				year: "2024",
+				month: "03",
+				day: "18",
+				time: "18:00"
+			},
+			{
+				category: "event",
 				guest_id: [47],
 				title: 'My Path to Microsoft',
 				imageUrl: "./guests/davide_pollicino.webp",
