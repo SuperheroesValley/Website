@@ -7,7 +7,7 @@ export const Events = [
 				guest_id: [49],
 				title: 'Dalla Sicilia a JP Morgan',
 				imageUrl: "./guests/gabriele_cinà.webp",
-				href: 'https://www.twitch.tv/superherovalley',
+				href: 'https://teams.microsoft.com/registration/MWtFxyCi9Ue-Ukc4KGcKoQ,fZgCURkwfEmdzdEMLIx66Q,88pVMgzq6kmFEO9b39dczA,xUCD36NAQkeNlY2CjxK3sA,66SieDHk6E6_ajVjTrsaUg,v1J-UqS7LE6TOHG4g_w6-Q?mode=read&tenantId=c7456b31-a220-47f5-be52-473828670aa1',
 				description: "Gabriele è Software Engineer in JP Morgan a Londra. Durante il talk ci parlerà del suo percorso accademico e della sua avventura da startupper, come ci si prepara per le interview in Fintech, ottenere una internship in JP Morgan e return offer.",
 				year: "2024",
 				month: "03",
