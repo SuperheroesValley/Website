@@ -146,22 +146,22 @@ export const NextEvents = () => {
 
 							<div className="mt-4 justify-between">
 
-								{/* MS Teams */}
+								{/* MS Teams 
 								<Link href={event.href}>
 								<a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 md:text-lg md:px-10">
 								Registrati
 								</a>
 								</Link>
-								
+								*/}
 
 
-								{/* Twitch 
+								{/* Twitch */}
 								<Link href={event.href}>
 								<a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-violet-700 hover:bg-violet-900 md:py-4 md:text-lg md:px-10">
 								Segui su Twitch
 								</a>
 								</Link>
-								*/}
+								
 							</div>
 						</div>
 					))}
