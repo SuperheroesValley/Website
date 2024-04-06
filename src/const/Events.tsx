@@ -4,6 +4,18 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [50],
+				title: 'My path to Amazon',
+				imageUrl: "./guests/jacopo_notarstefano.webp",
+				href: 'https://teams.microsoft.com/registration/MWtFxyCi9Ue-Ukc4KGcKoQ,5_gfHHKx0EeoQWa01OBRBg,IAHVGT0EY0yWBrRcV_CNBg,x93xuOJOk0-GvXwO2RE6kQ,Ox47Mqwtp02cH1YL-GNC6w,g3r72TZh_EWxmyEFCiFPkQ?mode=read&tenantId=c7456b31-a220-47f5-be52-473828670aa1',
+				description: "Oggi Jacopo è Senior SDE nel team che si occupa di Availability per AWS Aurora, il RDBMS proprietario creato per il Cloud con piena compatibilità con MySQL e PostgreSQL. In passato è stato fra i primi ingegneri della startup Nabla Technologies, ed ha cominciato la propria carriera al CERN come Fellow.",
+				year: "2024",
+				month: "04",
+				day: "08",
+				time: "18:30"
+			},
+			{
+				category: "event",
 				guest_id: [49],
 				title: 'Dalla Sicilia a JP Morgan',
 				imageUrl: "./guests/gabriele_cinà.webp",

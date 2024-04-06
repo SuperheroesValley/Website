@@ -342,4 +342,11 @@ export const superheroes = [
 		company: "JP Morgan",
 		image: "./guests/gabriele_cinà.webp",
 	},
+	{
+		id: 50,
+		name: "Jacopo Notarstefano",
+		href: "",
+		company: "Amazon",
+		image: "./guests/jacopo_notarstefano.webp",
+	},
 ];	
