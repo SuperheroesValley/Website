@@ -349,4 +349,11 @@ export const superheroes = [
 		company: "Amazon",
 		image: "./guests/jacopo_notarstefano.webp",
 	},
+	{
+		id: 51,
+		name: "Gianluca Venturini",
+		href: "",
+		company: "Material Security",
+		image: "./guests/gianluca_venturini.webp",
+	},
 ];	

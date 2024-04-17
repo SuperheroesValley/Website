@@ -4,6 +4,18 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [51],
+				title: "Dall'Italia a San FranciscoMy path to Amazon",
+				imageUrl: "./guests/gianluca_venturini.webp",
+				href: 'https://teams.microsoft.com/registration/MWtFxyCi9Ue-Ukc4KGcKoQ,5_gfHHKx0EeoQWa01OBRBg,IAHVGT0EY0yWBrRcV_CNBg,K7L0n4ZUlUem2ULaf_5Zbw,0LSNOH8By0mLFG7MNz8IQg,jVzUcVDp80O40e4k8xpyAg?mode=read&tenantId=c7456b31-a220-47f5-be52-473828670aa1',
+				description: "Gianluca è Software Engineer in Material Security a San Francisco. Durante il talk ci parlerà del suo percorso accademico, del suo trasferimento dall'Italia a Chicago e poi San Francisco, ed esperienze lavorative in Dropbox corporate e Unicorn startup Material Security.",
+				year: "2024",
+				month: "04",
+				day: "22",
+				time: "18:00"
+			},
+			{
+				category: "event",
 				guest_id: [50],
 				title: 'My path to Amazon',
 				imageUrl: "./guests/jacopo_notarstefano.webp",
