@@ -4,6 +4,18 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [52],
+				title: "Becoming a relevant Software Engineer",
+				imageUrl: "./guests/francesco_napoletano.webp",
+				href: 'https://bit.ly/sv_napo',
+				description: "Francesco (Napo) è Staff Software Engineer in Sysdig. Durante il talk ci parlerà del suo percorso lavorativo, come rimanere rilevanti nell'industria software dopo 40 anni, carrer ladder, performance e peer review tecniche, differenze tra Big Tech (Sysdig, eBay) e Italian tech (Subito.it), e cosa lo spinge a contribuire all'OSS.",
+				year: "2024",
+				month: "05",
+				day: "06",
+				time: "18:30"
+			},
+			{
+				category: "event",
 				guest_id: [51],
 				title: "Dall'Italia a San Francisco",
 				imageUrl: "./guests/gianluca_venturini.webp",

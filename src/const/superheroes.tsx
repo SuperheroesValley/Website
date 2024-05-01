@@ -356,4 +356,11 @@ export const superheroes = [
 		company: "Material Security",
 		image: "./guests/gianluca_venturini.webp",
 	},
+	{
+		id: 52,
+		name: "Francesco Napoletano",
+		href: "",
+		company: "Sysdig",
+		image: "./guests/francesco_napoletano.webp",
+	},
 ];	
