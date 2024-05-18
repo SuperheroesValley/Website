@@ -4,6 +4,18 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [46],
+				title: "Il sogno americano",
+				imageUrl: "./guests/alessandro_gnoli.webp",
+				href: 'https://bit.ly/sv_gnoli',
+				description: "Alessandro è Engineering Manager in Google US. Prima di entrare in Google ha lavorato come Engineering Manager in una Series B startup (Raise) e come Software Engineer per Expedia. Durante il talk parlerà di come si lavora legalmente in negli States partendo dall'Italia, delle tipologie di visti disponibili e come scegliere il visto giusto, il trade-off tra lavorare in Italia e negli States.",
+				year: "2024",
+				month: "05",
+				day: "20",
+				time: "18:30"
+			},
+			{
+				category: "event",
 				guest_id: [52],
 				title: "Becoming a relevant Software Engineer",
 				imageUrl: "./guests/francesco_napoletano.webp",
