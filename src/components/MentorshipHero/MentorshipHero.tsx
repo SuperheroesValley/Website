@@ -17,7 +17,7 @@ export const MentorshipHero = () => {
 			<div className="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
 				<div className="md:ml-auto md:w-1/2 md:pl-10">
 					<p className="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">
-						Il nostro programma di Mentorship 2023/2024
+						Il nostro programma di Mentorship 2024/2025
 					</p>
 					<p className="mt-3 text-lg text-gray-300">
 						Superhero Valley propone un programma di Mentorship gratuito ed

@@ -36,13 +36,8 @@ export const faqs_mentorship = [
 	{
 		id: 4,
 		question: "Come faccio a candidarmi?",
-		answer:
-			'<a href="https://forms.gle/GJNKJa7Sjg88YuUr7"><b>Compila questo Form per candidarti</b></a>, ti ricordiamo che le candidature chiuderanno il 18 Dicembre 2023 alle ore 23:59!',
-	},
-	{
-		id: 4,
-		question: "Come faccio a candidarmi?",
-		answer:
-			"Il programma di mentorship aprirà a Novembre. Troverai il link al form per inviare la tua candidatura in questa pagina.",
+		/*answer:
+			'<a href="https://forms.gle/GJNKJa7Sjg88YuUr7"><b>Compila questo Form per candidarti</b></a>, ti ricordiamo che le candidature chiuderanno il 18 Dicembre 2023 alle ore 23:59!',*/
+		answer: 'Il programma di mentorship aprirà a breve. Troverai il link al form per inviare la tua candidatura in questa pagina.',
 	}
 ];
