@@ -4,6 +4,18 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [],
+				title: "Superhero Valley - La Nuova Stagione",
+				imageUrl: "./guests/default_image.webp",
+				href: 'https://bit.ly/stagione25',
+				description: "La nuova stagione di Superhero Valley è iniziata! Abbiamo introdotto i nuovi membri alla community, a ciò che facciamo portando anche al testimonianza dei precedenti mentee ed i loro risultati.",
+				year: "2024",
+				month: "10",
+				day: "07",
+				time: "18:30"
+			},
+			{
+				category: "event",
 				guest_id: [46],
 				title: "Il sogno americano",
 				imageUrl: "./guests/alessandro_gnoli.webp",

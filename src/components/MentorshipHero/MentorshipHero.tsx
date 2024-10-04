@@ -25,11 +25,11 @@ export const MentorshipHero = () => {
 					</p>
 					{/* <p className="mt-3 text-lg text-gray-300">
 						La candidatura per il programma di Mentorship 2023/2024 è aperta!
-					</p> */}
+					</p> 
 					<p className="mt-3 text-lg text-red-500 font-extrabold">	
 						Le candidature sono aperte e chiuderanno il 18 Dicembre 2023 alle ore 23:59!
-					</p>
-					{/*
+					</p>*/}
+					{
 					<p className="mt-3 text-lg text-gray-300">
 						La candidatura per il programma di Mentorship 2024/2025 aprirà a breve, seguici sui social e nel nostro <Link href="https://discord.gg/uPRmhHwMem">
                                                     <a className="hover:text-blue-500">
@@ -41,8 +41,8 @@ export const MentorshipHero = () => {
                                                     </a>
                                                 </Link> per rimanere aggiornato!
 					</p>
-					*/}
-
+					}
+					{/*
 					<div className="mt-8">
 						<div className="inline-flex rounded-md shadow">
 							<a
@@ -56,7 +56,7 @@ export const MentorshipHero = () => {
 								
 							</a>
 						</div>
-					</div> 
+					</div> */}
 				</div>
 			</div>
 		</div>
