@@ -4,6 +4,18 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [6],
+				title: "The IT interview process... is fundamentally broken!",
+				imageUrl: "/guests/nicola_corti.webp",
+				href: 'https://bit.ly/sv_corti24',
+				description: "Nicola è Staff Engineer a Meta, ci parlerà di come affrontare i colloqui in Big Tech.",
+				year: "2024",
+				month: "10",
+				day: "14",
+				time: "19:30"
+			},
+			{
+				category: "event",
 				guest_id: [],
 				title: "Superhero Valley - La Nuova Stagione",
 				imageUrl: "./guests/default_image.webp",
