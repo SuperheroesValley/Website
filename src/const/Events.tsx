@@ -4,6 +4,18 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [14],
+				title: 'Come scrivere il CV!',
+				imageUrl: "/guests/diego_ceccarelli.webp",
+				href: 'https://bit.ly/ceccarelli_2024',
+				description: 'Diego Ceccarelli è AI Engineering Manager in Bloomberg! Ci racconterà come strutturare un CV da mandare ad una Big Tech company!',
+				year: "2024",
+				month: "10",
+				day: "21",
+				time: "18:30"
+		    },
+			{
+				category: "event",
 				guest_id: [6],
 				title: "The IT interview process... is fundamentally broken!",
 				imageUrl: "/guests/nicola_corti.webp",
