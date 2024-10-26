@@ -4,6 +4,18 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [],
+				title: 'Come ho trovato lavoro in Big Tech',
+				imageUrl: "./guests/default_image.webp",
+				href: 'https://bit.ly/48qEFaY',
+				description: "In questo panel Sara, Marco e Gabriele ci racconteranno percorso che li ha portati dall'università ad essere Software Engineer in Uber, Google e Grammarly. Chiederemo a Sara, Marco e Gabriele dei suggerimenti per prepararsi alle interview e cercheremo di capire come Superhero Valley è stata utile nella ricerca di un lavoro in big tech.",
+				year: "2024",
+				month: "10",
+				day: "28",
+				time: "18:30"
+		    },
+			{
+				category: "event",
 				guest_id: [14],
 				title: 'Come scrivere il CV!',
 				imageUrl: "/guests/diego_ceccarelli.webp",
