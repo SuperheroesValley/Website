@@ -7,11 +7,23 @@ export const Events = [
 				guest_id: [],
 				title: 'The Mentorship Program',
 				imageUrl: "./guests/default_image.webp",
-				href: 'https://bit.ly/sv_mentorship24',
-				description: "'Evento di presentazione del Mentorship Program 2024-2025 di Superhero Valley'",
+				href: "https://bit.ly/sv_mentorship24",
+				description: "Evento di presentazione del Mentorship Program 2024-2025 di Superhero Valley",
 				year: "2024",
 				month: "11",
 				day: "18",
+				time: "18:30"
+		    },
+			{
+				category: "event",
+				guest_id: [],
+				title: 'How to Mock Interview',
+				imageUrl: "./guests/default_image.webp",
+				href: 'https://bit.ly/notarstefano24',
+				description: "Jacopo Notarstefano è senior software engineer ad Amazon! In questo talk vedremo come si conduce una technical mock interview come si fa nelle Big Tech. Ad essere intervistato un membro della community, che si districherà tra le domande dell'interviewer, tra feedback e tips da usare durante un colloquio vero.",
+				year: "2024",
+				month: "11",
+				day: "11",
 				time: "18:30"
 		    },
 			{
