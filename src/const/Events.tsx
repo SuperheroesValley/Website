@@ -5,6 +5,18 @@ export const Events = [
 			{
 				category: "event",
 				guest_id: [],
+				title: 'The Mentorship Program',
+				imageUrl: "./guests/default_image.webp",
+				href: 'https://bit.ly/sv_mentorship24',
+				description: "'Evento di presentazione del Mentorship Program 2024-2025 di Superhero Valley'",
+				year: "2024",
+				month: "11",
+				day: "18",
+				time: "18:30"
+		    },
+			{
+				category: "event",
+				guest_id: [],
 				title: 'Come ho trovato lavoro in Big Tech',
 				imageUrl: "./guests/default_image.webp",
 				href: 'https://bit.ly/48qEFaY',
