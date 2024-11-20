@@ -363,4 +363,11 @@ export const superheroes = [
 		company: "Sysdig",
 		image: "./guests/francesco_napoletano.webp",
 	},
+	{
+		id: 53,
+		name: "Linda Friso",
+		href: "",
+		company: "Google",
+		image: "./guests/linda_friso.webp",
+	},
 ];	

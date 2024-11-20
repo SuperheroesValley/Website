@@ -4,6 +4,18 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [53],
+				title: "Università all'estero e ricerca applicata su Large Language Models",
+				imageUrl: "./guests/linda_friso.webp",
+				href: "https://bit.ly/sv_friso",
+				description: "Linda è Machine Learning Engineer in Google! In questo talk ci parlerà della sua carriera, dagli studi in Matematica, le olimpiadi di Matematica, lo studio da autodidatta alla programmazione, fino ad approdare in Google, dove giornalmente lavora ai Large Language Models.",
+				year: "2024",
+				month: "11",
+				day: "25",
+				time: "18:30"
+		    },
+			{
+				category: "event",
 				guest_id: [],
 				title: 'The Mentorship Program',
 				imageUrl: "./guests/default_image.webp",
