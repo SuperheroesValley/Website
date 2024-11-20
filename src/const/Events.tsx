@@ -4,6 +4,18 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [],
+				title: "Cracking the Google Interview",
+				imageUrl: "./guests/default_image.webp",
+				href: "https://www.eventbrite.it/e/biglietti-cracking-the-google-interview-with-a-special-guest-1083851963399?aff=oddtdtcreator",
+				description: "Superhero Valley returns to Pisa with a new in-person event! Join us to discover the secrets to face a tech interview for Big Tech companies.",
+				year: "2024",
+				month: "11",
+				day: "26",
+				time: "18:00"
+		    },
+			{
+				category: "event",
 				guest_id: [53],
 				title: "Università all'estero e ricerca applicata su Large Language Models",
 				imageUrl: "./guests/linda_friso.webp",
