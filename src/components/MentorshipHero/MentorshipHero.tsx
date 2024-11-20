@@ -46,7 +46,7 @@ export const MentorshipHero = () => {
 					<div className="mt-8">
 						<div className="inline-flex rounded-md shadow">
 							<a
-								href="https://forms.gle/GJNKJa7Sjg88YuUr7"
+								href="https://forms.gle/griKxayCkxwwP1uUA"
 								className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
 							>
                                 <b>
