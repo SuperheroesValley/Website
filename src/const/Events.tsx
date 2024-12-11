@@ -4,6 +4,30 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [22],
+				title: 'How to... mock interview con Diego Puppin',
+				imageUrl: "/guests/diego_puppin.webp",
+				href: "https://bit.ly/sv_puppin24",
+				description: "Diego Puppin è senior software engineer in Synthesia! In questo talk vedremo come si conduce una technical mock interview come si fa nelle Big Tech. Ad essere intervistato un membro della community, che si districherà tra le domande dell'interviewer, tra feedback e tips da usare durante un colloquio vero.",
+				year: "2024",
+				month: "12",
+				day: "16",
+				time: "18:30"
+		    },
+			{
+				category: "event",
+				guest_id: [15],
+				title: 'Q&A with Filippo Bigarella',
+				imageUrl: "/guests/filippo_bigarella.webp",
+				href: "https://bit.ly/sv_bigarella24",
+				description: "Filippo è Security Engineer in Apple! Durante questo Q&A potrete fare le domande più disparate in merito alla sua carriera e alla sua attività di Security Engineer in Apple!",
+				year: "2024",
+				month: "12",
+				day: "2",
+				time: "18:30"
+		    },
+			{
+				category: "event",
 				guest_id: [],
 				title: "Cracking the Google Interview",
 				imageUrl: "./guests/default_image.webp",
