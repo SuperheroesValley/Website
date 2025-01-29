@@ -1,5 +1,22 @@
 export const Events = [
 	{
+		year: "2025",
+		events: [
+			{
+					category: "event",
+					guest_id: [23],
+					title: 'Dal Texas lnstruments Ti99/4A alla Silicon Valley',
+					imageUrl: "/guests/enrico_zimuel.webp",
+					href: "https://bit.ly/sv_zimuel25",
+					description: "Enrico Zimuel è Tech Lead ad Elasticsearch, ci racconterà della sua esperienza lavorativa e di cosa ha significato per lui lavorare in Silicon Valley.",
+					year: "2025",
+					month: "2",
+					day: "3",
+					time: "21:00"
+			},
+		]
+	},	
+	{
 		year: "2024",
 		events: [
 			{
