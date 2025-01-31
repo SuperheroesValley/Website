@@ -157,7 +157,7 @@ export const superheroes = [
 		id: 23,
 		name: "Enrico Zimuel",
 		href: "",
-		company: "Elasticsearch",
+		company: "Elastic",
 		image: "./guests/enrico_zimuel.webp",
 	},
 	{
