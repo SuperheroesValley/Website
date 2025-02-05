@@ -370,4 +370,11 @@ export const superheroes = [
 		company: "Google",
 		image: "./guests/linda_friso.webp",
 	},
+	{
+		id: 54,
+		name: "Alessandro Sanvito",
+		href: "",
+		company: "Optiver",
+		image: "./guests/alessandro_sanvito.webp",
+	},
 ];	

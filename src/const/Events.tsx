@@ -3,6 +3,18 @@ export const Events = [
 		year: "2025",
 		events: [
 			{
+				category: "event",
+				guest_id: [54],
+				title: 'Software engineering in High frequency trading',
+				imageUrl: "/guests/alessandro_sanvito.webp",
+				href: "https://bit.ly/sv_sanvito25",
+				description: "Alessandro Sanvito è Software Engineer in Optiver. Ci parlerà del suo percorso in Optiver, cosa fa un software engineer in una azienda di trading, cosa cambia rispetto al software engineering tradizionale, sessione Q&A e tanto altro!",
+				year: "2025",
+				month: "2",
+				day: "10",
+				time: "18:30"
+			},
+			{
 					category: "event",
 					guest_id: [23],
 					title: 'Dal Texas lnstruments Ti99/4A alla Silicon Valley',
