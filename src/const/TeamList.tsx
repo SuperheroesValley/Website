@@ -108,7 +108,7 @@ export const TeamList = [
 		image: "./team/emanuele_triuzzi.webp",
 		bio: "Software Engineer @ Bending Spoons",
 	},
-	{
+	/*{
 		id: 8,
 		name: "Nicolas Schirosi",
 		href: "",
@@ -119,7 +119,7 @@ export const TeamList = [
 		role: "Community Manager",
 		image: "./team/nicolas_schirosi.webp",
 		bio: "",
-	},
+	},*/
 	{
 		id: 9,
 		name: "Francesco Paolo Liuzzi",

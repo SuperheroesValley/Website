@@ -377,4 +377,18 @@ export const superheroes = [
 		company: "Optiver",
 		image: "./guests/alessandro_sanvito.webp",
 	},
+	{
+		id: 55,
+		name: "Tommaso Cucinotta",
+		href: "",
+		company: "Scuola Superiore Sant'Anna",
+		image: "./guests/tommaso_cucinotta.webp",
+	},
+	{
+		id: 56,
+		name: "Marco Foco",
+		href: "",
+		company: "Nvidia",
+		image: "./guests/marco_foco.webp",
+	},
 ];	

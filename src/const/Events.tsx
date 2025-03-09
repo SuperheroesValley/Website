@@ -4,6 +4,42 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [56],
+				title: '',
+				imageUrl: "./guests/marco_foco.webp",
+				href: "https://bit.ly/sv_foco25",
+				description: "Marco Foco è Engineering Manager in Nvidia ed Head of Italian Delegation of C++ Commitee. Durante il talk ci parlerà della sua carriera, come è approdato in Nvidia e cosa significa far parte della delegazione di standardizzazione del linguaggio C++.",
+				year: "2025",
+				month: "3",
+				day: "26",
+				time: "21:00"
+			},
+			{
+				category: "event",
+				guest_id: [],
+				title: 'Enter the Google Summer of Code',
+				imageUrl: "./guests/default_image.webp",
+				href: "https://bit.ly/sv_gsoc25",
+				description: "Durante questo talk parleremo della GSOC - Google Summer of Code. Interverranno alcuni dei membri di Superhero Valley che hanno partecipato alla GSOC in passato, raccontando la loro esperienza e dando consigli su come partecipare.",
+				year: "2025",
+				month: "3",
+				day: "19",
+				time: "18:30"
+			},
+			{
+				category: "event",
+				guest_id: [55],
+				title: 'Accademia o Industria? Ricerca o Sviluppo?',
+				imageUrl: "/guests/tommaso_cucinotta.webp",
+				href: "https://bit.ly/sv_cucinotta25",
+				description: "Tommaso Cucinotta è Professore Associato presso la Scuola Superiore Sant'Anna, con esperienze pregresse in ricerca industriale e sviluppo in Big Tech. In questo talk, condividerà le sue esperienze, offrendo un confronto tra i pro e i contro della carriera accademica e di quella nell'industria.",
+				year: "2025",
+				month: "3",
+				day: "14",
+				time: "17:00"
+			},
+			{
+				category: "event",
 				guest_id: [54],
 				title: 'Software engineering in High frequency trading',
 				imageUrl: "/guests/alessandro_sanvito.webp",
