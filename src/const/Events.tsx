@@ -17,10 +17,10 @@ export const Events = [
 			{
 				category: "event",
 				guest_id: [],
-				title: 'Enter the Google Summer of Code',
+				title: 'Google Summer of Code (GSoC): contribuire (pagati) ad un progetto Open Source',
 				imageUrl: "./guests/default_image.webp",
 				href: "https://bit.ly/sv_gsoc25",
-				description: "Durante questo talk parleremo della GSOC - Google Summer of Code. Interverranno alcuni dei membri di Superhero Valley che hanno partecipato alla GSOC in passato, raccontando la loro esperienza e dando consigli su come partecipare.",
+				description: "La Google Summer of Code (GSoC) è una interessante iniziativa di Google che vi permette di lavorare per tre mesi contribuendo ad un progetto Open Source. Durante questo evento avremo con noi Matteo Luppi ed Emanuele Iaccarino che ci parleranno della loro esperienza nel programma, con ampio spazio per le domande!",
 				year: "2025",
 				month: "3",
 				day: "19",
