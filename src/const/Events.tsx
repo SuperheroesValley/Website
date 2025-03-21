@@ -5,7 +5,7 @@ export const Events = [
 			{
 				category: "event",
 				guest_id: [56],
-				title: 'AMA - Marco Foco',
+				title: 'Tra C++ standard e management in Big Tech',
 				imageUrl: "./guests/marco_foco.webp",
 				href: "https://bit.ly/sv_foco25",
 				description: "Marco Foco è Head of Italian Delegation of C++ Commitee e Engineering Manager in Nvidia. Durante il talk ci parlerà di cosa significa far parte della delegazione di standardizzazione del linguaggio C++, di come è approdato in Nvidia e della sua carriera.",
