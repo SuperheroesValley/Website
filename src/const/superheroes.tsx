@@ -391,4 +391,11 @@ export const superheroes = [
 		company: "Nvidia",
 		image: "./guests/marco_foco.webp",
 	},
+	{
+		id: 57,
+		name: "Lorenzo Perini",
+		href: "",
+		company: "Meta",
+		image: "./guests/lorenzo_perini.webp",
+	},
 ];	

@@ -4,6 +4,18 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [57],
+				title: 'AI Research in Big Tech',
+				imageUrl: "./guests/lorenzo_perini.webp",
+				href: "https://bit.ly/sv_perini25",
+				description: "Lorenzo Perini è Research Scientist a Meta, precedentemente ha svolto un dottorato presso la KU Leuven. In questo talk ci parlerà del suo percorso che lo ha portato a Meta e ci darà qualche consiglio su come fare ricerca a questi livelli.",
+				year: "2025",
+				month: "4",
+				day: "2",
+				time: "18:30"
+			},
+			{
+				category: "event",
 				guest_id: [56],
 				title: 'Tra C++ standard e management in Big Tech',
 				imageUrl: "./guests/marco_foco.webp",
