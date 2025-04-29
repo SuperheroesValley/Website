@@ -4,6 +4,18 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [46],
+				title: "Road to Management in Big Tech",
+				imageUrl: "./guests/alessandro_gnoli.webp",
+				href: 'https://bit.ly/sv_gnoli25',
+				description: "Alessandro è Engineering Manager in Google US. Prima di entrare in Google ha lavorato come Engineering Manager in una Series B startup (Raise) e come Software Engineer per Expedia. Durante il talk parlerà del suo percorso di carriera, dall'Italia agli Stati Uniti, e molto altro! Avrete modo di fare qualsiasi domanda vogliate!",
+				year: "2025",
+				month: "05",
+				day: "05",
+				time: "18:30"
+			},
+			{
+				category: "event",
 				guest_id: [57],
 				title: 'AI Research in Big Tech',
 				imageUrl: "./guests/lorenzo_perini.webp",
