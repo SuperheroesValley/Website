@@ -398,4 +398,11 @@ export const superheroes = [
 		company: "Meta",
 		image: "./guests/lorenzo_perini.webp",
 	},
+	{
+		id: 58,
+		name: "Pietro Caragiulo",
+		href: "",
+		company: "Apple",
+		image: "./guests/pietro_caragiulo.webp",
+	},
 ];	

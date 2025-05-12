@@ -4,6 +4,18 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [58],
+				title: "Circuiti e Carriere: Tra dottorato e Big Tech",
+				imageUrl: "./guests/pietro_caragiulo.webp",
+				href: 'https://bit.ly/sv_caragiulo25',
+				description: "Pietro è Electrical Engineer in Apple US. Partito dall'Italia ha svolto il dottorato a Stanford, lavorato a SLAC, a Meta ed infine in Apple come Silicon Engineer. Durante il talk parlerà del suo percorso di carriera, dall'Italia agli Stati Uniti, e molto altro! Avrete modo di fare qualsiasi domanda vogliate!",
+				year: "2025",
+				month: "05",
+				day: "16",
+				time: "17:30"
+			},
+			{
+				category: "event",
 				guest_id: [46],
 				title: "Road to Management in Big Tech",
 				imageUrl: "./guests/alessandro_gnoli.webp",
