@@ -201,9 +201,9 @@ export const Events = [
 		    },
 			{
 				category: "event",
-				guest_id: [6],
+				guest_id: [],
 				title: "The IT interview process... is fundamentally broken!",
-				imageUrl: "/guests/nicola_corti.webp",
+				imageUrl: "/guests/default_image.webp",
 				href: 'https://bit.ly/sv_corti24',
 				description: "Nicola è Staff Engineer a Meta, ci parlerà di come affrontare i colloqui in Big Tech.",
 				year: "2024",
@@ -447,9 +447,9 @@ export const Events = [
 			},
 			{
 				category: "event",
-		            	guest_id: [6],
+		            	guest_id: [],
 		                title: 'The Tech Interview process is fundamentally broken con Nicola Corti',
-		                imageUrl: "/guests/nicola_corti.webp",
+		                imageUrl: "/guests/default_image.webp",
 		                href: 'https://bit.ly/3QklVCv',
 		                date: '23 Ottobre 2023 18:30',
 		                description: 'Nicola è Staff Engineer a Meta, ci parlerà di come affrontare i colloqui in Big Tech',
@@ -645,7 +645,7 @@ export const Events = [
 			},
 			{
 				category: "event",
-				guest_id: [6],
+				guest_id: [],
 				title: "Come affrontare il colloquio nelle FAANG",
 				href: "/superheroes",
 				description: "Nicola è Senior Android Engineer e durante il talk ci racconterà di come funziona il processo di colloquio nelle Big Tech company",
@@ -820,7 +820,7 @@ export const Events = [
 			},
 			{
 				category: "event",
-				guest_id: [6],
+				guest_id: [],
 				title: "Come sono strutturati i colloqui nelle FAANG",
 				href: "/superheroes",
 				description: "In questo talk Nicola Corti ci parlerà del funzionamento dei colloqui in FAANG e di come sia 'semplice' passarli con la giusta preparazione.",
@@ -920,7 +920,7 @@ export const Events = [
 			},
 			{
 				category: "event",
-				guest_id: [6],
+				guest_id: [],
 				title: "The IT Interview Process... is fundamentally Broken!",
 				href: "/superheroes",
 				description: "In questo talk Nicola Corti ci parlerà del funzionamento dei colloqui in Big Tech e di come sia 'semplice' passarli con la giusta preparazione.",
