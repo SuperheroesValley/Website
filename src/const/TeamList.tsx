@@ -9,7 +9,7 @@ export const TeamList = [
 		twitter: "",
 		role: "Co-founder, Board Member",
 		image: "./team/remo_andreoli.jpeg",
-		bio: "Ph.D. Student @Sant'Anna School of Advanced Studies",
+		bio: "Software Engineer @ AWS Lambda",
 	},
 	{
 		id: 2,
@@ -21,7 +21,7 @@ export const TeamList = [
 		twitter: "",
 		role: "Co-founder, Board Member, Head of Mentorship",
 		image: "./team/alessandro_berti.webp",
-		bio: "Ph.D. Student @University of Pisa",
+		bio: "PostDoc @ University of Pisa",
 	},
 	{
 		id: 3,
@@ -46,7 +46,7 @@ export const TeamList = [
 		twitter: "",
 		role: "Co-founder, Board Member",
 		image: "./team/eugenio_paluello.webp",
-		bio: "Blockchain Engineer@Kakarot zkEVM",
+		bio: "Software Engineer @ Parity Technologies",
 	},
 	{
 		id: 5,
@@ -58,7 +58,7 @@ export const TeamList = [
 		twitter: "",
 		role: "Community Manager",
 		image: "./team/angela.jpg",
-		bio: "Data Analyst @ Amazon.",
+		bio: "Data Scientist @ Glovo, Ex-Amazon Data Analyst",
 	},
 	{
 		id: 5,
@@ -70,7 +70,7 @@ export const TeamList = [
 		twitter: "",
 		role: "Head of Talks",
 		image: "./team/riccardo.png",
-		bio: "PhD student in Computer Engineering. Data Scientist @ STMicroelectronics",
+		bio: "PhD student @ University of Catania, Data Scientist @ STMicroelectronics",
 	},
 	{
 		id: 6,
@@ -82,7 +82,7 @@ export const TeamList = [
 		twitter: "",
 		role: "Head of Training",
 		image: "./team/stefano.png",
-		bio: "Software Engineer @ Uber, Ex-amazon Software Engineer. Passioned about Business and make money with technology.",
+		bio: "Software Engineer @ Uber, Ex-Amazon Software Engineer. Passioned about Business and make money with technology.",
 	},
 	{
 		id: 7,
@@ -94,7 +94,7 @@ export const TeamList = [
 		twitter: "",
 		role: "Community Manager",
 		image: "./team/simone.png",
-		bio: "Software Engineer @Bynder. Ex Software Engineer Intern @Amazon. ",
+		bio: "Software Engineer @ Booking.com, Ex-Amazon Software Engineer Intern",
 	},
 	{
 		id: 7,
@@ -108,20 +108,8 @@ export const TeamList = [
 		image: "./team/emanuele_triuzzi.webp",
 		bio: "Software Engineer @ Bending Spoons",
 	},
-	/*{
-		id: 8,
-		name: "Nicolas Schirosi",
-		href: "",
-		company: "",
-		linkedin: "",
-		github: "",
-		twitter: "",
-		role: "Community Manager",
-		image: "./team/nicolas_schirosi.webp",
-		bio: "",
-	},*/
 	{
-		id: 9,
+		id: 8,
 		name: "Francesco Paolo Liuzzi",
 		href: "",
 		company: "",
@@ -130,6 +118,6 @@ export const TeamList = [
 		twitter: "",
 		role: "Community Manager",
 		image: "./team/francesco_paolo_liuzzi.webp",
-		bio: "",
+		bio: "Student @ University of Pisa",
 	},
 ];
