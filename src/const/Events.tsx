@@ -4,6 +4,18 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [],
+				title: "Superhero Valley - La nuova stagione",
+				imageUrl: "./guests/default_image.webp",
+				href: 'https://bit.ly/sv_2025',
+				description: "Siamo felici di annunciare l’inizio della nuova stagione di Superhero Valley. Talk inaugurale che segnerà l’inizio di un percorso ricco di ospiti di rilievo e novità che condivideremo con la community nelle prossime settimane. Con noi alcuni membri della community che di recente hanno ottenuto una internship in Big Tech, porteranno la loro testimonianza.",
+				year: "2025",
+				month: "10",
+				day: "13",
+				time: "18:30"
+			},
+			{
+				category: "event",
 				guest_id: [58],
 				title: "Circuiti e Carriere: Tra dottorato e Big Tech",
 				imageUrl: "./guests/pietro_caragiulo.webp",
