@@ -4,6 +4,30 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [14],
+				title: 'Come scrivere il CV!',
+				imageUrl: "/guests/diego_ceccarelli.webp",
+				href: 'https://bit.ly/ceccarelli_v25',
+				description: 'Diego Ceccarelli è AI Engineering Manager in Bloomberg! Ci racconterà come strutturare un CV da mandare ad una Big Tech company!',
+				year: "2025",
+				month: "10",
+				day: "27",
+				time: "18:30"
+		    },
+			{
+				category: "event",
+				guest_id: [],
+				title: "The IT interview process... is fundamentally broken!",
+				imageUrl: "/guests/default_image.webp",
+				href: 'https://bit.ly/corti_sv25',
+				description: "Nicola è Staff Engineer a Meta, ci parlerà di come affrontare i colloqui in Big Tech.",
+				year: "2025",
+				month: "10",
+				day: "20",
+				time: "18:30"
+			},
+			{
+				category: "event",
 				guest_id: [],
 				title: "Superhero Valley - La nuova stagione",
 				imageUrl: "./guests/default_image.webp",
