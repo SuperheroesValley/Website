@@ -5,6 +5,18 @@ export const Events = [
 			{
 				category: "event",
 				guest_id: [14],
+				title: 'Mock Interview Time!',
+				imageUrl: "/guests/default_image.webp",
+				href: 'https://bit.ly/notarstefano_sv25',
+				description: 'Jacopo Notarstefano è Senior SDE in Amazon Web Services (AWS). Durante il talk ci racconterà come svolgere al meglio un colloquio tecnico!',
+				year: "2025",
+				month: "11",
+				day: "03",
+				time: "18:00"
+		    },
+			{
+				category: "event",
+				guest_id: [14],
 				title: 'Come scrivere il CV!',
 				imageUrl: "/guests/diego_ceccarelli.webp",
 				href: 'https://bit.ly/ceccarelli_v25',
@@ -24,7 +36,7 @@ export const Events = [
 				year: "2025",
 				month: "10",
 				day: "20",
-				time: "18:30"
+				time: "19:00"
 			},
 			{
 				category: "event",
