@@ -4,6 +4,18 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [27],
+				title: 'Open Source con Lorenzo Sciandra!',
+				imageUrl: "/guests/lorenzo_sciandra.jpg",
+				href: 'https://bit.ly/sciandra_sv25',
+				description: "Lorenzo Sciandra è Senior Software Engineer in Microsoft. Durante il talk ci parlerà un po' di quello che succede nel mondo dell'Open Source e della sua attività come sviluppatore",
+				year: "2025",
+				month: "11",
+				day: "10",
+				time: "18:30"
+		    },
+			{
+				category: "event",
 				guest_id: [14],
 				title: 'Mock Interview Time!',
 				imageUrl: "/guests/default_image.webp",
