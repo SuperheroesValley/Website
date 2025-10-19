@@ -47,7 +47,7 @@ export const Offer = () => {
 											</dt>{" "}
 											<dd className="inline" >
                                                 <Link href="/Events">
-                                                    <a className="text-gray-600 hover:text-blue-500 text-xl">
+                                                    <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 md:text-lg md:px-10">
                                                     Visita la pagina degli eventi!
                                                     </a>
                                                 </Link>
@@ -66,8 +66,8 @@ export const Offer = () => {
                                             
 											<dd className="inline">
                                                 <Link href="https://calendar.google.com/calendar/u/0?cid=cXAxaDMxbHBkMTZnbXAxYm04ZW91bW1nY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">
-                                                    <a className="text-gray-600 hover:text-blue-500 text-xl">
-                                                    Iscriviti al nostro calendario condiviso!
+                                                    <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 md:text-lg md:px-10">
+                                                    Iscriviti al nostro calendario!
                                                     </a>
                                                 </Link>
 											</dd>
@@ -124,10 +124,9 @@ export const Offer = () => {
 												}
 											</dt>{" "}
 											<dd className="inline">
-                                                <Link href="https://discord.gg/uPRmhHwMem">
-                                                    <a className="text-gray-600 hover:text-blue-500 text-xl">
-                                                        Unisciti al nostro gruppo esercizi sul server Discord per prepararti insieme agli altri utenti
-                                                    </a>
+                                                <Link href="https://forms.gle/RvxRihjBYKFUhCe79">
+                                                    <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 md:text-lg md:px-10">
+                                                        Unisciti al nostro gruppo esercizi</a>
                                                 </Link>
 											</dd>
 										</div>
@@ -192,7 +191,7 @@ export const Offer = () => {
 											</dt>{" "}
 											<dd className="inline">
                                                     <Link href="https://discord.gg/uPRmhHwMem">
-                                                    <a className="text-gray-600 hover:text-blue-500 text-xl">
+                                                    <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 md:text-lg md:px-10">
                                                         Scopri tutti i dettagli!
                                                     </a>
                                                 </Link>
