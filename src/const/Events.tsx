@@ -16,7 +16,7 @@ export const Events = [
 		    },
 			{
 				category: "event",
-				guest_id: [14],
+				guest_id: [],
 				title: 'Mock Interview Time!',
 				imageUrl: "/guests/default_image.webp",
 				href: 'https://bit.ly/notarstefano_sv25',
