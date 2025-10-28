@@ -17,7 +17,7 @@ export const Events = [
 			{
 				category: "event",
 				guest_id: [],
-				title: 'Mock Interview Time!',
+				title: 'How to mock interview',
 				imageUrl: "/guests/default_image.webp",
 				href: 'https://bit.ly/notarstefano_sv25',
 				description: 'Jacopo Notarstefano è Senior SDE in Amazon Web Services (AWS). Durante il talk ci racconterà come svolgere al meglio un colloquio tecnico!',
