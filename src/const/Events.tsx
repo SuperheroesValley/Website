@@ -5,7 +5,7 @@ export const Events = [
 			{
 				category: "event",
 				guest_id: [7],
-				title: 'Programmare con l’AI',
+				title: "Programmare con l’AI",
 				image: "./guests/diego_colombo.webp",
 				href: "https://bit.ly/colombo_sv25",
 				description: "Diego Colombo è Principal Software Engineer in Xbox Gaming AI, durante il talk ci parlerà di come l'AI ha trasformato la professione del software engineer e molto altro!",
