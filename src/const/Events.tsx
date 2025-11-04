@@ -4,8 +4,32 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [7],
+				title: 'Programmare con l’AI',
+				image: "./guests/diego_colombo.webp",
+				href: "https://bit.ly/colombo_sv25",
+				description: "Diego Colombo è Principal Software Engineer in Xbox Gaming AI, durante il talk ci parlerà di come l'AI ha trasformato la professione del software engineer e molto altro!",
+				year: "2025",
+				month: "11",
+				day: "24",
+				time: "18:45"
+		    },
+			{
+				category: "event",
+				guest_id: [],
+				title: 'The Mentorship Program',
+				imageUrl: "./guests/default_image.webp",
+				href: "https://bit.ly/mentorship_sv25",
+				description: "Evento di presentazione del Mentorship Program 2025-2026 di Superhero Valley",
+				year: "2025",
+				month: "11",
+				day: "17",
+				time: "18:30"
+		    },
+			{
+				category: "event",
 				guest_id: [27],
-				title: 'Open Source con Lorenzo Sciandra!',
+				title: 'How to... Open Source!',
 				imageUrl: "/guests/lorenzo_sciandra.jpg",
 				href: 'https://bit.ly/sciandra_sv25',
 				description: "Lorenzo Sciandra è Senior Software Engineer in Microsoft. Durante il talk ci parlerà un po' di quello che succede nel mondo dell'Open Source e della sua attività come sviluppatore",
