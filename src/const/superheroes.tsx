@@ -185,7 +185,7 @@ export const superheroes = [
 		id: 27,
 		name: "Lorenzo Sciandra",
 		href: "",
-		company: "Microsoft",
+		company: "Shopify",
 		image: "./guests/lorenzo_sciandra.jpg",
 	},
 	{

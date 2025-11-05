@@ -32,7 +32,7 @@ export const Events = [
 				title: 'How to... Open Source!',
 				imageUrl: "/guests/lorenzo_sciandra.jpg",
 				href: 'https://bit.ly/sciandra_sv25',
-				description: "Lorenzo Sciandra è Senior Software Engineer in Microsoft. Durante il talk ci parlerà un po' di quello che succede nel mondo dell'Open Source e della sua attività come sviluppatore",
+				description: "Lorenzo Sciandra è Staff SWE in Shopify. Durante il talk ci parlerà un po' di quello che succede nel mondo dell'Open Source e della sua attività come sviluppatore",
 				year: "2025",
 				month: "11",
 				day: "10",
