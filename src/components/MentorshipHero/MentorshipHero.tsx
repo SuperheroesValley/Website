@@ -23,13 +23,13 @@ export const MentorshipHero = () => {
 						Superhero Valley propone un programma di Mentorship gratuito ed
 						aperto a tutti. Per qualsiasi domanda o curiosità <a href="https://www.youtube.com/watch?v=WS1bdxlNlYQ" className="mt-3 text-lg text-gray-300 font-extrabold">guarda la live di presentazione</a>, dai un&apos;occhiata alle <a className="mt-3 text-lg text-gray-300 font-extrabold">FAQ</a> o <a href="mailto:info@superherovalley.fun" className="mt-3 text-lg text-gray-300 font-extrabold">contattaci</a>.
 					</p>
-					{
+					
 					<p className="mt-3 text-lg text-gray-300">
 						La candidatura per il programma di Mentorship 2025/2026 è aperta!
 					</p> 
 					<p className="mt-3 text-lg text-red-500 font-extrabold">	
 						Le candidature sono aperte e chiuderanno il 21 Dicembre 2025 alle ore 23:59!
-					</p>}
+					</p>
 					{/*
 					<p className="mt-3 text-lg text-gray-300">
 						La candidatura per il programma di Mentorship 2025/2026 aprirà a breve, seguici sui social e nel nostro <Link href="https://discord.gg/uPRmhHwMem">

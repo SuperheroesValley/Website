@@ -166,7 +166,10 @@ export const Offer = () => {
 									<p className="mt-6 text-lg leading-8 text-gray-600 text-xl">
 										Superhero Valley offre un programma di mentorship 1:1 con 
                                         mentor in gran parte provenienti da Big Tech company.
-                                        Il programma è gratuito e chiunque può partecipare. La prossima 
+                                        Il programma è gratuito e chiunque può partecipare.
+										La call for mentee è attualmente aperta! 
+										
+										{/*La prossima 
                                         call for mentee aprirà a breve! Seguici su <Link href="https://t.me/+zIcgNjPpYpIzNmU0">
                                                     <a className="hover:text-blue-500">
                                                         Telegram
@@ -177,6 +180,7 @@ export const Offer = () => {
                                                     </a>
                                                 </Link> per 
                                         rimanere aggiornato!
+										*/}
 									</p>
 									<dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
 										<div
@@ -190,7 +194,7 @@ export const Offer = () => {
 												}
 											</dt>{" "}
 											<dd className="inline">
-                                                    <Link href="https://discord.gg/uPRmhHwMem">
+                                                    <Link href="https://superherovalley.fun/mentorship">
                                                     <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 md:text-lg md:px-10">
                                                         Scopri tutti i dettagli!
                                                     </a>
