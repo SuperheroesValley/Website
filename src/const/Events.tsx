@@ -4,6 +4,18 @@ export const Events = [
 		events: [
 			{
 				category: "event",
+				guest_id: [3],
+				title: 'My path to Google',
+				imageUrl: "./guests/default_image.webp",
+				href: 'https://bit.ly/scloza_sv25',
+				description: 'Federico è Software Engineer in Google, ci parlerà del suo percorso fino a Google',
+				year: "2025",
+				month: "12",
+				day: "9",
+				time: "18:30"
+			},
+			{
+				category: "event",
 				guest_id: [7],
 				title: "Agentic Revolution",
 				image: "./guests/diego_colombo.webp",
