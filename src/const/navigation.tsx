@@ -29,10 +29,10 @@ export const navigation = [
 		external: true,
 		current: false,
 	},
-	{
-		name: "Book Club",
-		href: "/book-club",
-		external: true,
-		current: false,
-	},
+	// {
+	// 	name: "Book Club",
+	// 	href: "/book-club",
+	// 	external: true,
+	// 	current: false,
+	// },
 ];
